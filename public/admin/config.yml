@@ -1,0 +1,136 @@
+# Decap CMS Configuration for Metta Web
+backend:
+  name: github
+  repo: mettalegita/metta_web
+  branch: main
+  base_url: https://decap-oauth.netlify.app
+
+# Enable local backend for development (run: npm run dev:cms)
+local_backend: true
+
+# Media files configuration
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+# Site URL (update with your domain after deployment)
+site_url: https://metta-web.vercel.app
+display_url: https://metta-web.vercel.app
+
+# Logo for CMS
+logo_url: /images/logo/logo-dark.svg
+
+# Slug settings
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+
+# Collections
+collections:
+  # Blog Posts
+  - name: blogs
+    label: Blog Posts
+    folder: data/blogs
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Thumbnail Image, name: thumbnail, widget: image, required: true }
+      - { label: Feature Image, name: featureImage, widget: image, required: true }
+      - { label: Featured Post, name: featured, widget: boolean, default: false }
+      - { label: Body, name: body, widget: markdown }
+
+  # Services
+  - name: services
+    label: Services
+    folder: data/services
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Cover Image, name: coverImage, widget: image }
+      - { label: Badge, name: badge, widget: string, default: 'Services details' }
+      - { label: Logo (Light), name: logo, widget: image }
+      - { label: Logo (Dark), name: logoDark, widget: image }
+      - { label: Body, name: body, widget: markdown }
+
+  # Settings - File-based collections
+  - name: settings
+    label: Site Settings
+    files:
+      # Team Members
+      - name: team
+        label: Team Members
+        file: data/teamMemberData.json
+        fields:
+          - name: members
+            label: Team Members
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID (slug), name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Photo, name: image, widget: image }
+              - { label: Bio, name: bio, widget: text }
+              - label: Social Links
+                name: socialLinks
+                widget: object
+                fields:
+                  - { label: Twitter, name: twitter, widget: string, required: false }
+                  - { label: Facebook, name: facebook, widget: string, required: false }
+                  - { label: YouTube, name: youtube, widget: string, required: false }
+                  - { label: LinkedIn, name: linkedin, widget: string, required: false }
+
+      # FAQ
+      - name: faq
+        label: FAQ
+        file: data/faq.json
+        fields:
+          - name: items
+            label: FAQ Items
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
+
+      # Counter/Statistics
+      - name: counter
+        label: Statistics/Counter
+        file: data/counterData.json
+        fields:
+          - name: CounterData
+            label: Statistics
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Number, name: number, widget: string }
+              - { label: Suffix/Icon, name: rightIcon, widget: string, required: false }
+              - { label: Label, name: text, widget: string }
+
+      # Footer Navigation
+      - name: footer
+        label: Footer Navigation
+        file: data/footer.json
+        fields:
+          - name: sections
+            label: Footer Sections
+            widget: list
+            allow_add: true
+            fields:
+              - { label: Section Title, name: title, widget: string }
+              - label: Links
+                name: links
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: href, widget: string }
