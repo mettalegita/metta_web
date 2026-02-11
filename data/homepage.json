@@ -1,94 +1,109 @@
 {
   "hero": {
     "image": "/images/homeV3-hero.png",
-    "title": "Agency",
-    "subtitle": "Rivor"
+    "title": "Legita",
+    "subtitle": "Metta"
   },
   "about": {
-    "description": "Rivor Agency: Shaping the Future of Digital Innovation. We are dedicated to empowering blockchain pioneers and transforming the realm of digital ownership for today and beyond.",
+    "description": "Metta Legita is a pianist, composer, and music educator based in Phnom Penh, Cambodia. Known for her jazz-contemporary works and cross-disciplinary projects, she has performed internationally and released orchestral work with the Budapest Scoring Orchestra.",
     "emailPlaceholder": "Your email here",
     "buttonText": "Send"
   },
   "services": {
-    "sectionTitle": "Cool services",
-    "sectionDescription": "For a comprehensive services section, outline your offerings in a clear and organized manner. Here's a general template you can use.",
-    "buttonText": "Explore Our Services",
+    "sectionTitle": "What I Do",
+    "sectionDescription": "Bringing music to life through performance, composition, and education. From intimate piano lessons to orchestral compositions.",
+    "buttonText": "Learn More",
     "buttonLink": "/services",
     "items": [
       {
         "id": 1,
-        "title": "UX & Research",
-        "subtitle": "Creating a remarkable experience for every individual",
+        "title": "Piano Lessons",
+        "subtitle": "Private instruction for all ages and levels",
         "features": [
-          "User Research & Market Analysis",
-          "Prototyping",
-          "Concept Ideation",
-          "Sketching & Wireframing"
+          "One-on-one personalized lessons",
+          "Jazz & Contemporary techniques",
+          "Classical piano foundations",
+          "Music theory & ear training",
+          "Performance preparation"
         ]
       },
       {
         "id": 2,
-        "title": "Web Development",
-        "subtitle": "Creating a remarkable experience for every individual",
+        "title": "Music Composition",
+        "subtitle": "Original works for various ensembles",
         "features": [
-          "User Research & Market Analysis",
-          "Prototyping",
-          "Concept Ideation",
-          "Sketching & Wireframing"
+          "Jazz & Contemporary compositions",
+          "Orchestral arrangements",
+          "Film scoring",
+          "Cross-media projects",
+          "Chamber music"
         ]
       },
       {
         "id": 3,
-        "title": "Web Design",
-        "subtitle": "Creating a remarkable experience for every individual",
+        "title": "Live Performance",
+        "subtitle": "Solo and ensemble performances",
         "features": [
-          "User Research & Market Analysis",
-          "Prototyping",
-          "Concept Ideation",
-          "Sketching & Wireframing"
+          "Solo piano concerts",
+          "Jazz trio & quartet",
+          "Orchestral collaborations",
+          "Corporate & private events",
+          "Festival appearances"
         ]
       },
       {
         "id": 4,
-        "title": "Wordpress",
-        "subtitle": "Creating a remarkable experience for every individual",
+        "title": "Music Education",
+        "subtitle": "School programs and workshops",
         "features": [
-          "User Research & Market Analysis",
-          "Prototyping",
-          "Concept Ideation",
-          "Sketching & Wireframing"
+          "School music curriculum",
+          "Group workshops",
+          "Masterclasses",
+          "Educational consulting"
         ]
       }
     ]
   },
   "portfolio": {
-    "italicTitle": "Recent",
-    "headingTitle": "Case Studies",
-    "description": "When presenting recent case studies, it's important to highlight key aspects that showcase your agency's work and impact.",
-    "buttonText": "See all projects",
+    "italicTitle": "Featured",
+    "headingTitle": "Recordings",
+    "description": "A collection of original compositions and collaborations spanning jazz, contemporary, and orchestral works.",
+    "buttonText": "View All Music",
     "buttonLink": "/portfolio-agency/case-study"
   },
   "clients": {
-    "italicTitle": "Have",
-    "headingTitle": "Trust in us",
-    "description": "Our agency is your gateway to discovering extraordinary artworks that speak to your aesthetic sensibilities.",
+    "italicTitle": "Performed",
+    "headingTitle": "& Collaborated",
+    "description": "International performances and collaborations across Southeast Asia and Europe, including festivals, concerts, and cultural events.",
     "logos": [
-      { "id": 1, "image": "/images/icons/company/client-1.svg", "name": "Client 1" },
-      { "id": 2, "image": "/images/icons/company/client-2.svg", "name": "Client 2" },
-      { "id": 3, "image": "/images/icons/company/client-3.svg", "name": "Client 3" },
-      { "id": 4, "image": "/images/icons/company/client-4.svg", "name": "Client 4" },
-      { "id": 5, "image": "/images/icons/company/client-5.svg", "name": "Client 5" },
-      { "id": 6, "image": "/images/icons/company/client-6.svg", "name": "Client 6" }
+      { "id": 1, "image": "/images/icons/company/client-1.svg", "name": "Java Jazz Festival" },
+      { "id": 2, "image": "/images/icons/company/client-2.svg", "name": "Jazz Traffic Festival" },
+      { "id": 3, "image": "/images/icons/company/client-3.svg", "name": "Budapest Scoring Orchestra" },
+      { "id": 4, "image": "/images/icons/company/client-4.svg", "name": "CalArts" },
+      { "id": 5, "image": "/images/icons/company/client-5.svg", "name": "ISPP Cambodia" },
+      { "id": 6, "image": "/images/icons/company/client-6.svg", "name": "Film Scoring Academy" }
     ]
   },
   "cta": {
-    "textBefore": "Let's chat!",
-    "textAfter": "with us.",
-    "italicText": "A virtual coffee?",
+    "textBefore": "Let's create",
+    "textAfter": "together.",
+    "italicText": "Music that moves you",
     "images": [
       { "id": "1", "image": "/images/agent/01.jpg" },
       { "id": "2", "image": "/images/agent/02.jpg" },
       { "id": "3", "image": "/images/agent/03.jpg" }
     ]
+  },
+  "socialMedia": {
+    "instagram": "https://instagram.com/mettalegita",
+    "youtube": "https://youtube.com/@mettalegita",
+    "spotify": "https://open.spotify.com/artist/mettalegita",
+    "patreon": "https://patreon.com/mettalegita"
+  },
+  "contact": {
+    "email": "metta_legita@yahoo.com",
+    "website": "www.mettalegita.com",
+    "location": "Phnom Penh, Cambodia",
+    "phone": "010325895"
   }
 }
