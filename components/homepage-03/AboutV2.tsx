@@ -3,7 +3,17 @@
 import useReveal from '@/hooks/useReveal'
 import RevealWrapper from '../animation/RevealWrapper'
 
-const AboutV2 = () => {
+interface AboutV2Props {
+  description?: string
+  emailPlaceholder?: string
+  buttonText?: string
+}
+
+const AboutV2 = ({
+  description = 'Rivor Agency: Shaping the Future of Digital Innovation. We are dedicated to empowering blockchain pioneers and transforming the realm of digital ownership for today and beyond.',
+  emailPlaceholder = 'Your email here',
+  buttonText = 'Send',
+}: AboutV2Props) => {
   const { revealRef } = useReveal()
 
   return (
@@ -11,8 +21,7 @@ const AboutV2 = () => {
       <div className="container">
         <div>
           <h3 ref={revealRef} className="text-secondary dark:text-backgroundBody md:text-5xl md:leading-[1.5]">
-            Rivor Agency: Shaping the Future of Digital Innovation. We are dedicated to empowering blockchain pioneers
-            and transforming the realm of digital ownership for today and beyond.
+            {description}
           </h3>
 
           <RevealWrapper
@@ -20,13 +29,13 @@ const AboutV2 = () => {
             className="relative mt-8 flex w-full max-w-[588px] border bg-secondary text-white dark:border-dark max-md:max-w-sm md:mt-10">
             <input
               type="email"
-              placeholder="Your email here"
+              placeholder={emailPlaceholder}
               className="block w-full border-none bg-transparent p-5 text-base text-backgroundBody focus:outline-none md:p-[30px]"
             />
             <button
               type="submit"
               className="font-poppins absolute right-2 top-3 inline-block cursor-pointer bg-primary p-3 uppercase leading-[15.4px] tracking-[1.12px] text-secondary max-md:text-xs md:top-2 md:p-[26px]">
-              Send
+              {buttonText}
             </button>
           </RevealWrapper>
         </div>

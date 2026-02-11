@@ -34,6 +34,92 @@ slug:
 
 # Collections
 collections:
+  # Homepage
+  - name: homepage
+    label: Homepage
+    files:
+      - name: homepage
+        label: Homepage Content
+        file: data/homepage.json
+        fields:
+          # Hero Section
+          - label: Hero Section
+            name: hero
+            widget: object
+            fields:
+              - { label: Hero Image, name: image, widget: image }
+              - { label: Title (italic), name: title, widget: string }
+              - { label: Subtitle (large), name: subtitle, widget: string }
+
+          # About Section
+          - label: About Section
+            name: about
+            widget: object
+            fields:
+              - { label: Description, name: description, widget: text }
+              - { label: Email Placeholder, name: emailPlaceholder, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+
+          # Services Section
+          - label: Services Section
+            name: services
+            widget: object
+            fields:
+              - { label: Section Title, name: sectionTitle, widget: string }
+              - { label: Section Description, name: sectionDescription, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+              - label: Service Items
+                name: items
+                widget: list
+                fields:
+                  - { label: ID, name: id, widget: number, value_type: int }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Subtitle, name: subtitle, widget: string }
+                  - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+
+          # Portfolio Section
+          - label: Portfolio Section
+            name: portfolio
+            widget: object
+            fields:
+              - { label: Italic Title, name: italicTitle, widget: string }
+              - { label: Heading Title, name: headingTitle, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+          # Clients Section
+          - label: Clients Section
+            name: clients
+            widget: object
+            fields:
+              - { label: Italic Title, name: italicTitle, widget: string }
+              - { label: Heading Title, name: headingTitle, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Client Logos
+                name: logos
+                widget: list
+                fields:
+                  - { label: ID, name: id, widget: number, value_type: int }
+                  - { label: Logo Image, name: image, widget: image }
+                  - { label: Client Name, name: name, widget: string }
+
+          # CTA Section
+          - label: CTA Section
+            name: cta
+            widget: object
+            fields:
+              - { label: Text Before, name: textBefore, widget: string }
+              - { label: Text After, name: textAfter, widget: string }
+              - { label: Italic Text, name: italicText, widget: string }
+              - label: Images
+                name: images
+                widget: list
+                fields:
+                  - { label: ID, name: id, widget: string }
+                  - { label: Image, name: image, widget: image }
+
   # Blog Posts
   - name: blogs
     label: Blog Posts
