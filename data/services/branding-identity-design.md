@@ -1,10 +1,12 @@
 ---
-title: 'Branding & Identity Design'
-description: 'Creating unique and memorable brand identities. We develop logos, brand guidelines, and collateral to set your business apart from the competition.'
-coverImage: '/images/services/services-details2-img.png'
-badge: 'Services details'
-logo: '/images/services/icon/brand-nem.svg'
-logoDark: '/images/services/icon/brand-nem-dark.svg'
+title: Branding & Identity Designaaa
+description: Creating unique and memorable brand identities. We develop logos,
+  brand guidelines, and collateral to set your business apart from the
+  competition.
+coverImage: /images/services/services-details2-img.png
+badge: Services details
+logo: /images/services/icon/brand-nem.svg
+logoDark: /images/services/icon/brand-nem-dark.svg
 ---
 
 ### Service overview
