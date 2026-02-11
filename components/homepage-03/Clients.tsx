@@ -1,12 +1,4 @@
-import companyClient1 from '@/public/images/icons/company/client-1.svg'
-import companyClient2 from '@/public/images/icons/company/client-2.svg'
-import companyClient3 from '@/public/images/icons/company/client-3.svg'
-import companyClient4 from '@/public/images/icons/company/client-4.svg'
-import companyClient5 from '@/public/images/icons/company/client-5.svg'
-import companyClient6 from '@/public/images/icons/company/client-6.svg'
-import companyClient7 from '@/public/images/icons/company/client-7.svg'
-import companyClient8 from '@/public/images/icons/company/client-8.svg'
-import companyClient9 from '@/public/images/icons/company/client-9.svg'
+'use client'
 import SectionHeader from '../shared/SectionHeader'
 
 import Image from 'next/image'
@@ -14,79 +6,56 @@ import Marquee from 'react-fast-marquee'
 import RevealWrapper from '../animation/RevealWrapper'
 import SwiperSlider from './SwiperSlider'
 
-const company = [
-  {
-    id: 1,
-    logo: companyClient1,
-  },
-  {
-    id: 2,
-    logo: companyClient2,
-  },
-  {
-    id: 3,
-    logo: companyClient3,
-  },
-  {
-    id: 4,
-    logo: companyClient4,
-  },
-  {
-    id: 5,
-    logo: companyClient5,
-  },
-  {
-    id: 6,
-    logo: companyClient6,
-  },
-]
-const reverseCompany = [
-  {
-    id: 1,
-    logo: companyClient7,
-  },
-  {
-    id: 2,
-    logo: companyClient1,
-  },
-  {
-    id: 3,
-    logo: companyClient9,
-  },
+interface ClientLogo {
+  id: number
+  image: string
+  name: string
+}
 
-  {
-    id: 4,
-    logo: companyClient3,
-  },
-  {
-    id: 5,
-    logo: companyClient8,
-  },
-  {
-    id: 6,
-    logo: companyClient4,
-  },
+interface ClientsProps {
+  italicTitle?: string
+  headingTitle?: string
+  description?: string
+  logos?: ClientLogo[]
+}
+
+const defaultLogos: ClientLogo[] = [
+  { id: 1, image: '/images/icons/company/client-1.svg', name: 'Client 1' },
+  { id: 2, image: '/images/icons/company/client-2.svg', name: 'Client 2' },
+  { id: 3, image: '/images/icons/company/client-3.svg', name: 'Client 3' },
+  { id: 4, image: '/images/icons/company/client-4.svg', name: 'Client 4' },
+  { id: 5, image: '/images/icons/company/client-5.svg', name: 'Client 5' },
+  { id: 6, image: '/images/icons/company/client-6.svg', name: 'Client 6' },
 ]
 
-const Clients = () => {
+const Clients = ({
+  italicTitle = 'Have',
+  headingTitle = 'Trust in us',
+  description = 'Our agency is your gateway to discovering extraordinary artworks that speak to your aesthetic sensibilities.',
+  logos = defaultLogos,
+}: ClientsProps) => {
+  // Split logos into two rows for marquee
+  const firstRow = logos.slice(0, Math.ceil(logos.length / 2))
+  const secondRow = logos.slice(Math.ceil(logos.length / 2))
+
   return (
     <section className="relative mb-14 mt-14 overflow-hidden bg-dark py-20 dark:py-0 md:mb-16 md:mt-16 lg:mb-[88px] lg:mt-[88px] lg:py-[120px] dark:lg:py-0 xl:mb-[100px] xl:mt-[100px]">
       <div className="container">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-3 md:mb-20 md:flex-row md:items-end md:justify-between">
           <SectionHeader
-            headingTitle="Trust in us"
-            italicTitle="Have"
+            headingTitle={headingTitle}
+            italicTitle={italicTitle}
             serviceHeadingColor
-            description="Our agency is your gateway to discovering extraordinary artworks that speak to your aesthetic sensibilities."
+            description={description}
           />
         </div>
       </div>
       <RevealWrapper>
         <Marquee speed={70} pauseOnHover>
           <div className="flex items-center justify-between gap-x-20 py-8 md:gap-x-36">
-            {company.map((client) => (
+            {logos.map((client) => (
               <div key={client.id} className="first:ml-20 md:first:ml-36">
-                <Image src={client.logo} alt="client Logo" />
+                <Image src={client.image} alt={client.name} width={120} height={40} />
               </div>
             ))}
           </div>
@@ -96,9 +65,9 @@ const Clients = () => {
       <RevealWrapper>
         <Marquee speed={70} pauseOnHover direction="right">
           <div className="flex items-center justify-between gap-x-20 py-8 md:gap-x-36">
-            {reverseCompany.map((client) => (
-              <div key={client.id} className="first:ml-20 md:first:ml-36">
-                <Image src={client.logo} alt="client Logo" />
+            {[...logos].reverse().map((client) => (
+              <div key={`reverse-${client.id}`} className="first:ml-20 md:first:ml-36">
+                <Image src={client.image} alt={client.name} width={120} height={40} />
               </div>
             ))}
           </div>

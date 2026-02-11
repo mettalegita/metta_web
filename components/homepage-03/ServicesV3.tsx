@@ -6,58 +6,55 @@ import { useState } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import TextAppearAnimation from '../animation/TextAppearAnimation'
 
-const servicesData = [
+interface ServiceItem {
+  id: number
+  title: string
+  subtitle: string
+  features: string[]
+}
+
+interface ServicesV3Props {
+  sectionTitle?: string
+  sectionDescription?: string
+  buttonText?: string
+  buttonLink?: string
+  items?: ServiceItem[]
+}
+
+const defaultServices: ServiceItem[] = [
   {
     id: 1,
     title: 'UX & Research',
     subtitle: 'Creating a remarkable experience for every individual',
-    items: [
-      'User Research & Market Analysis',
-      'Prototyping',
-      'Concept Ideation',
-      'Sketching & Wireframing',
-      'PrototypingConcept Ideation',
-      'Sketching , Wireframing',
-      'Prototyping',
-      'Concept Ideation',
-      'Sketching and Wireframing',
-    ],
+    features: ['User Research & Market Analysis', 'Prototyping', 'Concept Ideation', 'Sketching & Wireframing'],
   },
   {
     id: 2,
     title: 'Web Development',
     subtitle: 'Creating a remarkable experience for every individual',
-    items: [
-      'User Research & Market Analysis',
-      'Prototyping',
-      'Concept Ideation',
-      'Sketching & Wireframing',
-      'Concept Ideation',
-      'Sketching and Wireframing',
-    ],
+    features: ['User Research & Market Analysis', 'Prototyping', 'Concept Ideation', 'Sketching & Wireframing'],
   },
   {
     id: 3,
     title: 'Web Design',
     subtitle: 'Creating a remarkable experience for every individual',
-    items: [
-      'User Research & Market Analysis',
-      'Prototyping',
-      'Concept Ideation',
-      'Sketching & Wireframing',
-      'Concept Ideation',
-      'Sketching and Wireframing',
-    ],
+    features: ['User Research & Market Analysis', 'Prototyping', 'Concept Ideation', 'Sketching & Wireframing'],
   },
   {
     id: 4,
     title: 'Wordpress',
     subtitle: 'Creating a remarkable experience for every individual',
-    items: ['User Research & Market Analysis', 'Prototyping', 'Concept Ideation', 'Sketching & Wireframing'],
+    features: ['User Research & Market Analysis', 'Prototyping', 'Concept Ideation', 'Sketching & Wireframing'],
   },
 ]
 
-const ServicesV3 = () => {
+const ServicesV3 = ({
+  sectionTitle = 'Cool services',
+  sectionDescription = "For a comprehensive services section, outline your offerings in a clear and organized manner. Here's a general template you can use.",
+  buttonText = 'Explore Our Services',
+  buttonLink = '/services',
+  items = defaultServices,
+}: ServicesV3Props) => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
   const toggleAccordion = (index: number) => {
@@ -74,26 +71,23 @@ const ServicesV3 = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <h2 className="text-appear max-lg:leading-[1.33]">
-                <span className="font-instrument italic lg:text-[65px]">Cool </span>
-                services
+                <span className="font-instrument italic lg:text-[65px]">{sectionTitle.split(' ')[0]} </span>
+                {sectionTitle.split(' ').slice(1).join(' ')}
               </h2>
             </TextAppearAnimation>
           </div>
           <div className="flex-1 max-md:w-full md:self-end">
             <TextAppearAnimation>
-              <p className="text-appear max-w-lg md:justify-self-end md:text-right">
-                For a comprehensive services section, outline your offerings in a clear and organized manner. Here’s a
-                general template you can use.
-              </p>
+              <p className="text-appear max-w-lg md:justify-self-end md:text-right">{sectionDescription}</p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/services" className="rv-button rv-button-white block md:inline-block">
+                <Link href={buttonLink} className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
-                    <span>Explore Our Services</span>
+                    <span>{buttonText}</span>
                   </div>
                   <div className="rv-button-bottom">
-                    <span>Explore Our Services</span>
+                    <span>{buttonText}</span>
                   </div>
                 </Link>
               </li>
@@ -102,7 +96,7 @@ const ServicesV3 = () => {
         </div>
 
         <RevealWrapper className="mx-auto w-full max-w-[1170px] [&>*:not(:last-child)]:mb-6">
-          {servicesData.map((service, index) => (
+          {items.map((service, index) => (
             <div key={service.id} className="accordion-item overflow-hidden bg-secondary duration-300">
               <div
                 className={`accordion-header group relative flex cursor-pointer justify-between px-5 py-[35px] md:px-10 ${
@@ -139,7 +133,7 @@ const ServicesV3 = () => {
                 <div className="overflow-hidden">
                   <div className="accordion-body ml-2.5 flex flex-col justify-start gap-x-10 px-10 pb-10 duration-300 sm:pt-6 md:ml-6 md:flex-row lg:gap-x-[73px]">
                     <ul className="[&>*:not(:last-child)]:mb-1">
-                      {service.items.slice(0, Math.ceil(service.items.length / 2)).map((item) => (
+                      {service.features.slice(0, Math.ceil(service.features.length / 2)).map((item) => (
                         <li
                           key={item}
                           className="list-disc text-[17px] leading-[1.5] tracking-[0.36px] text-backgroundBody/70">
@@ -148,7 +142,7 @@ const ServicesV3 = () => {
                       ))}
                     </ul>
                     <ul className="[&>*:not(:last-child)]:mb-1">
-                      {service.items.slice(Math.ceil(service.items.length / 2)).map((item) => (
+                      {service.features.slice(Math.ceil(service.features.length / 2)).map((item) => (
                         <li
                           key={item}
                           className="list-disc text-[17px] leading-[1.5] tracking-[0.36px] text-backgroundBody/70">

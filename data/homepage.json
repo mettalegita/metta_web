@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "image": "/images/homeV3-hero.png",
+    "title": "Agency",
+    "subtitle": "Rivor"
+  },
+  "about": {
+    "description": "Rivor Agency: Shaping the Future of Digital Innovation. We are dedicated to empowering blockchain pioneers and transforming the realm of digital ownership for today and beyond.",
+    "emailPlaceholder": "Your email here",
+    "buttonText": "Send"
+  },
+  "services": {
+    "sectionTitle": "Cool services",
+    "sectionDescription": "For a comprehensive services section, outline your offerings in a clear and organized manner. Here's a general template you can use.",
+    "buttonText": "Explore Our Services",
+    "buttonLink": "/services",
+    "items": [
+      {
+        "id": 1,
+        "title": "UX & Research",
+        "subtitle": "Creating a remarkable experience for every individual",
+        "features": [
+          "User Research & Market Analysis",
+          "Prototyping",
+          "Concept Ideation",
+          "Sketching & Wireframing"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Web Development",
+        "subtitle": "Creating a remarkable experience for every individual",
+        "features": [
+          "User Research & Market Analysis",
+          "Prototyping",
+          "Concept Ideation",
+          "Sketching & Wireframing"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Web Design",
+        "subtitle": "Creating a remarkable experience for every individual",
+        "features": [
+          "User Research & Market Analysis",
+          "Prototyping",
+          "Concept Ideation",
+          "Sketching & Wireframing"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Wordpress",
+        "subtitle": "Creating a remarkable experience for every individual",
+        "features": [
+          "User Research & Market Analysis",
+          "Prototyping",
+          "Concept Ideation",
+          "Sketching & Wireframing"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "italicTitle": "Recent",
+    "headingTitle": "Case Studies",
+    "description": "When presenting recent case studies, it's important to highlight key aspects that showcase your agency's work and impact.",
+    "buttonText": "See all projects",
+    "buttonLink": "/portfolio-agency/case-study"
+  },
+  "clients": {
+    "italicTitle": "Have",
+    "headingTitle": "Trust in us",
+    "description": "Our agency is your gateway to discovering extraordinary artworks that speak to your aesthetic sensibilities.",
+    "logos": [
+      { "id": 1, "image": "/images/icons/company/client-1.svg", "name": "Client 1" },
+      { "id": 2, "image": "/images/icons/company/client-2.svg", "name": "Client 2" },
+      { "id": 3, "image": "/images/icons/company/client-3.svg", "name": "Client 3" },
+      { "id": 4, "image": "/images/icons/company/client-4.svg", "name": "Client 4" },
+      { "id": 5, "image": "/images/icons/company/client-5.svg", "name": "Client 5" },
+      { "id": 6, "image": "/images/icons/company/client-6.svg", "name": "Client 6" }
+    ]
+  },
+  "cta": {
+    "textBefore": "Let's chat!",
+    "textAfter": "with us.",
+    "italicText": "A virtual coffee?",
+    "images": [
+      { "id": "1", "image": "/images/agent/01.jpg" },
+      { "id": "2", "image": "/images/agent/02.jpg" },
+      { "id": "3", "image": "/images/agent/03.jpg" }
+    ]
+  }
+}
