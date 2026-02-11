@@ -8,9 +8,16 @@ backend:
 # Enable local backend for development (run: npm run dev:cms)
 local_backend: true
 
-# Media files configuration
-media_folder: public/images/uploads
-public_folder: /images/uploads
+# Cloudinary Media Library
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dbj5papas
+    api_key: 248733429624941
+    multiple: true
+    default_transformations:
+      - - fetch_format: auto
+          quality: auto
 
 # Site URL (update with your domain after deployment)
 site_url: https://metta-web.vercel.app
