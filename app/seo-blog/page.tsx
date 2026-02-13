@@ -5,8 +5,11 @@ import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutOne from '@/components/shared/LayoutOne'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
-  title: 'Blog-02',
+  title: 'SEO Blog - Digital Marketing Insights',
+  description: 'Expert insights on SEO, digital marketing strategies, and industry trends to grow your online presence.',
 }
 
 export interface Blog2Type {
@@ -15,9 +18,8 @@ export interface Blog2Type {
   [key: string]: any
 }
 
-const loadedBlogs: Blog2Type[] = getMarkDownData('data/blogs')
-
-const BlogPage02 = () => {
+const BlogPage02 = async () => {
+  const loadedBlogs: Blog2Type[] = getMarkDownData('data/marketing/blog')
   return (
     <LayoutOne>
       <BlogHero />

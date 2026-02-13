@@ -96,7 +96,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {footerData.map((section, index) => (
+          {footerData.footerSections.map((section, index) => (
             <div key={`Id_${index}`}>
               <h5 className="mb-4 font-satoshi text-sm font-bold uppercase tracking-[3px] text-white sm:mb-8">
                 {section.title}

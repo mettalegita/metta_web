@@ -12,11 +12,21 @@ interface ClientLogo {
   name: string
 }
 
+interface TestimonialItem {
+  id: number
+  tags: string
+  title: string
+  userImg: string
+  userName: string
+  position: string
+}
+
 interface ClientsProps {
   italicTitle?: string
   headingTitle?: string
   description?: string
   logos?: ClientLogo[]
+  testimonials?: TestimonialItem[]
 }
 
 const defaultLogos: ClientLogo[] = [
@@ -33,6 +43,7 @@ const Clients = ({
   headingTitle = 'Trust in us',
   description = 'Our agency is your gateway to discovering extraordinary artworks that speak to your aesthetic sensibilities.',
   logos = defaultLogos,
+  testimonials,
 }: ClientsProps) => {
   // Split logos into two rows for marquee
   const firstRow = logos.slice(0, Math.ceil(logos.length / 2))
@@ -73,7 +84,7 @@ const Clients = ({
           </div>
         </Marquee>
       </RevealWrapper>
-      <SwiperSlider />
+      <SwiperSlider testimonials={testimonials} />
     </section>
   )
 }

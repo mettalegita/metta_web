@@ -76,12 +76,36 @@
     "headingTitle": "& Collaborated",
     "description": "International performances and collaborations across Southeast Asia and Europe, including festivals, concerts, and cultural events.",
     "logos": [
-      { "id": 1, "image": "/images/icons/company/client-1.svg", "name": "Java Jazz Festival" },
-      { "id": 2, "image": "/images/icons/company/client-2.svg", "name": "Jazz Traffic Festival" },
-      { "id": 3, "image": "/images/icons/company/client-3.svg", "name": "Budapest Scoring Orchestra" },
-      { "id": 4, "image": "/images/icons/company/client-4.svg", "name": "CalArts" },
-      { "id": 5, "image": "/images/icons/company/client-5.svg", "name": "ISPP Cambodia" },
-      { "id": 6, "image": "/images/icons/company/client-6.svg", "name": "Film Scoring Academy" }
+      {
+        "id": 1,
+        "image": "/images/icons/company/client-1.svg",
+        "name": "Java Jazz Festival"
+      },
+      {
+        "id": 2,
+        "image": "/images/icons/company/client-2.svg",
+        "name": "Jazz Traffic Festival"
+      },
+      {
+        "id": 3,
+        "image": "/images/icons/company/client-3.svg",
+        "name": "Budapest Scoring Orchestra"
+      },
+      {
+        "id": 4,
+        "image": "/images/icons/company/client-4.svg",
+        "name": "CalArts"
+      },
+      {
+        "id": 5,
+        "image": "/images/icons/company/client-5.svg",
+        "name": "ISPP Cambodia"
+      },
+      {
+        "id": 6,
+        "image": "/images/icons/company/client-6.svg",
+        "name": "Film Scoring Academy"
+      }
     ]
   },
   "cta": {
@@ -89,9 +113,18 @@
     "textAfter": "together.",
     "italicText": "Music that moves you",
     "images": [
-      { "id": "1", "image": "/images/agent/01.jpg" },
-      { "id": "2", "image": "/images/agent/02.jpg" },
-      { "id": "3", "image": "/images/agent/03.jpg" }
+      {
+        "id": "1",
+        "image": "/images/agent/01.jpg"
+      },
+      {
+        "id": "2",
+        "image": "/images/agent/02.jpg"
+      },
+      {
+        "id": "3",
+        "image": "/images/agent/03.jpg"
+      }
     ]
   },
   "socialMedia": {

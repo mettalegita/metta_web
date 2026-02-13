@@ -1,8 +1,9 @@
 ---
-thumbnail: '/images/blog-img/blog-img-6.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
-title: 'Artificial Intelligence & Automation in Advertising'
-description: 'Understand how AI and automation are reshaping the advertising landscape with smarter, more efficient campaigns.'
+title: ABC
+description: Understand how AI and automation are reshaping the advertising
+  landscape with smarter, more efficient campaigns.
+thumbnail: /images/blog-img/blog-img-6.png
+featureImage: /images/blog-img/blog-details-img-1.png
 featured: true
 ---
 

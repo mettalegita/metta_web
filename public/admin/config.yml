@@ -8,16 +8,9 @@ backend:
 # Enable local backend for development (run: npm run dev:cms)
 local_backend: true
 
-# Cloudinary Media Library
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dbj5papas
-    api_key: 248733429624941
-    multiple: true
-    default_transformations:
-      - - fetch_format: auto
-          quality: auto
+# Media folder (required for local development)
+media_folder: public/images/uploads
+public_folder: /images/uploads
 
 # Site URL (update with your domain after deployment)
 site_url: https://metta-web.vercel.app
@@ -120,10 +113,30 @@ collections:
                   - { label: ID, name: id, widget: string }
                   - { label: Image, name: image, widget: image }
 
-  # Blog Posts
-  - name: blogs
-    label: Blog Posts
-    folder: data/blogs
+          # Social Media
+          - label: Social Media
+            name: socialMedia
+            widget: object
+            fields:
+              - { label: Instagram URL, name: instagram, widget: string, required: false }
+              - { label: YouTube URL, name: youtube, widget: string, required: false }
+              - { label: Spotify URL, name: spotify, widget: string, required: false }
+              - { label: Patreon URL, name: patreon, widget: string, required: false }
+
+          # Contact Info
+          - label: Contact Information
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Website, name: website, widget: string }
+              - { label: Location, name: location, widget: string }
+              - { label: Phone, name: phone, widget: string }
+
+  # SEO Blog Posts (displayed on homepage and /seo-blog)
+  - name: seo-blog
+    label: SEO Blog Posts
+    folder: data/marketing/blog
     create: true
     slug: '{{slug}}'
     extension: md
@@ -131,15 +144,16 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Description, name: description, widget: text }
+      - { label: Category, name: category, widget: string, required: false }
       - { label: Thumbnail Image, name: thumbnail, widget: image, required: true }
       - { label: Feature Image, name: featureImage, widget: image, required: true }
       - { label: Featured Post, name: featured, widget: boolean, default: false }
       - { label: Body, name: body, widget: markdown }
 
-  # Services
+  # Services (detail pages at /services/[slug])
   - name: services
     label: Services
-    folder: data/services
+    folder: data/servicesV2
     create: true
     slug: '{{slug}}'
     extension: md
@@ -148,9 +162,8 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Description, name: description, widget: text }
       - { label: Cover Image, name: coverImage, widget: image }
+      - { label: Hover Image, name: hoverImage, widget: image }
       - { label: Badge, name: badge, widget: string, default: 'Services details' }
-      - { label: Logo (Light), name: logo, widget: image }
-      - { label: Logo (Dark), name: logoDark, widget: image }
       - { label: Body, name: body, widget: markdown }
 
   # Settings - File-based collections
@@ -215,15 +228,58 @@ collections:
         label: Footer Navigation
         file: data/footer.json
         fields:
-          - name: sections
+          - name: footerSections
             label: Footer Sections
             widget: list
             allow_add: true
+            collapsed: false
+            summary: '{{fields.title}}'
             fields:
               - { label: Section Title, name: title, widget: string }
               - label: Links
                 name: links
                 widget: list
+                summary: '{{fields.label}}'
                 fields:
                   - { label: Label, name: label, widget: string }
                   - { label: URL, name: href, widget: string }
+
+  # Clients/Partners - "Performed & Collaborated" Section (top level)
+  - name: clients
+    label: Clients & Partners
+    files:
+      - name: clients
+        label: Clients & Partners
+        file: data/clients.json
+        fields:
+          - { label: Italic Title (First part), name: italicTitle, widget: string }
+          - { label: Heading Title (Second part), name: headingTitle, widget: string }
+          - { label: Description, name: description, widget: text }
+          - name: logos
+            label: Client Logos
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Logo Image, name: image, widget: image }
+              - { label: Client Name, name: name, widget: string }
+
+  # Testimonials / Reviews Carousel
+  - name: testimonials
+    label: Testimonials
+    files:
+      - name: testimonials
+        label: Testimonials Carousel
+        file: data/testimonials.json
+        fields:
+          - name: testimonials
+            label: Testimonial Slides
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Tags/Category, name: tags, widget: string }
+              - { label: Title/Quote, name: title, widget: text }
+              - { label: User Avatar Image, name: userImg, widget: image }
+              - { label: User Name, name: userName, widget: string }
+              - { label: Position/Company, name: position, widget: string }

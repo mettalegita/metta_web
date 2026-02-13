@@ -1,9 +1,9 @@
 ---
-title: 'Artificial Intelligence'
-description: 'Providing seamless service for all.'
-hoverImage: '/images/services/services-background-03.png'
-coverImage: '/images/services/services-background-03.png'
-badge: 'Services details'
+title: AIIIII
+description: Providing seamless service for all.
+coverImage: /images/services/services-background-03.png
+hoverImage: /images/services/services-background-03.png
+badge: Services details
 ---
 
 ### Service overview

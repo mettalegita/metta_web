@@ -24,5 +24,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/homepage-01/Hero.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "main-v1.0.1 2"]
 }

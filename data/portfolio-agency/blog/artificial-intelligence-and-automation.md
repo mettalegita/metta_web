@@ -1,10 +1,11 @@
 ---
-thumbnail: '/images/blog-img/homeV3-img-1.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
-title: 'Artificial Intelligence & Automation in Advertising'
-description: 'Understand how AI and automation are reshaping the advertising landscape with smarter, more efficient campaigns.'
+title: Artificial Intelligence & Automation in oooooooooo
+description: Understand how AI and automation are reshaping the advertising
+  landscape with smarter, more efficient campaigns.
+tags: AI Experience
+thumbnail: /images/blog-img/homeV3-img-1.png
+featureImage: /images/blog-img/blog-details-img-1.png
 featured: true
-tags: 'AI Experience'
 ---
 
 ### Get to Know the Project – Overview & Highlights

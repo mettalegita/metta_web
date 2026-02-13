@@ -1,6 +1,5 @@
 import darkTopArrowIcon from '@/public/images/icons/top-arrow-dark.svg'
 import topArrowIcon from '@/public/images/icons/top-arrow.svg'
-import getMarkDownData from '@/utils/GetMarkDownData'
 import Image from 'next/image'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
@@ -12,9 +11,11 @@ interface blogType {
   [key: string]: any
 }
 
-const blogs: blogType[] = getMarkDownData('data/portfolio-agency/blog')
+interface BlogPostProps {
+  blogs: blogType[]
+}
 
-const BlogPost = () => {
+const BlogPost = ({ blogs }: BlogPostProps) => {
   return (
     <section className="z-20 pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
@@ -50,7 +51,7 @@ const BlogPost = () => {
         <div className="grid grid-cols-1 justify-items-center gap-6 gap-y-14 max-lg:items-center md:grid-cols-2 md:gap-y-16 lg:grid-cols-3">
           {blogs.map((blog) => (
             <RevealWrapper className="group w-full md:max-w-[355px]" key={blog.slug}>
-              <Link href={`/portfolio-agency/blog/${blog?.slug}`} className="w-full">
+              <Link href={`/seo-blog/${blog?.slug}`} className="w-full" aria-label={blog.title}>
                 <figure className="overflow-hidden">
                   <Image
                     src={blog.thumbnail}
