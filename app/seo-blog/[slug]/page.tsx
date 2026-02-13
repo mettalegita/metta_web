@@ -8,7 +8,7 @@ import getMarkDownData from '@/utils/GetMarkDownData'
 import { Blog2Type } from '../page'
 
 export async function generateStaticParams() {
-  const blogs: Blog2Type[] = getMarkDownData('data/blogs')
+  const blogs: Blog2Type[] = getMarkDownData('data/marketing/blog')
 
   return blogs.map((post) => ({
     slug: post.slug,
@@ -17,13 +17,13 @@ export async function generateStaticParams() {
 
 const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const slug = (await params).slug
-  const blog = getMarkDownContent('data/blogs/', slug)
+  const blog = getMarkDownContent('data/marketing/blog/', slug)
   const postBlog = blog.data
 
   return (
     <LayoutOne>
       <PageHero
-        badgeTitle="Blog Details"
+        badgeTitle="SEO Blog Details"
         title={postBlog.title}
         description={postBlog.description}
         spacing="pt-32 md:pt-44 lg:pt-[200px] pb-10 md:pb-16 lg:pb-[88px] xl:pb-[100px] relative overflow-hidden"

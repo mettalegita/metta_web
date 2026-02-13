@@ -8,14 +8,27 @@ import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
 import LayoutOne from '@/components/shared/LayoutOne'
+import clientsData from '@/data/clients.json'
 import homepageData from '@/data/homepage.json'
+import testimonialsData from '@/data/testimonials.json'
+import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
   title: 'Metta - Digital Agency',
 }
 
 const Home = () => {
-  const { hero, about, services, clients, cta } = homepageData
+  const { hero, about, services, cta } = homepageData
+  const blogs = getMarkDownData('data/marketing/blog')
+  
+  // Load services from CMS collection
+  const servicesData = getMarkDownData('data/servicesV2')
+  const serviceItems = servicesData.slice(0, 4).map((service: any, index: number) => ({
+    id: index + 1,
+    title: service.title,
+    subtitle: service.description,
+    features: service.content?.split('\n').filter((line: string) => line.trim().startsWith('-')).map((line: string) => line.replace(/^-\s*/, '').trim()) || ['Service feature'],
+  }))
 
   return (
     <LayoutOne>
@@ -31,14 +44,15 @@ const Home = () => {
         sectionDescription={services.sectionDescription}
         buttonText={services.buttonText}
         buttonLink={services.buttonLink}
-        items={services.items}
+        items={serviceItems.length > 0 ? serviceItems : services.items}
       />
-      <BlogPost />
+      <BlogPost blogs={blogs} />
       <Clients
-        italicTitle={clients.italicTitle}
-        headingTitle={clients.headingTitle}
-        description={clients.description}
-        logos={clients.logos}
+        italicTitle={clientsData.italicTitle}
+        headingTitle={clientsData.headingTitle}
+        description={clientsData.description}
+        logos={clientsData.logos}
+        testimonials={testimonialsData.testimonials}
       />
       <FaqV2 />
       <CTA>

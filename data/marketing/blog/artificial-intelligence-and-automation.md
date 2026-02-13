@@ -1,7 +1,8 @@
 ---
-title: ABC
+title: Artificial Intelligence & Automation in yyyyy
 description: Understand how AI and automation are reshaping the advertising
   landscape with smarter, more efficient campaigns.
+category: Technology
 thumbnail: /images/blog-img/blog-img-6.png
 featureImage: /images/blog-img/blog-details-img-1.png
 featured: true
@@ -29,11 +30,11 @@ Building the user experience requires collaboration between designers, developer
 
 ### Building the information architecture
 
-It sounds like you’re working on translating research findings into a wireframe. Are you focusing on a specific type of project or platform, like a website, app, or something else? And what kind of research findings are you incorporating?
+It sounds like you're working on translating research findings into a wireframe. Are you focusing on a specific type of project or platform, like a website, app, or something else? And what kind of research findings are you incorporating?
 
 ### Wireframing the findings of the research
 
-Got it. Testing with real users is crucial for refining your design and ensuring it meets their needs. Here’s a basic outline of how you might incorporate your research findings into wireframes and test them:
+Got it. Testing with real users is crucial for refining your design and ensuring it meets their needs. Here's a basic outline of how you might incorporate your research findings into wireframes and test them:
 
 - User Research: Understanding your audience through surveys, interviews, and data analysis to identify pain points and needs.
 - Wireframing and Prototyping: Designing basic layouts and interactive models to visualize the structure and flow of the user interface.

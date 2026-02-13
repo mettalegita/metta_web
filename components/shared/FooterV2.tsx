@@ -259,7 +259,7 @@ const FooterV2 = () => {
               </div>
             </div>
 
-            {footerData.map((section, index) => (
+            {footerData.footerSections.map((section, index) => (
               <div key={`Id_${index}`}>
                 <h5 className="mb-4 text-2xl leading-[1.1]">{section.title}</h5>
                 <ul>

@@ -8,7 +8,7 @@ interface SwiperSlideContentProps {
   title: string
   userName: string
   position: string
-  userImg: StaticImageData
+  userImg: string
 }
 
 const SwiperSlideContent: FC<SwiperSlideContentProps> = ({ tags, title, userName, position, userImg }) => {
@@ -32,7 +32,7 @@ const SwiperSlideContent: FC<SwiperSlideContentProps> = ({ tags, title, userName
         <h3 className="mb-7 text-xl text-backgroundBody md:mb-10 md:text-[30px] md:leading-9">{title}</h3>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image src={userImg} alt="Avatar Img" width={60} quality={100} />
+            <Image src={userImg} alt="Avatar Img" width={60} height={60} quality={100} className="rounded-full" />
             <div>
               <h4 className="text-lg text-backgroundBody md:text-2xl md:leading-[1.2]">{userName}</h4>
               <p className="text-sm font-light leading-5 text-backgroundBody/70">{position}</p>

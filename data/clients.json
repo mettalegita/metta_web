@@ -1,0 +1,37 @@
+{
+  "italicTitle": "Performed",
+  "headingTitle": "& Collaborated",
+  "description": "International performances and collaborations across Southeast Asia and Europe, including festivals, concerts, and cultural events.",
+  "logos": [
+    {
+      "id": 1,
+      "image": "https://res.cloudinary.com/dbj5papas/image/upload/f_auto,q_auto/v1771020833/javajazz-darktheme_wsv2nn.png",
+      "name": "Java Jazz Festival"
+    },
+    {
+      "id": 2,
+      "image": "/images/icons/company/client-2.svg",
+      "name": "Jazz Traffic Festival"
+    },
+    {
+      "id": 3,
+      "image": "/images/icons/company/client-3.svg",
+      "name": "Budapest Scoring Orchestra"
+    },
+    {
+      "id": 4,
+      "image": "/images/icons/company/client-4.svg",
+      "name": "CalArts"
+    },
+    {
+      "id": 5,
+      "image": "/images/icons/company/client-5.svg",
+      "name": "ISPP Cambodia"
+    },
+    {
+      "id": 6,
+      "image": "/images/icons/company/client-6.svg",
+      "name": "Film Scoring Academy"
+    }
+  ]
+}
