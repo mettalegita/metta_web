@@ -1,17 +1,17 @@
 ---
-title: 'Email marketing'
-description: 'Drive engagement and revenue with automated, personalized email campaigns crafted to resonate with your audience.'
+title: 'Fan Engagement & Newsletter Management'
+description: 'Strategic fan communication and newsletter management services to build and maintain relationships with music audiences and supporters.'
 coverImage: '/images/services/services-details2-img.png'
 logo: '/images/icons/services-icon/service-icon-2.svg'
 logoDark: '/images/icons/services-icon/service-icon-dark-2.svg'
-badgeTitle: 'Email Marketing'
+badgeTitle: 'Fan Engagement'
 ---
 
-### Service overview
+### Service Overview
 
-Email marketing remains one of the most effective tools for nurturing leads and converting them into loyal customers. At Rivor, we craft data-driven email marketing strategies tailored to your audience’s preferences and behaviors. Whether you're launching a product, sharing news, or nurturing long-term customer relationships, our campaigns deliver measurable results.
+I provide comprehensive fan engagement and newsletter management services specifically designed for musicians, composers, and performing artists. Building and maintaining meaningful relationships with your audience is crucial for career success. I help you communicate effectively with fans, supporters, and industry contacts through strategic email marketing and community building.
 
-With automation at the core of our system, we ensure timely, relevant, and consistent communication that enhances customer engagement. From lead magnets to post-purchase flows, every email is designed to drive action and reflect your brand’s voice.
+### Fan Communication Strategy
 
 ### Our service includes
 

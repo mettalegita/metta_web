@@ -17,7 +17,7 @@ const ServicesPage = () => {
         title="Services "
         italicTitle=""
         scale
-        description="Explore our innovative cutting-edge no-code websites designed to captivate and engage your visitors effortlessly"
+        description="Discover my comprehensive musical services designed to nurture artistic growth and create unforgettable musical experiences through personalized instruction and professional performances"
         spacing="max-md:pt-44 max-sm:pb-10 max-md:pb-16 md:py-44 lg:py-[200px] relative overflow-hidden"
       />
       <ServicesV14 />

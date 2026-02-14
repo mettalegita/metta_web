@@ -1,16 +1,17 @@
 ---
-title: 'SEO'
-description: 'Boost your online visibility with tailored SEO strategies that drive traffic, improve rankings, and turn visitors into loyal customers.'
+title: 'Online Presence & Digital Marketing for Artists'
+description: 'Strategic online presence development and digital marketing services specifically designed for musicians, composers, and performing artists.'
 coverImage: '/images/services/services-details2-img.png'
-logo: '/images/icons/services-icon/service-icon-1.svg'
-logoDark: '/images/icons/services-icon/service-icon-dark-1.svg'
-badgeTitle: 'SEO Services'
+logo: '/images/icons/services-icon/service-icon-4.svg'
+logoDark: '/images/icons/services-icon/service-icon-dark-4.svg'
+badgeTitle: 'Digital Presence'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering impactful SEO services that elevate your online visibility and help you dominate search engine rankings. With our tailored approach, we ensure that every piece of content, every keyword, and every backlink strategy contributes to your business growth. Our SEO experts understand the dynamic nature of search algorithms and stay ahead of updates to ensure your site stays competitive.
+I provide specialized online presence and digital marketing services for musicians, composers, and performing artists. In today's digital world, a strong online presence is essential for career success. I help artists establish and optimize their digital footprint to reach new audiences, book more performances, and build lasting fan relationships.
 
+### Website Development
 Our goal is to not just drive traffic, but to attract the right audience—those who are more likely to convert into loyal customers. Whether you are a startup or a well-established brand, our comprehensive SEO solutions are built to scale with your needs.
 
 ### Our service includes

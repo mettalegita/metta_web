@@ -1,14 +1,15 @@
 ---
-title: 'Research'
-description: 'What specific research are you interested in? Research can range across a variety of fields such as'
-coverImage: '/images/services/services-details2-img.png'
-badge: 'Services details'
-feature: ['Scientific research (e.g., medical, environmental, technological studies)',
-'Market research (consumer trends, competitor analysis)']
+title: 'Music Research & Analysis Services'
+description: 'Comprehensive music research, analysis, and academic services for composers, performers, and music scholars.'
+thumbnail: '/images/services/photography-services-05.png'
+coverImage: '/images/services/photography-services-05.png'
+badge: 'Research Services'
+feature: ['Music Research and Analysis for Composers and Performers']
 ---
 
-### Service overview
+### Service Overview
 
+I provide specialized music research and analysis services drawing from my academic background and professional experience as a composer and performer. These services support composers, performers, music scholars, and institutions in their research and creative endeavors.
 At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
 
 ### Our service includes

@@ -8,7 +8,7 @@ const Process = () => {
       <div className="container">
         <TextAppearAnimation>
           <h3 className="text-appear lg:text[56px] mb-20 text-center max-md:text-3xl md:text-6xl lg:leading-[1.2] lg:tracking-[-1.68px]">
-            How do we do it?
+            How do we create music?
           </h3>
         </TextAppearAnimation>
 
@@ -19,10 +19,10 @@ const Process = () => {
                 01
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Request
+                Inspiration
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                Every musical journey begins with inspiration - whether from personal experiences, cultural heritage, or the pure joy of musical discovery.
               </p>
             </RevealWrapper>
 
@@ -31,10 +31,10 @@ const Process = () => {
                 02
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Approve
+                Practice
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                Dedicated practice transforms inspiration into mastery, building technique, musicality, and confidence through consistent, mindful musical development.
               </p>
             </RevealWrapper>
 
@@ -43,10 +43,10 @@ const Process = () => {
                 03
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Develop
+                Performance
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                The moment of performance brings music to life, whether through solo recitals, ensemble collaborations, or intimate musical experiences that connect artist and audience.
               </p>
             </RevealWrapper>
 
@@ -55,10 +55,10 @@ const Process = () => {
                 04
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Deliver
+                Connection
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                Music creates profound connections - between artist and audience, between notes and emotions, between cultures and hearts, completing the beautiful cycle of musical expression.
               </p>
             </RevealWrapper>
           </div>
@@ -68,10 +68,10 @@ const Process = () => {
           <div className="mx-auto block w-full text-center md:inline-block md:w-auto">
             <Link href="/contact" className="rv-button rv-button-sm rv-button-primary block md:inline-block">
               <div className="rv-button-top">
-                <span>Lets Starts</span>
+                <span>Start Your Musical Journey</span>
               </div>
               <div className="rv-button-bottom">
-                <span className="text-nowrap">Lets Starts</span>
+                <span className="text-nowrap">Start Your Musical Journey</span>
               </div>
             </Link>
           </div>

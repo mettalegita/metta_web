@@ -1,23 +1,105 @@
 ---
-title: 'Brand strategy'
-description: 'Craft a memorable brand identity and message that defines your value, sets you apart, and strengthens your market position.'
+title: 'Artist Development & Career Strategy'
+description: 'Comprehensive career development and strategic planning services for musicians, composers, and performing artists.'
 coverImage: '/images/services/services-details2-img.png'
 logo: '/images/icons/services-icon/service-icon-6.svg'
 logoDark: '/images/icons/services-icon/service-icon-dark-6.svg'
-badgeTitle: 'Brand Strategy'
+badgeTitle: 'Artist Development'
 ---
 
-### Service overview
+### Service Overview
 
-Email marketing remains one of the most effective tools for nurturing leads and converting them into loyal customers. At Rivor, we craft data-driven email marketing strategies tailored to your audience’s preferences and behaviors. Whether you're launching a product, sharing news, or nurturing long-term customer relationships, our campaigns deliver measurable results.
+I provide comprehensive artist development and career strategy services for musicians, composers, and performing artists. Drawing from my experience as a professional pianist and composer, I help artists navigate their career paths, develop their unique artistic identities, and create sustainable strategies for long-term success in the music industry.
 
-With automation at the core of our system, we ensure timely, relevant, and consistent communication that enhances customer engagement. From lead magnets to post-purchase flows, every email is designed to drive action and reflect your brand’s voice.
+### Career Development Services
 
-### Our service includes
+**Artist Identity Development:**
+- Personal brand assessment and positioning
+- Artistic vision clarification and refinement
+- Career goal setting and milestone planning
+- Unique selling proposition identification
 
-Audience Segmentation: We divide your audience into meaningful groups based on behavior, interests, and demographics for more targeted messaging.
+**Repertoire Strategy:**
+- Repertoire selection and programming guidance
+- Performance preparation and presentation coaching
+- Recording project planning and development
+- Cross-genre collaboration opportunities
 
-Email Automation Flows: From welcome series to cart abandonment emails, we build automated workflows that respond to user actions and keep them engaged.
+### Strategic Planning
+
+**Short-term Goals:**
+- Performance booking and venue selection
+- Recording project planning and execution
+- Marketing and promotional campaign development
+- Network building and relationship management
+
+**Long-term Vision:**
+- Career trajectory mapping and planning
+- Financial planning and income diversification
+- Professional development and skill enhancement
+- Legacy building and artistic impact planning
+
+### Industry Navigation
+
+**Music Industry Knowledge:**
+- Understanding industry trends and opportunities
+- Contract negotiation and rights management
+- Publishing and licensing guidance
+- International market exploration
+
+**Professional Development:**
+- Performance technique and presentation coaching
+- Business skills for artists (contracts, negotiations, marketing)
+- Digital presence and online branding
+- Grant writing and funding opportunities
+
+### Personalized Support
+
+**One-on-One Mentoring:**
+- Regular career check-ins and progress reviews
+- Performance feedback and improvement planning
+- Creative project development and guidance
+- Crisis management and career transition support
+
+**Resource Connection:**
+- Industry contacts and networking opportunities
+- Educational and professional development resources
+- Equipment and technology recommendations
+- Legal and financial advisor referrals
+
+### Success Metrics
+
+**Performance Indicators:**
+- Consistent performance opportunities and bookings
+- Growing audience and fan base
+- Increased income and financial stability
+- Critical recognition and industry respect
+- Personal artistic satisfaction and fulfillment
+
+**Measurable Outcomes:**
+- Number of performances and projects completed
+- Audience size and engagement levels
+- Revenue growth and financial stability
+- Professional network expansion
+- Artistic goals achieved and new opportunities created
+
+### Why Choose My Services
+
+**Insider Perspective:** Active professional musician with current industry experience
+**Holistic Approach:** Addressing artistic, business, and personal aspects of career development
+**Proven Track Record:** Successful career management and artist development experience
+**Personalized Attention:** Tailored strategies for individual artists and their unique needs
+
+### Getting Started
+
+**Initial Consultation:** Comprehensive assessment of current career status and goals
+**Strategy Development:** Creation of personalized career development plan
+**Implementation Support:** Ongoing guidance and support for plan execution
+**Progress Monitoring:** Regular check-ins and plan adjustments as needed
+
+Whether you're just starting your musical career, looking to take your existing career to the next level, or considering a career transition, I provide the strategic guidance and support you need to build a successful and sustainable career as a musician.
+
+Contact me to discuss how I can help develop your artistic career and achieve your musical goals.
 
 A/B Testing: Test subject lines, content, and CTAs to find the best-performing combinations that maximize open rates and conversions.
 

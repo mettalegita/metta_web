@@ -1,16 +1,16 @@
 ---
-title: 'Portrait Shoots'
-description: 'Crafting unforgettable experiences tailored for every individual'
-thumbnail: '/images/services/photography-services.png'
-coverImage: '/images/services/photography-services.png'
-photography: true
+title: 'Artist Branding & Professional Photography'
+description: 'Professional photography services tailored for musicians, composers, and performing artists.'
+thumbnail: '/images/services/photography-services-03.png'
+coverImage: '/images/services/photography-services-03.png'
+badge: 'Branding Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+As a performing artist, I understand the importance of professional visual representation in today's digital world. I offer specialized photography services designed specifically for musicians, helping you build a compelling visual brand that complements your musical identity.
 
-### Our service includes
+### Artist Photography Services
 
 In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
 

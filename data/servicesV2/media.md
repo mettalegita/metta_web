@@ -1,22 +1,28 @@
 ---
-title: 'Media'
-description: 'What specific design elements are you focusing on? Design can span across:'
-coverImage: '/images/services/services-details2-img.png'
-badge: 'Services details'
-feature: ['Visual design (e.g., branding, marketing assets)
-',
-'Digital design (e.g., app interfaces, website layouts)']
+title: 'Music Production & Recording'
+description: 'Professional audio recording, mixing, and production services for musicians and composers.'
+thumbnail: '/images/services/photography-services-01.png'
+coverImage: '/images/services/photography-services-01.png'
+badge: 'Production Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I offer comprehensive music production and recording services, from initial concept to final mastered product. With experience working with professional recording studios in Budapest and Phnom Penh, I provide high-quality production services for musicians, composers, and recording artists.
 
-### Our service includes
+### Recording Services
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+**Studio Recording:**
+- Solo instrument recording (piano, vocals, acoustic instruments)
+- Small ensemble sessions (chamber groups, jazz combos)
+- Voice-over and narration recording
+- Remote recording coordination
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+**Field Recording:**
+- Live performance capture
+- Location recording for documentaries and films
+- Ambient sound recording
+- Traditional music documentation
 
 User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
 
