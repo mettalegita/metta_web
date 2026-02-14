@@ -10,17 +10,38 @@ interface projectType {
   [key: string]: any
 }
 
+interface PortfolioSectionData {
+  italicTitle: string
+  headingTitle: string
+  description: string
+  buttonText: string
+  buttonLink: string
+}
+
+interface PortfolioV3Props {
+  sectionData?: PortfolioSectionData
+}
+
 const caseStudies: projectType[] = getMarkDownData('data/portfolio-agency/case-studies').slice(0, 4)
 
-const PortfolioV3 = () => {
+const defaultSectionData: PortfolioSectionData = {
+  italicTitle: 'Recent',
+  headingTitle: 'Case Studies',
+  description: "When presenting recent case studies, it is important to highlight key aspects that showcase your agency work and impact.",
+  buttonText: 'See all projects',
+  buttonLink: '/portfolio-agency/case-study',
+}
+
+const PortfolioV3 = ({ sectionData = defaultSectionData }: PortfolioV3Props) => {
+  const { italicTitle, headingTitle, description, buttonText, buttonLink } = sectionData
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-4 md:mb-20 md:flex-row md:items-end lg:justify-between">
           <SectionHeader
-            italicTitle="Recent"
-            headingTitle="Case Studies"
-            description="  When presenting recent case studies, it's important to highlight key aspects that showcase your agency's work and impact."
+            italicTitle={italicTitle}
+            headingTitle={headingTitle}
+            description={description}
           />
         </div>
 
@@ -48,12 +69,12 @@ const PortfolioV3 = () => {
 
         <RevealWrapper as="ul" className="mt-[60px] flex justify-center">
           <li className="mx-auto block w-full md:inline-block md:w-auto">
-            <Link href="/portfolio-agency/case-study" className="rv-button rv-button-white block md:inline-block">
+            <Link href={buttonLink} className="rv-button rv-button-white block md:inline-block">
               <div className="rv-button-top !text-center">
-                <span>See all projects</span>
+                <span>{buttonText}</span>
               </div>
               <div className="rv-button-bottom !text-center">
-                <span>See all projects</span>
+                <span>{buttonText}</span>
               </div>
             </Link>
           </li>

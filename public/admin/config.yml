@@ -5,9 +5,6 @@ backend:
   branch: main
   base_url: https://decap-oauth.netlify.app
 
-# Enable local backend for development (run: npm run dev:cms)
-local_backend: true
-
 # Media folder (required for local development)
 media_folder: public/images/uploads
 public_folder: /images/uploads
@@ -27,115 +24,151 @@ slug:
 
 # Collections
 collections:
-  # Homepage
-  - name: homepage
-    label: Homepage
-    files:
-      - name: homepage
-        label: Homepage Content
-        file: data/homepage.json
+  # Homepage - Main Content
+  # Hero Section
+  - name: hero
+    label: Hero Section
+    file: data/homepage.json
+    fields:
+      - name: hero
+        label: Hero Content
+        widget: object
         fields:
-          # Hero Section
-          - label: Hero Section
-            name: hero
-            widget: object
-            fields:
-              - { label: Hero Image, name: image, widget: image }
-              - { label: Title (italic), name: title, widget: string }
-              - { label: Subtitle (large), name: subtitle, widget: string }
+          - { label: Hero Image, name: image, widget: image }
+          - { label: Title (italic), name: title, widget: string }
+          - { label: Subtitle (large), name: subtitle, widget: string }
 
-          # About Section
-          - label: About Section
-            name: about
-            widget: object
-            fields:
-              - { label: Description, name: description, widget: text }
-              - { label: Email Placeholder, name: emailPlaceholder, widget: string }
-              - { label: Button Text, name: buttonText, widget: string }
+  # About Section
+  - name: about
+    label: About Section
+    file: data/homepage.json
+    fields:
+      - name: about
+        label: About Content
+        widget: object
+        fields:
+          - { label: Description, name: description, widget: text }
+          - { label: Email Placeholder, name: emailPlaceholder, widget: string }
+          - { label: Button Text, name: buttonText, widget: string }
 
-          # Services Section
-          - label: Services Section
-            name: services
-            widget: object
-            fields:
-              - { label: Section Title, name: sectionTitle, widget: string }
-              - { label: Section Description, name: sectionDescription, widget: text }
-              - { label: Button Text, name: buttonText, widget: string }
-              - { label: Button Link, name: buttonLink, widget: string }
-              - label: Service Items
-                name: items
-                widget: list
-                fields:
-                  - { label: ID, name: id, widget: number, value_type: int }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Subtitle, name: subtitle, widget: string }
-                  - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+  # Portfolio Section
+  - name: portfolio
+    label: Recent Case Studies Section
+    file: data/portfolioSection.json
+    fields:
+      - { label: Italic Title (First part), name: italicTitle, widget: string }
+      - { label: Heading Title (Second part), name: headingTitle, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Button Text, name: buttonText, widget: string }
+      - { label: Button Link, name: buttonLink, widget: string }
 
-          # Portfolio Section
-          - label: Portfolio Section
-            name: portfolio
-            widget: object
+  # Services Section
+  - name: services
+    label: What I Do Section
+    file: data/homepage.json
+    fields:
+      - name: services
+        label: Services Content
+        widget: object
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Section Description, name: sectionDescription, widget: text }
+          - { label: Button Text, name: buttonText, widget: string }
+          - { label: Button Link, name: buttonLink, widget: string }
+          - name: items
+            label: Service Items
+            widget: list
             fields:
-              - { label: Italic Title, name: italicTitle, widget: string }
-              - { label: Heading Title, name: headingTitle, widget: string }
-              - { label: Description, name: description, widget: text }
-              - { label: Button Text, name: buttonText, widget: string }
-              - { label: Button Link, name: buttonLink, widget: string }
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
 
-          # Clients Section
-          - label: Clients Section
-            name: clients
-            widget: object
+  # Clients Section
+  - name: clients
+    label: Performed & Collaborated Section
+    file: data/clients.json
+    fields:
+      - { label: Italic Title (First part), name: italicTitle, widget: string }
+      - { label: Heading Title (Second part), name: headingTitle, widget: string }
+      - { label: Description, name: description, widget: text }
+      - name: logos
+        label: Client Logos
+        widget: list
+        fields:
+          - { label: ID, name: id, widget: number, value_type: int }
+          - { label: Logo Image, name: image, widget: image }
+          - { label: Client Name, name: name, widget: string }
+
+  # Testimonials Section
+  - name: testimonials
+    label: Testimonials Section
+    file: data/testimonials.json
+    fields:
+      - name: testimonials
+        label: Testimonial Slides
+        widget: list
+        allow_add: true
+        fields:
+          - { label: ID, name: id, widget: number, value_type: int }
+          - { label: Tags/Category, name: tags, widget: string }
+          - { label: Title/Quote, name: title, widget: text }
+          - { label: User Avatar Image, name: userImg, widget: image }
+          - { label: User Name, name: userName, widget: string }
+          - { label: Position/Company, name: position, widget: string }
+
+  # Blog Section
+  - name: blog
+    label: Blog Section
+    file: data/homepage.json
+    fields:
+      - name: blog
+        label: Blog Content
+        widget: object
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Button Text, name: buttonText, widget: string }
+          - { label: Button Link, name: buttonLink, widget: string }
+
+  # FAQ Section
+  - name: faq
+    label: People Asked Us Section
+    file: data/faqHome.json
+    fields:
+      - { label: Italic Title (First part), name: italicTitle, widget: string }
+      - { label: Heading Title (Second part), name: headingTitle, widget: string }
+      - { label: Description, name: description, widget: text }
+      - name: faqs
+        label: FAQ Items
+        widget: list
+        allow_add: true
+        fields:
+          - { label: ID, name: id, widget: number, value_type: int }
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }
+
+  # CTA Section
+  - name: cta
+    label: Call to Action Section
+    file: data/homepage.json
+    fields:
+      - name: cta
+        label: CTA Content
+        widget: object
+        fields:
+          - { label: Text Before, name: textBefore, widget: string }
+          - { label: Text After, name: textAfter, widget: string }
+          - { label: Italic Text, name: italicText, widget: string }
+          - name: images
+            label: CTA Images
+            widget: list
             fields:
-              - { label: Italic Title, name: italicTitle, widget: string }
-              - { label: Heading Title, name: headingTitle, widget: string }
-              - { label: Description, name: description, widget: text }
-              - label: Client Logos
-                name: logos
-                widget: list
-                fields:
-                  - { label: ID, name: id, widget: number, value_type: int }
-                  - { label: Logo Image, name: image, widget: image }
-                  - { label: Client Name, name: name, widget: string }
+              - { label: ID, name: id, widget: string }
+              - { label: Image, name: image, widget: image }
 
-          # CTA Section
-          - label: CTA Section
-            name: cta
-            widget: object
-            fields:
-              - { label: Text Before, name: textBefore, widget: string }
-              - { label: Text After, name: textAfter, widget: string }
-              - { label: Italic Text, name: italicText, widget: string }
-              - label: Images
-                name: images
-                widget: list
-                fields:
-                  - { label: ID, name: id, widget: string }
-                  - { label: Image, name: image, widget: image }
-
-          # Social Media
-          - label: Social Media
-            name: socialMedia
-            widget: object
-            fields:
-              - { label: Instagram URL, name: instagram, widget: string, required: false }
-              - { label: YouTube URL, name: youtube, widget: string, required: false }
-              - { label: Spotify URL, name: spotify, widget: string, required: false }
-              - { label: Patreon URL, name: patreon, widget: string, required: false }
-
-          # Contact Info
-          - label: Contact Information
-            name: contact
-            widget: object
-            fields:
-              - { label: Email, name: email, widget: string }
-              - { label: Website, name: website, widget: string }
-              - { label: Location, name: location, widget: string }
-              - { label: Phone, name: phone, widget: string }
-
-  # SEO Blog Posts (displayed on homepage and /seo-blog)
+  # Blog Posts
   - name: seo-blog
-    label: SEO Blog Posts
+    label: Blog Posts
     folder: data/marketing/blog
     create: true
     slug: '{{slug}}'
@@ -150,9 +183,9 @@ collections:
       - { label: Featured Post, name: featured, widget: boolean, default: false }
       - { label: Body, name: body, widget: markdown }
 
-  # Services (detail pages at /services/[slug])
-  - name: services
-    label: Services
+  # Services Pages
+  - name: servicesSection
+    label: What I Do Section Pages
     folder: data/servicesV2
     create: true
     slug: '{{slug}}'
@@ -166,120 +199,101 @@ collections:
       - { label: Badge, name: badge, widget: string, default: 'Services details' }
       - { label: Body, name: body, widget: markdown }
 
-  # Settings - File-based collections
+  # Global Settings
   - name: settings
     label: Site Settings
-    files:
-      # Team Members
-      - name: team
+    file: data/siteSettings.json
+    fields:
+      - name: site
+        label: Site Configuration
+        widget: object
+        fields:
+          - { label: Site Title, name: siteTitle, widget: string }
+          - { label: Site Description, name: siteDescription, widget: text }
+          - { label: Contact Email, name: contactEmail, widget: string }
+          - { label: Phone Number, name: phoneNumber, widget: string }
+
+  - name: team
+    label: Team Members
+    file: data/teamMemberData.json
+    fields:
+      - name: members
         label: Team Members
-        file: data/teamMemberData.json
+        widget: list
+        allow_add: true
         fields:
-          - name: members
-            label: Team Members
-            widget: list
-            allow_add: true
+          - { label: ID (slug), name: id, widget: string }
+          - { label: Name, name: name, widget: string }
+          - { label: Role, name: role, widget: string }
+          - { label: Photo, name: image, widget: image }
+          - { label: Bio, name: bio, widget: text }
+          - label: Social Links
+            name: socialLinks
+            widget: object
             fields:
-              - { label: ID (slug), name: id, widget: string }
-              - { label: Name, name: name, widget: string }
-              - { label: Role, name: role, widget: string }
-              - { label: Photo, name: image, widget: image }
-              - { label: Bio, name: bio, widget: text }
-              - label: Social Links
-                name: socialLinks
-                widget: object
-                fields:
-                  - { label: Twitter, name: twitter, widget: string, required: false }
-                  - { label: Facebook, name: facebook, widget: string, required: false }
-                  - { label: YouTube, name: youtube, widget: string, required: false }
-                  - { label: LinkedIn, name: linkedin, widget: string, required: false }
+              - { label: Twitter, name: twitter, widget: string, required: false }
+              - { label: Facebook, name: facebook, widget: string, required: false }
+              - { label: YouTube, name: youtube, widget: string, required: false }
+              - { label: LinkedIn, name: linkedin, widget: string, required: false }
 
-      # FAQ
-      - name: faq
-        label: FAQ
-        file: data/faq.json
+  - name: generalFaq
+    label: General FAQ (Site-wide)
+    file: data/faq.json
+    fields:
+      - name: items
+        label: FAQ Items
+        widget: list
+        allow_add: true
         fields:
-          - name: items
-            label: FAQ Items
-            widget: list
-            allow_add: true
-            fields:
-              - { label: ID, name: id, widget: number, value_type: int }
-              - { label: Question, name: question, widget: string }
-              - { label: Answer, name: answer, widget: text }
+          - { label: ID, name: id, widget: number, value_type: int }
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }
 
-      # Counter/Statistics
-      - name: counter
-        label: Statistics/Counter
-        file: data/counterData.json
+  - name: statistics
+    label: Statistics/Counter
+    file: data/counterData.json
+    fields:
+      - name: CounterData
+        label: Statistics
+        widget: list
+        allow_add: true
         fields:
-          - name: CounterData
-            label: Statistics
-            widget: list
-            allow_add: true
-            fields:
-              - { label: ID, name: id, widget: number, value_type: int }
-              - { label: Number, name: number, widget: string }
-              - { label: Suffix/Icon, name: rightIcon, widget: string, required: false }
-              - { label: Label, name: text, widget: string }
+          - { label: ID, name: id, widget: number, value_type: int }
+          - { label: Number, name: number, widget: string }
+          - { label: Suffix/Icon, name: rightIcon, widget: string, required: false }
+          - { label: Label, name: text, widget: string }
 
-      # Footer Navigation
-      - name: footer
-        label: Footer Navigation
-        file: data/footer.json
+  - name: footer
+    label: Footer Navigation
+    file: data/footer.json
+    fields:
+      - name: footerSections
+        label: Footer Sections
+        widget: list
+        allow_add: true
+        collapsed: false
+        summary: '{{fields.title}}'
         fields:
-          - name: footerSections
-            label: Footer Sections
+          - { label: Section Title, name: title, widget: string }
+          - label: Links
+            name: links
             widget: list
-            allow_add: true
-            collapsed: false
-            summary: '{{fields.title}}'
+            summary: '{{fields.label}}'
             fields:
-              - { label: Section Title, name: title, widget: string }
-              - label: Links
-                name: links
-                widget: list
-                summary: '{{fields.label}}'
-                fields:
-                  - { label: Label, name: label, widget: string }
-                  - { label: URL, name: href, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: href, widget: string }
 
-  # Clients/Partners - "Performed & Collaborated" Section (top level)
-  - name: clients
-    label: Clients & Partners
-    files:
-      - name: clients
-        label: Clients & Partners
-        file: data/clients.json
-        fields:
-          - { label: Italic Title (First part), name: italicTitle, widget: string }
-          - { label: Heading Title (Second part), name: headingTitle, widget: string }
-          - { label: Description, name: description, widget: text }
-          - name: logos
-            label: Client Logos
-            widget: list
-            allow_add: true
-            fields:
-              - { label: ID, name: id, widget: number, value_type: int }
-              - { label: Logo Image, name: image, widget: image }
-              - { label: Client Name, name: name, widget: string }
-
-  # Testimonials / Reviews Carousel
-  - name: testimonials
-    label: Testimonials
-    files:
-      - name: testimonials
-        label: Testimonials Carousel
-        file: data/testimonials.json
-        fields:
-          - name: testimonials
-            label: Testimonial Slides
-            widget: list
-            allow_add: true
-            fields:
-              - { label: ID, name: id, widget: number, value_type: int }
-              - { label: Tags/Category, name: tags, widget: string }
-              - { label: Title/Quote, name: title, widget: text }
-              - { label: User Avatar Image, name: userImg, widget: image }
-              - { label: User Name, name: userName, widget: string }
-              - { label: Position/Company, name: position, widget: string }
+  # Portfolio Projects
+  - name: caseStudies
+    label: Portfolio Projects
+    folder: data/portfolio-agency/case-studies
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Thumbnail Image, name: thumbnail, widget: image }
+      - { label: Cover Image, name: coverImage, widget: image }
+      - { label: Badge, name: badge, widget: string, default: 'Case Study' }
