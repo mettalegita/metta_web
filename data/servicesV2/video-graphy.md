@@ -1,16 +1,16 @@
 ---
-title: 'Video Graphy'
-description: 'Redefining standards to offer a seamless journey for everyone'
-thumbnail: 'images/services/photography-services-04.png'
-coverImage: '/images/services/photography-services-04.png'
-photography: true
+title: 'Music Video Production & Performance Recording'
+description: 'Professional music video production and live performance recording services for musicians and composers.'
+thumbnail: '/images/services/photography-services-08.png'
+coverImage: '/images/services/photography-services-08.png'
+badge: 'Video Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I offer comprehensive music video production and performance recording services, helping musicians and composers create compelling visual content for their work. From concert recordings to promotional music videos, I provide professional videography tailored to the music industry.
 
-### Our service includes
+### Music Video Production
 
 In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
 

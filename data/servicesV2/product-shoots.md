@@ -1,16 +1,16 @@
 ---
-title: 'Product Shoots'
-description: 'Dedicated to delivering excellence with every interaction'
-thumbnail: 'images/services/photography-services-03.png'
-coverImage: '/images/services/photography-services-03.png'
-photography: true
+title: 'Album Art Design & Music Merchandise'
+description: 'Professional design services for album artwork, concert merchandise, and music branding materials.'
+thumbnail: '/images/services/photography-services-04.png'
+coverImage: '/images/services/photography-services-04.png'
+badge: 'Design Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I offer comprehensive design services for musicians and composers, specializing in album artwork, concert merchandise, and music branding materials. Drawing from my background in the arts, I create visually compelling designs that complement and enhance musical content.
 
-### Our service includes
+### Album Art Design
 
 In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
 

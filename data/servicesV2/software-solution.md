@@ -1,15 +1,16 @@
 ---
-title: 'SoftwareSolution'
-description: 'Delivering a stellar experience for every user.'
-hoverImage: '/images/services/services-background.png'
-coverImage: '/images/services/services-background.png'
-badge: 'Services details'
+title: 'Digital Music Production & Software Training'
+description: 'Comprehensive digital music production services and software training for musicians and composers.'
+thumbnail: '/images/services/photography-services-06.png'
+coverImage: '/images/services/photography-services-06.png'
+badge: 'Digital Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I offer digital music production services and software training, helping musicians and composers leverage technology in their creative process. From basic recording software to advanced composition tools, I provide both production services and educational guidance.
 
+### Digital Production Services
 ### Our service includes
 
 In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.

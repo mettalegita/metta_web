@@ -1,17 +1,17 @@
 ---
-title: 'Social media marketing'
-description: 'Expand your digital footprint by building a strong brand presence across social platforms and connecting authentically with your audience.'
+title: 'Social Media Strategy for Musicians'
+description: 'Comprehensive social media marketing and community building services designed specifically for musicians, composers, and performing artists.'
 coverImage: '/images/services/services-details2-img.png'
-logo: '/images/icons/services-icon/service-icon-3.svg'
-logoDark: '/images/icons/services-icon/service-icon-dark-3.svg'
-badgeTitle: 'Social Media'
+logo: '/images/icons/services-icon/service-icon-5.svg'
+logoDark: '/images/icons/services-icon/service-icon-dark-5.svg'
+badgeTitle: 'Social Media Strategy'
 ---
 
-### Service overview
+### Service Overview
 
-Email marketing remains one of the most effective tools for nurturing leads and converting them into loyal customers. At Rivor, we craft data-driven email marketing strategies tailored to your audience’s preferences and behaviors. Whether you're launching a product, sharing news, or nurturing long-term customer relationships, our campaigns deliver measurable results.
+I provide specialized social media strategy and management services for musicians, composers, and performing artists. In the digital age, social media is essential for building fan relationships, promoting performances, and establishing your artistic brand. I help musicians develop authentic online presences that resonate with audiences and support career growth.
 
-With automation at the core of our system, we ensure timely, relevant, and consistent communication that enhances customer engagement. From lead magnets to post-purchase flows, every email is designed to drive action and reflect your brand’s voice.
+### Platform Strategy
 
 ### Our service includes
 

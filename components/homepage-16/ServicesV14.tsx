@@ -23,14 +23,13 @@ const ServicesV14 = () => {
         </RevealWrapperV2>
         <TextAppearAnimation02>
           <h2 className="text-appear mb-3">
-            Marketing solutions designed for <br />
-            <i className="font-instrument"> maximum impact</i>
+            Musical excellence designed for <br />
+            <i className="font-instrument"> lasting impact</i>
           </h2>
         </TextAppearAnimation02>
         <TextAppearAnimation>
           <p className="text-appear mx-auto lg:max-w-[770px]">
-            Our marketing solutions boost engagement and ROI with targeted campaigns, improving brand visibility through
-            SEO and social media.
+            From intimate piano lessons to orchestral compositions, my musical services foster artistic growth and create memorable experiences through personalized instruction, professional performances, and comprehensive music education.
           </p>
         </TextAppearAnimation>
       </div>

@@ -1,14 +1,13 @@
 ---
-title: 'Studio'
-description: 'What specific design elements are you focusing on? Design can span across:'
-coverImage: '/images/services/services-details2-img.png'
-badge: 'Services details'
-feature: ['Visual design (e.g., branding, marketing assets)
-',
-'Digital design (e.g., app interfaces, website layouts)']
+title: 'Music Studio Sessions & Practice Space'
+description: 'Professional recording studio facilities and practice spaces for musicians and composers.'
+thumbnail: '/images/services/photography-services-07.png'
+coverImage: '/images/services/photography-services-07.png'
+badge: 'Studio Services'
+feature: ['Recording Studio Facilities', 'Practice Spaces for Musicians']
 ---
 
-### Service overview
+### Service Overview
 
 At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
 

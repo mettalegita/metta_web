@@ -1,17 +1,17 @@
 ---
-title: 'Content marketing'
-description: 'Educate, inform, and convert your audience through compelling, high-quality content aligned with your business goals.'
+title: 'Content Creation for Musicians'
+description: 'Professional content creation services including liner notes, program notes, educational materials, and promotional content for musicians.'
 coverImage: '/images/services/services-details2-img.png'
-logo: '/images/icons/services-icon/service-icon-4.svg'
-logoDark: '/images/icons/services-icon/service-icon-dark-4.svg'
-badgeTitle: 'Content Strategy'
+logo: '/images/icons/services-icon/service-icon-1.svg'
+logoDark: '/images/icons/services-icon/service-icon-dark-1.svg'
+badgeTitle: 'Content Creation'
 ---
 
-### Service overview
+### Service Overview
 
-Email marketing remains one of the most effective tools for nurturing leads and converting them into loyal customers. At Rivor, we craft data-driven email marketing strategies tailored to your audience’s preferences and behaviors. Whether you're launching a product, sharing news, or nurturing long-term customer relationships, our campaigns deliver measurable results.
+I offer specialized content creation services for musicians, composers, and performing artists. From program notes and liner notes to educational materials and promotional content, I help musicians communicate their artistic vision and connect with audiences through compelling written and multimedia content.
 
-With automation at the core of our system, we ensure timely, relevant, and consistent communication that enhances customer engagement. From lead magnets to post-purchase flows, every email is designed to drive action and reflect your brand’s voice.
+### Program Notes & Liner Notes
 
 ### Our service includes
 
