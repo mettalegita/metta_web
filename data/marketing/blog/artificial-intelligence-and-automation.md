@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence & Automation in yyyyy
+title: Artificial Intelligence & Automation in iiiiii
 description: Understand how AI and automation are reshaping the advertising
   landscape with smarter, more efficient campaigns.
 category: Technology
