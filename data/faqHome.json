@@ -1,0 +1,37 @@
+{
+  "italicTitle": "People",
+  "headingTitle": "Asked Us",
+  "description": "When detailing testimonials it's important to include key elements that provide context and authenticity",
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Berapa yaaa?",
+      "answer": "ya suka2 aku"
+    },
+    {
+      "id": 2,
+      "question": "How long does a typical project take?",
+      "answer": "Project timelines vary based on scope and complexity. A simple website might take 4-6 weeks, while larger projects can take 3-6 months. We always provide detailed timelines during our initial consultation."
+    },
+    {
+      "id": 3,
+      "question": "What makes your agency different?",
+      "answer": "We combine strategic thinking with creative excellence. Our team brings diverse expertise across design, technology, and marketing, allowing us to deliver holistic solutions that drive real business results."
+    },
+    {
+      "id": 4,
+      "question": "Do you work with international clients?",
+      "answer": "Absolutely! We work with clients globally and have experience collaborating across different time zones. Our digital workflow makes remote collaboration seamless and efficient."
+    },
+    {
+      "id": 5,
+      "question": "What is your pricing structure?",
+      "answer": "We offer flexible pricing based on project requirements. We can work with fixed project fees, monthly retainers, or hourly rates depending on what works best for your needs and budget."
+    },
+    {
+      "id": 6,
+      "question": "Do you provide ongoing support?",
+      "answer": "Yes, we offer various support and maintenance packages. We believe in building long-term relationships with our clients and ensuring their digital presence continues to evolve and perform."
+    }
+  ]
+}
