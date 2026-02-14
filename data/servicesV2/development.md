@@ -1,27 +1,48 @@
 ---
-title: 'Development'
-description: 'Which aspects of UI/UX design are you targeting? Consider:'
-coverImage: '/images/services/services-details2-img.png'
-badge: 'Services details'
-feature: ['User interface design (e.g., layouts, colors, typography)
-',
-'User experience design (e.g., interactions, user flows)']
+title: 'Live Performance'
+description: 'Solo and ensemble performances for various venues and events'
+hoverImage: '/images/services/services-background-03.png'
+coverImage: '/images/services/services-background-03.png'
+badge: 'Performance Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I offer professional live performances ranging from intimate solo piano recitals to collaborative ensemble work. With experience performing at international jazz festivals and working with orchestras, I bring a unique blend of classical technique and contemporary expression to every performance.
 
-### Our service includes
+### Performance Offerings
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+**Solo Piano Performances:**
+- Intimate recitals for small venues
+- Contemporary and jazz piano sets
+- Original composition premieres
+- Custom repertoire requests
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+**Ensemble Collaborations:**
+- Jazz trio and quartet performances
+- Chamber music with small ensembles
+- Orchestral collaborations
+- Cross-disciplinary performance art
 
-User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
+**Event Types:**
+- Corporate and private events
+- Weddings and celebrations
+- Concert halls and theaters
+- Festivals and cultural events
+- University and school performances
 
-### Why Choose Us
+### Performance Services Include
 
-SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
+**Venue Consultation:** Assessment of performance space, acoustics, and technical requirements
+**Repertoire Planning:** Custom set lists tailored to your event theme and audience
+**Technical Support:** Sound engineering and stage setup coordination
+**Professional Preparation:** Full rehearsals and performance-ready presentation
 
-Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+### Why Choose My Live Performances
+
+**Versatile Repertoire:** From classical masterpieces to contemporary jazz, I adapt to any event style
+**Professional Experience:** International festival performances and orchestral collaborations
+**Engaging Presentation:** Connecting with audiences through musical storytelling
+**Reliable and Prepared:** Thorough preparation and professional stage presence
+
+Whether you need background music for a corporate event, a featured performer for a special occasion, or a concert headliner, I can create a memorable musical experience for your audience.

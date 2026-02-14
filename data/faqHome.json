@@ -1,37 +1,37 @@
 {
-  "italicTitle": "People",
-  "headingTitle": "Asked Us",
-  "description": "When detailing testimonials it's important to include key elements that provide context and authenticity",
+  "italicTitle": "Frequently",
+  "headingTitle": "Asked Questions",
+  "description": "Common questions about piano lessons, music composition, and performance opportunities with Metta Legita.",
   "faqs": [
     {
       "id": 1,
-      "question": "Berapa yaaa?",
-      "answer": "ya suka2 aku"
+      "question": "What ages and skill levels do you teach?",
+      "answer": "I teach students of all ages, from children as young as 6 years old to adults. Whether you're a complete beginner or an advanced player looking to refine your technique, I can tailor lessons to your needs and goals."
     },
     {
       "id": 2,
-      "question": "How long does a typical project take?",
-      "answer": "Project timelines vary based on scope and complexity. A simple website might take 4-6 weeks, while larger projects can take 3-6 months. We always provide detailed timelines during our initial consultation."
+      "question": "Do you teach both classical and contemporary/jazz styles?",
+      "answer": "Yes! I specialize in both classical piano technique and contemporary/jazz styles. My background includes classical training with jazz and contemporary influences, allowing me to teach a comprehensive approach to piano playing."
     },
     {
       "id": 3,
-      "question": "What makes your agency different?",
-      "answer": "We combine strategic thinking with creative excellence. Our team brings diverse expertise across design, technology, and marketing, allowing us to deliver holistic solutions that drive real business results."
+      "question": "How long are your piano lessons and what's the frequency?",
+      "answer": "Lessons are typically 45-60 minutes long. For best results, I recommend weekly lessons, but we can adjust the schedule based on your availability and learning pace. Consistency is key to musical development."
     },
     {
       "id": 4,
-      "question": "Do you work with international clients?",
-      "answer": "Absolutely! We work with clients globally and have experience collaborating across different time zones. Our digital workflow makes remote collaboration seamless and efficient."
+      "question": "Do you accept performance bookings?",
+      "answer": "Yes, I accept bookings for solo piano performances, jazz trio/quartet engagements, and orchestral collaborations. Please contact me well in advance for availability, repertoire planning, and venue requirements."
     },
     {
       "id": 5,
-      "question": "What is your pricing structure?",
-      "answer": "We offer flexible pricing based on project requirements. We can work with fixed project fees, monthly retainers, or hourly rates depending on what works best for your needs and budget."
+      "question": "Can you compose custom music for films, events, or personal projects?",
+      "answer": "Absolutely! I compose original works for film scoring, corporate events, weddings, and personal projects. My style blends contemporary and orchestral elements. Let's discuss your vision and create something unique."
     },
     {
       "id": 6,
-      "question": "Do you provide ongoing support?",
-      "answer": "Yes, we offer various support and maintenance packages. We believe in building long-term relationships with our clients and ensuring their digital presence continues to evolve and perform."
+      "question": "Do you offer online lessons for international students?",
+      "answer": "Yes, I provide online piano lessons via video conferencing. This works well for students who prefer remote learning or are located outside Phnom Penh. The online format is interactive and effective for skill development."
     }
   ]
 }
