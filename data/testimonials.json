@@ -2,27 +2,27 @@
   "testimonials": [
     {
       "id": 1,
-      "tags": "aaaaa",
-      "title": "Exceptional materials. The most durable glass ever in a The Member Reviews section has additional guidelines from the Community",
+      "tags": "Piano Student",
+      "title": "Metta's teaching style is incredibly patient and encouraging. In just six months, I've progressed from beginner to confidently playing intermediate pieces. Her jazz influences add such a fresh perspective to classical technique.",
       "userImg": "/images/avatar/review-8.png",
-      "userName": "Kathryn Murphy",
-      "position": "CEO at Vercel"
+      "userName": "Sophia Chen",
+      "position": "Piano Student, Age 14"
     },
     {
       "id": 2,
-      "tags": "The skeleton plan of a website can be broken down into three components",
-      "title": "ddodododod",
+      "tags": "Performance Attendee",
+      "title": "Her solo piano performance at the Java Jazz Festival was mesmerizing. The way she blends contemporary jazz with classical influences creates such unique and emotional music. A true artist!",
       "userImg": "/images/avatar/review-6.png",
-      "userName": "Zaks Addision",
-      "position": "CEO at W3"
+      "userName": "Marcus Wong",
+      "position": "Festival Director"
     },
     {
       "id": 3,
-      "tags": "The skeleton plan of a website can be broken down into three components",
-      "title": "Exceptional materials. The most durable glass ever in a smartphone. A beautiful new gold finish, achieved with an atomic-level.",
+      "tags": "Composition Client",
+      "title": "Metta composed the perfect score for our documentary. Her orchestral work with the Budapest Scoring Orchestra brought such depth and emotion to our film. Highly professional and incredibly talented.",
       "userImg": "/images/uploads/1732077798553-1-.jpeg",
-      "userName": "John Dewey",
-      "position": "W3 Dev"
+      "userName": "Dr. Lisa Thompson",
+      "position": "Film Producer, CalArts"
     }
   ]
 }

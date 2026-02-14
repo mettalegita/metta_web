@@ -1,25 +1,39 @@
 ---
-title: '  Hardware Solution'
-description: 'Ensuring an exceptional user journey'
+title: 'Music Composition'
+description: 'Original works for various ensembles and media'
 hoverImage: '/images/services/services-background-02.png'
 coverImage: '/images/services/services-background-02.png'
-badge: 'Services details'
+badge: 'Composition Services'
 ---
 
-### Service overview
+### Service Overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+As a composer specializing in jazz-contemporary and orchestral works, I create original music for various formats including solo piano, chamber ensembles, orchestral arrangements, and film scoring. My compositions blend classical technique with contemporary influences, resulting in unique and emotionally compelling musical works.
 
-### Our service includes
+### What I Offer
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+**Original Composition Services:**
+- Jazz and contemporary piano works
+- Chamber music for small ensembles
+- Orchestral arrangements and scoring
+- Film and media music composition
+- Custom pieces for special occasions
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+**Composition Process:**
+- Initial consultation to understand your vision and requirements
+- Composition of original work tailored to your needs
+- Professional notation and recording preparation
+- Performance-ready scores and parts
 
-User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
+### Why Choose My Composition Services
 
-### Why Choose Us
+**Expertise Across Genres:** With a background in both classical and contemporary music, I can compose across various styles to match your project's artistic vision.
 
-SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
+**Collaborative Approach:** I work closely with clients to ensure the composition meets their artistic goals and technical requirements.
 
-Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+**Professional Quality:** All compositions are professionally notated and prepared for performance or recording.
+
+**International Experience:** Having worked with orchestras like the Budapest Scoring Orchestra, I understand professional music production standards.
+
+Whether you need a solo piano piece, chamber work, or orchestral score, I can create music that brings your vision to life.
+

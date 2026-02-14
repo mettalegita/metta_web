@@ -1,38 +1,36 @@
 [
   {
-    "id": "marvin",
-    "name": "Marvin McKinney",
-    "role": "Founder",
+    "id": "metta",
+    "name": "Metta Legita",
+    "role": "Pianist & Composer",
     "image": "/images/home-ai/team/ai-team-4.png",
-    "bio": "Passionate about open-source and no-code solutions, I am a UI/UX designer with 17 years of industry experience, dedicated .",
+    "bio": "Pianist, composer, and music educator based in Phnom Penh, Cambodia. Specializes in jazz-contemporary works and cross-disciplinary projects with international performance experience.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "instagram": "https://instagram.com/mettalegita",
+      "youtube": "https://youtube.com/@mettalegita",
+      "spotify": "https://open.spotify.com/artist/mettalegita"
     }
   },
   {
-    "id": "jacks",
-    "name": "Jacks Henry Jay",
-    "role": "Co-Founder",
+    "id": "recording-engineer",
+    "name": "David Kim",
+    "role": "Recording Engineer",
     "image": "/images/home-ai/team/ai-team-2.png",
-    "bio": "Technology strategist and co-founder with a strong focus on digital transformation, innovation, and scaling tech-driven businesses.",
+    "bio": "Professional recording engineer specializing in classical and contemporary music production. Has worked on multiple orchestral recordings and live performance captures.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "linkedin": "https://linkedin.com/in/david-kim-recording",
+      "website": "https://davidkim.audio"
     }
   },
   {
-    "id": "courtney",
-    "name": "Courtney Wilson",
-    "role": "Web Engineer",
+    "id": "performance-manager",
+    "name": "Sarah Chen",
+    "role": "Performance Manager",
     "image": "/images/home-ai/team/ai-team-3.png",
-    "bio": "Senior web engineer specializing in scalable and high-performance web applications, with expertise in modern JavaScript frameworks.",
+    "bio": "Experienced arts administrator managing concert bookings, international tours, and festival appearances for classical and contemporary musicians across Southeast Asia.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "linkedin": "https://linkedin.com/in/sarah-chen-arts",
+      "email": "sarah@mettalegita.com"
     }
   }
 ]

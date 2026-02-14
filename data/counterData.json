@@ -2,21 +2,27 @@
   "CounterData": [
     {
       "id": 1,
-      "number": "2",
-      "rightIcon": "$B",
-      "text": "Total Revenue"
+      "number": "50",
+      "rightIcon": "+",
+      "text": "Students Taught"
     },
     {
       "id": 2,
-      "number": "15",
+      "number": "25",
       "rightIcon": "+",
-      "text": "Projects Successfully"
+      "text": "Original Compositions"
     },
     {
       "id": 3,
       "number": "15",
-      "rightIcon": "",
-      "text": "Awwwwards"
+      "rightIcon": "+",
+      "text": "Live Performances"
+    },
+    {
+      "id": 4,
+      "number": "3",
+      "rightIcon": "+",
+      "text": "International Festivals"
     }
   ]
 }
