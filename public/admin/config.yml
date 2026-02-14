@@ -1,9 +1,7 @@
-# Decap CMS Configuration for Metta Web
+# Decap CMS Configuration for Metta Web - Local Development
 backend:
-  name: github
-  repo: mettalegita/metta_web
-  branch: main
-  base_url: https://decap-oauth.netlify.app
+  name: proxy
+  proxy_url: http://localhost:8080/api/v1
 
 # Media folder (required for local development)
 media_folder: public/images/uploads
@@ -28,143 +26,170 @@ collections:
   # Hero Section
   - name: hero
     label: Hero Section
-    file: data/homepage.json
-    fields:
+    files:
       - name: hero
-        label: Hero Content
-        widget: object
+        label: Hero Section
+        file: data/homepage.json
         fields:
-          - { label: Hero Image, name: image, widget: image }
-          - { label: Title (italic), name: title, widget: string }
-          - { label: Subtitle (large), name: subtitle, widget: string }
+          - name: hero
+            label: Hero Content
+            widget: object
+            fields:
+              - { label: Hero Image, name: image, widget: image }
+              - { label: Title (italic), name: title, widget: string }
+              - { label: Subtitle (large), name: subtitle, widget: string }
 
   # About Section
   - name: about
     label: About Section
-    file: data/homepage.json
-    fields:
+    files:
       - name: about
-        label: About Content
-        widget: object
+        label: About Section
+        file: data/homepage.json
         fields:
-          - { label: Description, name: description, widget: text }
-          - { label: Email Placeholder, name: emailPlaceholder, widget: string }
-          - { label: Button Text, name: buttonText, widget: string }
+          - name: about
+            label: About Content
+            widget: object
+            fields:
+              - { label: Description, name: description, widget: text }
+              - { label: Email Placeholder, name: emailPlaceholder, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
 
   # Portfolio Section
   - name: portfolio
     label: Recent Case Studies Section
-    file: data/portfolioSection.json
-    fields:
-      - { label: Italic Title (First part), name: italicTitle, widget: string }
-      - { label: Heading Title (Second part), name: headingTitle, widget: string }
-      - { label: Description, name: description, widget: text }
-      - { label: Button Text, name: buttonText, widget: string }
-      - { label: Button Link, name: buttonLink, widget: string }
+    files:
+      - name: portfolio
+        label: Recent Case Studies Section
+        file: data/portfolioSection.json
+        fields:
+          - { label: Italic Title (First part), name: italicTitle, widget: string }
+          - { label: Heading Title (Second part), name: headingTitle, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Button Text, name: buttonText, widget: string }
+          - { label: Button Link, name: buttonLink, widget: string }
 
   # Services Section
   - name: services
     label: What I Do Section
-    file: data/homepage.json
-    fields:
+    files:
       - name: services
-        label: Services Content
-        widget: object
+        label: What I Do Section
+        file: data/homepage.json
         fields:
-          - { label: Section Title, name: sectionTitle, widget: string }
-          - { label: Section Description, name: sectionDescription, widget: text }
-          - { label: Button Text, name: buttonText, widget: string }
-          - { label: Button Link, name: buttonLink, widget: string }
-          - name: items
-            label: Service Items
-            widget: list
+          - name: services
+            label: Services Content
+            widget: object
             fields:
-              - { label: ID, name: id, widget: number, value_type: int }
-              - { label: Title, name: title, widget: string }
-              - { label: Subtitle, name: subtitle, widget: string }
-              - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+              - { label: Section Title, name: sectionTitle, widget: string }
+              - { label: Section Description, name: sectionDescription, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+              - name: items
+                label: Service Items
+                widget: list
+                fields:
+                  - { label: ID, name: id, widget: number, value_type: int }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Subtitle, name: subtitle, widget: string }
+                  - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
 
   # Clients Section
   - name: clients
     label: Performed & Collaborated Section
-    file: data/clients.json
-    fields:
-      - { label: Italic Title (First part), name: italicTitle, widget: string }
-      - { label: Heading Title (Second part), name: headingTitle, widget: string }
-      - { label: Description, name: description, widget: text }
-      - name: logos
-        label: Client Logos
-        widget: list
+    files:
+      - name: clients
+        label: Performed & Collaborated Section
+        file: data/clients.json
         fields:
-          - { label: ID, name: id, widget: number, value_type: int }
-          - { label: Logo Image, name: image, widget: image }
-          - { label: Client Name, name: name, widget: string }
+          - { label: Italic Title (First part), name: italicTitle, widget: string }
+          - { label: Heading Title (Second part), name: headingTitle, widget: string }
+          - { label: Description, name: description, widget: text }
+          - name: logos
+            label: Client Logos
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Logo Image, name: image, widget: image }
+              - { label: Client Name, name: name, widget: string }
 
   # Testimonials Section
   - name: testimonials
     label: Testimonials Section
-    file: data/testimonials.json
-    fields:
+    files:
       - name: testimonials
-        label: Testimonial Slides
-        widget: list
-        allow_add: true
+        label: Testimonials Section
+        file: data/testimonials.json
         fields:
-          - { label: ID, name: id, widget: number, value_type: int }
-          - { label: Tags/Category, name: tags, widget: string }
-          - { label: Title/Quote, name: title, widget: text }
-          - { label: User Avatar Image, name: userImg, widget: image }
-          - { label: User Name, name: userName, widget: string }
-          - { label: Position/Company, name: position, widget: string }
+          - name: testimonials
+            label: Testimonial Slides
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Tags/Category, name: tags, widget: string }
+              - { label: Title/Quote, name: title, widget: text }
+              - { label: User Avatar Image, name: userImg, widget: image }
+              - { label: User Name, name: userName, widget: string }
+              - { label: Position/Company, name: position, widget: string }
 
   # Blog Section
   - name: blog
     label: Blog Section
-    file: data/homepage.json
-    fields:
+    files:
       - name: blog
-        label: Blog Content
-        widget: object
+        label: Blog Section
+        file: data/homepage.json
         fields:
-          - { label: Section Title, name: sectionTitle, widget: string }
-          - { label: Button Text, name: buttonText, widget: string }
-          - { label: Button Link, name: buttonLink, widget: string }
+          - name: blog
+            label: Blog Content
+            widget: object
+            fields:
+              - { label: Section Title, name: sectionTitle, widget: string }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
 
   # FAQ Section
   - name: faq
     label: People Asked Us Section
-    file: data/faqHome.json
-    fields:
-      - { label: Italic Title (First part), name: italicTitle, widget: string }
-      - { label: Heading Title (Second part), name: headingTitle, widget: string }
-      - { label: Description, name: description, widget: text }
-      - name: faqs
-        label: FAQ Items
-        widget: list
-        allow_add: true
+    files:
+      - name: faq
+        label: People Asked Us Section
+        file: data/faqHome.json
         fields:
-          - { label: ID, name: id, widget: number, value_type: int }
-          - { label: Question, name: question, widget: string }
-          - { label: Answer, name: answer, widget: text }
+          - { label: Italic Title (First part), name: italicTitle, widget: string }
+          - { label: Heading Title (Second part), name: headingTitle, widget: string }
+          - { label: Description, name: description, widget: text }
+          - name: faqs
+            label: FAQ Items
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
 
   # CTA Section
   - name: cta
     label: Call to Action Section
-    file: data/homepage.json
-    fields:
+    files:
       - name: cta
-        label: CTA Content
-        widget: object
+        label: Call to Action Section
+        file: data/homepage.json
         fields:
-          - { label: Text Before, name: textBefore, widget: string }
-          - { label: Text After, name: textAfter, widget: string }
-          - { label: Italic Text, name: italicText, widget: string }
-          - name: images
-            label: CTA Images
-            widget: list
+          - name: cta
+            label: CTA Content
+            widget: object
             fields:
-              - { label: ID, name: id, widget: string }
-              - { label: Image, name: image, widget: image }
+              - { label: Text Before, name: textBefore, widget: string }
+              - { label: Text After, name: textAfter, widget: string }
+              - { label: Italic Text, name: italicText, widget: string }
+              - name: images
+                label: CTA Images
+                widget: list
+                fields:
+                  - { label: ID, name: id, widget: string }
+                  - { label: Image, name: image, widget: image }
 
   # Blog Posts
   - name: seo-blog
@@ -202,86 +227,101 @@ collections:
   # Global Settings
   - name: settings
     label: Site Settings
-    file: data/siteSettings.json
-    fields:
-      - name: site
-        label: Site Configuration
-        widget: object
+    files:
+      - name: settings
+        label: Site Settings
+        file: data/siteSettings.json
         fields:
-          - { label: Site Title, name: siteTitle, widget: string }
-          - { label: Site Description, name: siteDescription, widget: text }
-          - { label: Contact Email, name: contactEmail, widget: string }
-          - { label: Phone Number, name: phoneNumber, widget: string }
+          - name: site
+            label: Site Configuration
+            widget: object
+            fields:
+              - { label: Site Title, name: siteTitle, widget: string }
+              - { label: Site Description, name: siteDescription, widget: text }
+              - { label: Contact Email, name: contactEmail, widget: string }
+              - { label: Phone Number, name: phoneNumber, widget: string }
 
   - name: team
     label: Team Members
-    file: data/teamMemberData.json
-    fields:
-      - name: members
+    files:
+      - name: team
         label: Team Members
-        widget: list
-        allow_add: true
+        file: data/teamMemberData.json
         fields:
-          - { label: ID (slug), name: id, widget: string }
-          - { label: Name, name: name, widget: string }
-          - { label: Role, name: role, widget: string }
-          - { label: Photo, name: image, widget: image }
-          - { label: Bio, name: bio, widget: text }
-          - label: Social Links
-            name: socialLinks
-            widget: object
+          - name: members
+            label: Team Members
+            widget: list
+            allow_add: true
             fields:
-              - { label: Twitter, name: twitter, widget: string, required: false }
-              - { label: Facebook, name: facebook, widget: string, required: false }
-              - { label: YouTube, name: youtube, widget: string, required: false }
-              - { label: LinkedIn, name: linkedin, widget: string, required: false }
+              - { label: ID (slug), name: id, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Photo, name: image, widget: image }
+              - { label: Bio, name: bio, widget: text }
+              - label: Social Links
+                name: socialLinks
+                widget: object
+                fields:
+                  - { label: Twitter, name: twitter, widget: string, required: false }
+                  - { label: Facebook, name: facebook, widget: string, required: false }
+                  - { label: YouTube, name: youtube, widget: string, required: false }
+                  - { label: LinkedIn, name: linkedin, widget: string, required: false }
 
   - name: generalFaq
     label: General FAQ (Site-wide)
-    file: data/faq.json
-    fields:
-      - name: items
-        label: FAQ Items
-        widget: list
-        allow_add: true
+    files:
+      - name: generalFaq
+        label: General FAQ
+        file: data/faq.json
         fields:
-          - { label: ID, name: id, widget: number, value_type: int }
-          - { label: Question, name: question, widget: string }
-          - { label: Answer, name: answer, widget: text }
+          - name: items
+            label: FAQ Items
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: text }
 
   - name: statistics
     label: Statistics/Counter
-    file: data/counterData.json
-    fields:
-      - name: CounterData
-        label: Statistics
-        widget: list
-        allow_add: true
+    files:
+      - name: statistics
+        label: Statistics/Counter
+        file: data/counterData.json
         fields:
-          - { label: ID, name: id, widget: number, value_type: int }
-          - { label: Number, name: number, widget: string }
-          - { label: Suffix/Icon, name: rightIcon, widget: string, required: false }
-          - { label: Label, name: text, widget: string }
+          - name: CounterData
+            label: Statistics
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Number, name: number, widget: string }
+              - { label: Suffix/Icon, name: rightIcon, widget: string, required: false }
+              - { label: Label, name: text, widget: string }
 
   - name: footer
     label: Footer Navigation
-    file: data/footer.json
-    fields:
-      - name: footerSections
-        label: Footer Sections
-        widget: list
-        allow_add: true
-        collapsed: false
-        summary: '{{fields.title}}'
+    files:
+      - name: footer
+        label: Footer Navigation
+        file: data/footer.json
         fields:
-          - { label: Section Title, name: title, widget: string }
-          - label: Links
-            name: links
+          - name: footerSections
+            label: Footer Sections
             widget: list
-            summary: '{{fields.label}}'
+            allow_add: true
+            collapsed: false
+            summary: '{{fields.title}}'
             fields:
-              - { label: Label, name: label, widget: string }
-              - { label: URL, name: href, widget: string }
+              - { label: Section Title, name: title, widget: string }
+              - label: Links
+                name: links
+                widget: list
+                summary: '{{fields.label}}'
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: href, widget: string }
 
   # Portfolio Projects
   - name: caseStudies

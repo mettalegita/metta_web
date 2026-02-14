@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "dev:cms": "concurrently \"npm run dev\" \"npm run decap-server\" --names \"next,decap\" --prefix name",
-    "decap-server": "npx decap-server --port 8082",
+    "decap-server": "npx decap-server --port 8080",
     "build": "next build",
     "start": "next start",
     "lint": "eslint app --ext ts,tsx,js,jsx,cjs --report-unused-disable-directives --max-warnings 0",
