@@ -1,7 +1,8 @@
 # Decap CMS Configuration for Metta Web - Local Development
 backend:
-  name: proxy
-  proxy_url: http://localhost:8080/api/v1
+  name: github
+  repo: mettalegita/metta_web
+  branch: main
 
 # Media folder (required for local development)
 media_folder: public/images/uploads
