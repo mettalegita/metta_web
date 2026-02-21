@@ -29,7 +29,9 @@ const ServicesV14 = () => {
         </TextAppearAnimation02>
         <TextAppearAnimation>
           <p className="text-appear mx-auto lg:max-w-[770px]">
-            From intimate piano lessons to orchestral compositions, my musical services foster artistic growth and create memorable experiences through personalized instruction, professional performances, and comprehensive music education.
+            From intimate piano lessons to orchestral compositions, my musical services foster artistic growth and
+            create memorable experiences through personalized instruction, professional performances, and comprehensive
+            music education.
           </p>
         </TextAppearAnimation>
       </div>

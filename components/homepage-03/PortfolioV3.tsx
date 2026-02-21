@@ -27,7 +27,8 @@ const caseStudies: projectType[] = getMarkDownData('data/portfolio-agency/case-s
 const defaultSectionData: PortfolioSectionData = {
   italicTitle: 'Recent',
   headingTitle: 'Case Studies',
-  description: "When presenting recent case studies, it is important to highlight key aspects that showcase your agency work and impact.",
+  description:
+    'When presenting recent case studies, it is important to highlight key aspects that showcase your agency work and impact.',
   buttonText: 'See all projects',
   buttonLink: '/portfolio-agency/case-study',
 }
@@ -38,11 +39,7 @@ const PortfolioV3 = ({ sectionData = defaultSectionData }: PortfolioV3Props) => 
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-4 md:mb-20 md:flex-row md:items-end lg:justify-between">
-          <SectionHeader
-            italicTitle={italicTitle}
-            headingTitle={headingTitle}
-            description={description}
-          />
+          <SectionHeader italicTitle={italicTitle} headingTitle={headingTitle} description={description} />
         </div>
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-9 md:grid-cols-2">
