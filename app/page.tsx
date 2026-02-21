@@ -22,14 +22,17 @@ export const metadata = {
 const Home = () => {
   const { hero, about, services, cta } = homepageData
   const blogs = getMarkDownData('data/marketing/blog')
-  
+
   // Load services from CMS collection
   const servicesData = getMarkDownData('data/servicesV2')
   const serviceItems = servicesData.slice(0, 4).map((service: any, index: number) => ({
     id: index + 1,
     title: service.title,
     subtitle: service.description,
-    features: service.content?.split('\n').filter((line: string) => line.trim().startsWith('-')).map((line: string) => line.replace(/^-\s*/, '').trim()) || ['Service feature'],
+    features: service.content
+      ?.split('\n')
+      .filter((line: string) => line.trim().startsWith('-'))
+      .map((line: string) => line.replace(/^-\s*/, '').trim()) || ['Service feature'],
   }))
 
   return (

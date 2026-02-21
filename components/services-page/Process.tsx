@@ -22,7 +22,8 @@ const Process = () => {
                 Inspiration
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                Every musical journey begins with inspiration - whether from personal experiences, cultural heritage, or the pure joy of musical discovery.
+                Every musical journey begins with inspiration - whether from personal experiences, cultural heritage, or
+                the pure joy of musical discovery.
               </p>
             </RevealWrapper>
 
@@ -34,7 +35,8 @@ const Process = () => {
                 Practice
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                Dedicated practice transforms inspiration into mastery, building technique, musicality, and confidence through consistent, mindful musical development.
+                Dedicated practice transforms inspiration into mastery, building technique, musicality, and confidence
+                through consistent, mindful musical development.
               </p>
             </RevealWrapper>
 
@@ -46,7 +48,8 @@ const Process = () => {
                 Performance
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                The moment of performance brings music to life, whether through solo recitals, ensemble collaborations, or intimate musical experiences that connect artist and audience.
+                The moment of performance brings music to life, whether through solo recitals, ensemble collaborations,
+                or intimate musical experiences that connect artist and audience.
               </p>
             </RevealWrapper>
 
@@ -58,7 +61,8 @@ const Process = () => {
                 Connection
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                Music creates profound connections - between artist and audience, between notes and emotions, between cultures and hearts, completing the beautiful cycle of musical expression.
+                Music creates profound connections - between artist and audience, between notes and emotions, between
+                cultures and hearts, completing the beautiful cycle of musical expression.
               </p>
             </RevealWrapper>
           </div>

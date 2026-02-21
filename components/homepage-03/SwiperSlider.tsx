@@ -24,7 +24,8 @@ const defaultTestimonials: TestimonialItem[] = [
   {
     id: 1,
     tags: 'The skeleton plan of a website can be broken down into three components',
-    title: 'Exceptional materials. The most durable glass ever in a The Member Reviews section has additional guidelines from the Community',
+    title:
+      'Exceptional materials. The most durable glass ever in a The Member Reviews section has additional guidelines from the Community',
     userImg: '/images/avatar/review-8.png',
     userName: 'Kathryn Murphy',
     position: 'CEO at Vercel',
@@ -32,7 +33,8 @@ const defaultTestimonials: TestimonialItem[] = [
   {
     id: 2,
     tags: 'The skeleton plan of a website can be broken down into three components',
-    title: 'Exceptional materials. The most durable glass ever in a smartphone. A beautiful new gold finish, achieved with an atomic-level.',
+    title:
+      'Exceptional materials. The most durable glass ever in a smartphone. A beautiful new gold finish, achieved with an atomic-level.',
     userImg: '/images/avatar/review-6.png',
     userName: 'Zaks Addision',
     position: 'CEO at W3',
@@ -40,7 +42,8 @@ const defaultTestimonials: TestimonialItem[] = [
   {
     id: 3,
     tags: 'The skeleton plan of a website can be broken down into three components',
-    title: 'Exceptional materials. The most durable glass ever in a smartphone. A beautiful new gold finish, achieved with an atomic-level.',
+    title:
+      'Exceptional materials. The most durable glass ever in a smartphone. A beautiful new gold finish, achieved with an atomic-level.',
     userImg: '/images/avatar/review-9.png',
     userName: 'John Dewey',
     position: 'W3 Dev',

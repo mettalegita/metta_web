@@ -9,6 +9,7 @@ import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
 import LayoutOne from '@/components/shared/LayoutOne'
 import homepageData from '@/data/homepage.json'
+import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
   title: 'Portfolio Agency - Rivor',
@@ -16,6 +17,7 @@ export const metadata = {
 
 const homepage3 = () => {
   const { hero, about, services, clients, cta } = homepageData
+  const blogs = getMarkDownData('data/marketing/blog')
 
   return (
     <LayoutOne>
@@ -33,7 +35,7 @@ const homepage3 = () => {
         buttonLink={services.buttonLink}
         items={services.items}
       />
-      <BlogPost />
+      <BlogPost blogs={blogs} />
       <Clients
         italicTitle={clients.italicTitle}
         headingTitle={clients.headingTitle}

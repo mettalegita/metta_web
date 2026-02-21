@@ -9,7 +9,8 @@ export const dynamic = 'force-dynamic'
 
 export const metadata = {
   title: 'SEO Blog - Digital Marketing Insights',
-  description: 'Expert insights on SEO, digital marketing strategies, and industry trends to grow your online presence.',
+  description:
+    'Expert insights on SEO, digital marketing strategies, and industry trends to grow your online presence.',
 }
 
 export interface Blog2Type {
