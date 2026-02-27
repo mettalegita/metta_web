@@ -8,6 +8,17 @@ const GA_MEASUREMENT_ID = 'G-XH5T5WPZ9C'
 export default function GoogleAnalytics() {
   useEffect(() => {
     // Initialize gtag
+    if (typeof window !== 'undefined') {
+      const win = window as any
+      win.dataLayer = win.dataLayer || []
+      function gtag() {
+        win.dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', GA_MEASUREMENT_ID)
+    }
+  }, [])
+    // Initialize gtag
     window.dataLayer = window.dataLayer || []
     function gtag() {
       dataLayer.push(arguments)
