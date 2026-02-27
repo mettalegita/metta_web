@@ -5,7 +5,7 @@ import { satoshi } from '@/utils/fonts'
 import { ThemeModeProvider } from '@/utils/Providers'
 import type { Metadata } from 'next'
 import { ReactNode, Suspense } from 'react'
-import { Script } from 'next/script'
+import Script from 'next/script'
 import '../scss/main.scss'
 
 export const metadata: Metadata = {
