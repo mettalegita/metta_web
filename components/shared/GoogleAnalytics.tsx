@@ -7,24 +7,15 @@ const GA_MEASUREMENT_ID = 'G-XH5T5WPZ9C'
 
 export default function GoogleAnalytics() {
   useEffect(() => {
-    // Initialize gtag
     if (typeof window !== 'undefined') {
-      const win = window as any
+      const win = window as unknown as { dataLayer: unknown[]; gtag: Function }
       win.dataLayer = win.dataLayer || []
-      function gtag() {
+      win.gtag = function () {
         win.dataLayer.push(arguments)
       }
-      gtag('js', new Date())
-      gtag('config', GA_MEASUREMENT_ID)
+      win.gtag('js', new Date())
+      win.gtag('config', GA_MEASUREMENT_ID)
     }
-  }, [])
-    // Initialize gtag
-    window.dataLayer = window.dataLayer || []
-    function gtag() {
-      dataLayer.push(arguments)
-    }
-    gtag('js', new Date())
-    gtag('config', GA_MEASUREMENT_ID)
   }, [])
 
   return (
@@ -34,10 +25,4 @@ export default function GoogleAnalytics() {
       strategy="afterInteractive"
     />
   )
-}
-
-declare global {
-  interface Window {
-    dataLayer: any[]
-  }
 }
