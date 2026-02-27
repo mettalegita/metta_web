@@ -25,7 +25,9 @@ export async function GET(request: NextRequest) {
     const data = await tokenResponse.json()
 
     if (data.error) {
-      return new NextResponse(`OAuth error: ${data.error} - ${data.error_description || 'No description'}`, { status: 400 })
+      return new NextResponse(`OAuth error: ${data.error} - ${data.error_description || 'No description'}`, {
+        status: 400,
+      })
     }
 
     const script = `
