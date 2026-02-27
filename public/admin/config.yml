@@ -6,9 +6,17 @@ backend:
   base_url: https://www.mettalegita.com
   auth_endpoint: api/auth
 
-# Media folder
+# Media folder (local fallback)
 media_folder: public/images/uploads
 public_folder: /images/uploads
+
+# Cloudinary media library (production)
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: {{env.CLOUDINARY_CLOUD_NAME}}
+    api_key: {{env.CLOUDINARY_API_KEY}}
+    upload_preset: cms_uploads
 
 # Site URL
 site_url: https://www.mettalegita.com
