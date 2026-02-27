@@ -1,16 +1,18 @@
-# Decap CMS Configuration for Metta Web - Local Development
+# Decap CMS Configuration for Metta Web
 backend:
   name: github
   repo: mettalegita/metta_web
   branch: main
+  base_url: https://mettalegita.com
+  auth_endpoint: api/auth
 
-# Media folder (required for local development)
+# Media folder
 media_folder: public/images/uploads
 public_folder: /images/uploads
 
-# Site URL (update with your domain after deployment)
-site_url: https://metta-web.vercel.app
-display_url: https://metta-web.vercel.app
+# Site URL
+site_url: https://mettalegita.com
+display_url: https://mettalegita.com
 
 # Logo for CMS
 logo_url: /images/logo/logo-dark.svg
@@ -23,7 +25,6 @@ slug:
 
 # Collections
 collections:
-  # Homepage - Main Content
   # Hero Section
   - name: hero
     label: Hero Section
