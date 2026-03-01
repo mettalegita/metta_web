@@ -42,13 +42,6 @@ const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle 
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-          src={image}
-          ref={heroZoomImgRef}
-          width={570}
-          height={330}
-          className="absolute left-0 top-0 h-full w-full object-cover"
-          alt="Hero image"
-        />
       </div>
 
       <h1 className="absolute right-4 top-56 font-instrument text-5xl font-normal italic leading-[1.1] sm:text-7xl md:top-60 md:text-8xl lg:right-36 lg:top-72 lg:text-9xl xl:right-60 xl:top-96 xl:text-[156px]">
