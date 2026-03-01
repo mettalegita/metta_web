@@ -1,9 +1,11 @@
 ---
-thumbnail: '/images/blog-img/blog-img-6.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
-title: 'Developing Piano Technique: From Beginner to Advanced Mastery'
-description: 'A comprehensive guide to building strong piano technique through systematic practice, proper hand positioning, and progressive skill development.'
+title: "Developing Piano Technique: From Beginner to Advanced Mastery"
+description: A comprehensive guide to building strong piano technique through
+  systematic practice, proper hand positioning, and progressive skill
+  development.
 category: Piano Instruction
+thumbnail: /images/uploads/metta-scores.webp
+featureImage: /images/blog-img/blog-details-img-1.png
 featured: false
 ---
 
