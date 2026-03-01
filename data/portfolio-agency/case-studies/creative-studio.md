@@ -1,9 +1,11 @@
 ---
-title: 'Orchestral Composition: "Reflections of Cambodia"'
-description: 'A commissioned orchestral work blending traditional Cambodian musical elements with contemporary classical composition, premiered by the Budapest Scoring Orchestra.'
-thumbnail: '/images/home-3/services-2.png'
-coverImage: '/images/services/services-details-img.png'
-badge: 'Composition Project'
+title: Hampura
+description: A commissioned orchestral work blending traditional Cambodian
+  musical elements with contemporary classical composition, premiered by the
+  Budapest Scoring Orchestra.
+thumbnail: /images/uploads/metta_hampura.webp
+coverImage: /images/services/services-details-img.png
+badge: Composition Project
 ---
 
 ### Project Overview - Orchestral Composition
