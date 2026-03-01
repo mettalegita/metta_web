@@ -1,9 +1,12 @@
 ---
-title: 'Revolutionizing'
-description: 'Discover the innovative Best Sellers No-Code Website platform, designed to empower businesses with a seamless blend of creativity and functionality. Experience a user-friendly interface that eliminates coding hassles.'
-thumbnail: '/images/project-3/services-6.png'
-coverImage: '/images/services/services-details-img.png'
-badge: 'Project case study'
+title: Thank you
+description: Discover the innovative Best Sellers No-Code Website platform,
+  designed to empower businesses with a seamless blend of creativity and
+  functionality. Experience a user-friendly interface that eliminates coding
+  hassles.
+thumbnail: /images/uploads/metta_thank-you.webp
+coverImage: /images/services/services-details-img.png
+badge: Project case study
 ---
 
 ### Learn about the project - project overview
