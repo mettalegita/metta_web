@@ -1,4 +1,5 @@
 import localFont from 'next/font/local'
+import { Instrument_Serif } from 'next/font/google'
 
 const satoshi = localFont({
   src: [
@@ -16,4 +17,12 @@ const satoshi = localFont({
   variable: '--font-satoshi',
 })
 
-export { satoshi }
+const instrumentSerif = Instrument_Serif({
+  weight: '400',
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-instrument-serif',
+})
+
+export { satoshi, instrumentSerif }

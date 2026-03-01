@@ -2,7 +2,7 @@ import CursorPointer from '@/components/animation/CursorPointer'
 import SmoothScrollProvider from '@/components/shared/SmoothScroll'
 import ThemeSwitcher from '@/components/theme/ThemeSwitcher'
 import GoogleAnalytics from '@/components/shared/GoogleAnalytics'
-import { satoshi } from '@/utils/fonts'
+import { satoshi, instrumentSerif } from '@/utils/fonts'
 import { ThemeModeProvider } from '@/utils/Providers'
 import type { Metadata } from 'next'
 import { ReactNode, Suspense } from 'react'
@@ -39,11 +39,8 @@ export default function RootLayout({
   children: ReactNode
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <GoogleAnalytics />
-      </head>
-      <body className={`${satoshi.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${satoshi.variable} ${instrumentSerif.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>
           <SmoothScrollProvider>
             <ThemeModeProvider>
@@ -53,6 +50,7 @@ export default function RootLayout({
             </ThemeModeProvider>
           </SmoothScrollProvider>
         </Suspense>
+        <GoogleAnalytics />
       </body>
     </html>
   )

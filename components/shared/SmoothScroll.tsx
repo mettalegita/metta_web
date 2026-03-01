@@ -1,7 +1,6 @@
 'use client'
-import { ReactLenis, useLenis } from 'lenis/react'
 import { usePathname, useSearchParams } from 'next/navigation'
-import { ReactNode, useEffect } from 'react'
+import React, { ReactNode, useEffect, useRef, useState } from 'react'
 
 interface SmoothScrollingProps {
   children: ReactNode
@@ -10,40 +9,54 @@ interface SmoothScrollingProps {
 const SmoothScrollProvider = ({ children }: Readonly<SmoothScrollingProps>) => {
   const pathname = usePathname()
   const searchParams = useSearchParams()
+  const [LenisComponent, setLenisComponent] = useState<React.ComponentType<any> | null>(null)
+  const lenisRef = useRef<any>(null)
 
-  const lenis = useLenis()
-
+  // Defer Lenis loading to after initial render
   useEffect(() => {
-    lenis?.scrollTo(0, { immediate: true })
-  }, [pathname, searchParams, lenis])
+    const timer = setTimeout(async () => {
+      const { ReactLenis } = await import('lenis/react')
+      setLenisComponent(() => ReactLenis)
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
 
+  // Scroll to top on route change
   useEffect(() => {
+    lenisRef.current?.scrollTo(0, { immediate: true })
+  }, [pathname, searchParams])
+
+  // Handle .lenis-scroll-to click events
+  useEffect(() => {
+    const lenis = lenisRef.current
     if (!lenis) return
 
-    const handleClick = (ele: Element) => {
-      lenis.scrollTo(ele.getAttribute('href') ?? '', {
+    const handleClick = (e: Event) => {
+      const target = e.target as Element
+      lenis.scrollTo(target.getAttribute('href') ?? '', {
         offset: -100,
       })
     }
 
     const elements = document.querySelectorAll('.lenis-scroll-to')
-    const clickHandler = (e: Event) => handleClick(e.target as Element)
-
     elements.forEach((ele) => {
-      ele.addEventListener('click', clickHandler)
+      ele.addEventListener('click', handleClick)
     })
 
     return () => {
       elements.forEach((ele) => {
-        ele.removeEventListener('click', clickHandler)
+        ele.removeEventListener('click', handleClick)
       })
     }
-  }, [lenis, pathname])
+  }, [LenisComponent, pathname])
+
+  // Before Lenis loads, render children without smooth scrolling
+  if (!LenisComponent) return <>{children}</>
 
   return (
-    <ReactLenis root options={{ duration: 1.1 }}>
+    <LenisComponent ref={lenisRef} root options={{ duration: 1.1 }}>
       {children}
-    </ReactLenis>
+    </LenisComponent>
   )
 }
 

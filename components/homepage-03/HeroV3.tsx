@@ -1,9 +1,6 @@
 'use client'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Image from 'next/image'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 
 interface HeroV3Props {
   image?: string
@@ -12,22 +9,31 @@ interface HeroV3Props {
 }
 
 const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle = 'Rivor' }: HeroV3Props) => {
-  const heroZoomImgRef = useRef(null)
+  const heroZoomImgRef = useRef<HTMLImageElement>(null)
 
-  useGSAP(() => {
-    gsap.registerPlugin(ScrollTrigger)
-    if (!heroZoomImgRef.current) return
-    gsap.to(heroZoomImgRef.current, {
-      scale: 3.3,
-      ease: 'expoScale',
-      scrollTrigger: {
-        trigger: heroZoomImgRef.current,
-        start: 'top 20%',
-        end: 'top -30%',
-        pin: true,
-        scrub: 1,
-      },
-    })
+  useEffect(() => {
+    let ctx: any
+    const initGSAP = async () => {
+      const { default: gsap } = await import('gsap')
+      const { ScrollTrigger } = await import('gsap/ScrollTrigger')
+      gsap.registerPlugin(ScrollTrigger)
+      if (!heroZoomImgRef.current) return
+      ctx = gsap.context(() => {
+        gsap.to(heroZoomImgRef.current, {
+          scale: 3.3,
+          ease: 'expoScale',
+          scrollTrigger: {
+            trigger: heroZoomImgRef.current,
+            start: 'top 20%',
+            end: 'top -30%',
+            pin: true,
+            scrub: 1,
+          },
+        })
+      })
+    }
+    initGSAP()
+    return () => ctx?.revert()
   }, [])
   return (
     <section className="relative z-10 overflow-hidden pb-[830px] pt-36 md:pt-[180px] lg:pt-[240px] xl:pb-[850px]">
@@ -38,9 +44,11 @@ const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle 
           width={570}
           height={330}
           className="absolute left-0 top-0 h-full w-full object-cover"
-          alt="Hero image"
+          alt="Metta Legita - Pianist"
           priority
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          fetchPriority="high"
+          sizes="(max-width: 640px) 320px, (max-width: 768px) 400px, 570px"
+          quality={75}
         />
       </div>
 
