@@ -1,8 +1,10 @@
 ---
-title: 'Jazz Piano vs Classical: Choosing Your Musical Path'
-description: 'Explore the differences between jazz and classical piano traditions, and learn how to incorporate both styles into your musical development.'
+title: "Jazz Piano vs Classical: Choosing Your Musical Path"
+description: Explore the differences between jazz and classical piano
+  traditions, and learn how to incorporate both styles into your musical
+  development.
 category: Piano Styles
-thumbnail: /images/blog-img/blog-img-6.png
+thumbnail: /images/uploads/metta_orchestra1.webp
 featureImage: /images/blog-img/blog-details-img-1.png
 featured: false
 ---
