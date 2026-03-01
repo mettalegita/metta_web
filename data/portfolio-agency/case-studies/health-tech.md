@@ -1,9 +1,11 @@
 ---
-title: 'Harmony in Education: School Music Curriculum Development'
-description: 'Comprehensive music education program designed for Cambodian schools, integrating traditional Khmer music with contemporary music education methods to foster cultural preservation and musical development.'
-thumbnail: '/images/home-3/services-3.png'
-coverImage: '/images/services/services-details-img.png'
-badge: 'Education Project'
+title: Scenic spirit
+description: Comprehensive music education program designed for Cambodian
+  schools, integrating traditional Khmer music with contemporary music education
+  methods to foster cultural preservation and musical development.
+thumbnail: /images/uploads/metta_scenic-spirit.webp
+coverImage: /images/services/services-details-img.png
+badge: Education Project
 ---
 
 ### Project Overview - Music Education Program
