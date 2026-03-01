@@ -1,9 +1,10 @@
 ---
-thumbnail: '/images/blog-img/blog-img-6.png'
-featureImage: '/images/blog-img/blog-details-img-1.png'
-title: 'The Future of Music Education: Technology, Accessibility, and Innovation'
-description: 'Explore how technology is transforming music education, making it more accessible, personalized, and effective for students worldwide.'
+title: "The Future of Music Education: Technology, Accessibility, and Innovation"
+description: Explore how technology is transforming music education, making it
+  more accessible, personalized, and effective for students worldwide.
 category: Music Education
+thumbnail: /images/uploads/metta_alice-in-wonderland.webp
+featureImage: /images/blog-img/blog-details-img-1.png
 featured: false
 ---
 
