@@ -1,8 +1,11 @@
 ---
-title: 'Mastering Music Composition: Classical Techniques Meet Contemporary Innovation'
-description: 'Explore how traditional composition methods blend with modern approaches to create compelling musical works that resonate with contemporary audiences.'
+title: "Mastering Music Composition: Classical Techniques Meet Contemporary
+  Innovation"
+description: Explore how traditional composition methods blend with modern
+  approaches to create compelling musical works that resonate with contemporary
+  audiences.
 category: Composition
-thumbnail: /images/blog-img/blog-img-6.png
+thumbnail: /images/uploads/screenshot-2026-02-28-at-02.00.37.png
 featureImage: /images/blog-img/blog-details-img-1.png
 featured: true
 ---
