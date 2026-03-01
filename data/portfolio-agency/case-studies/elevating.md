@@ -1,8 +1,10 @@
 ---
-title: 'Symphonic Recordings: Modern Classical Album Production'
-description: 'Full production of contemporary classical music album featuring original compositions, professional recording sessions, and international distribution through streaming platforms.'
-thumbnail: '/images/project-3/services-7.png'
-coverImage: '/images/services/services-details-img.png'
+title: I am love
+description: Full production of contemporary classical music album featuring
+  original compositions, professional recording sessions, and international
+  distribution through streaming platforms.
+thumbnail: /images/uploads/metta_i-am-love.webp
+coverImage: /images/services/services-details-img.png
 badge: Recording Project
 ---
 
