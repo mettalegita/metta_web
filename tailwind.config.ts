@@ -17,7 +17,7 @@ export default {
       },
       fontFamily: {
         satoshi: ['var(--font-satoshi)'],
-        instrument: ["'Instrument Serif', system-ui"],
+        instrument: ['var(--font-instrument-serif)', 'system-ui'],
       },
       colors: {
         primary: '#12D8CC',
