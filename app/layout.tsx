@@ -13,7 +13,8 @@ export const metadata: Metadata = {
     default: 'Metta Legita | Pianist, Composer, Educator',
     template: '%s | Metta Legita',
   },
-  description: 'Metta Legita is a pianist, composer, and music educator based in Phnom Penh, Cambodia. Known for jazz-contemporary works and cross-disciplinary projects.',
+  description:
+    'Metta Legita is a pianist, composer, and music educator based in Phnom Penh, Cambodia. Known for jazz-contemporary works and cross-disciplinary projects.',
   keywords: ['pianist', 'composer', 'music educator', 'jazz', 'Phnom Penh', 'Cambodia'],
   authors: [{ name: 'Metta Legita' }],
   openGraph: {
@@ -30,8 +31,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-}
-  title: 'Rivor Template',
 }
 
 export default function RootLayout({
