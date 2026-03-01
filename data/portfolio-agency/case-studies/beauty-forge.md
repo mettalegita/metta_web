@@ -1,7 +1,9 @@
 ---
-title: 'Jazz at the Temple: Cultural Fusion Performance'
-description: 'Innovative jazz performance series blending contemporary jazz with traditional Cambodian musical elements, presented at historic temples and cultural sites across Phnom Penh.'
-thumbnail: /images/home-3/services-4.png
+title: "Sori: Featurin Finn Aberdein"
+description: Innovative jazz performance series blending contemporary jazz with
+  traditional Cambodian musical elements, presented at historic temples and
+  cultural sites across Phnom Penh.
+thumbnail: /images/uploads/metta-fin_sori.webp
 coverImage: /images/services/services-details-img.png
 badge: Performance Project
 ---
