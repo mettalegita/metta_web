@@ -58,12 +58,8 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Invalid email address.' }, { status: 400 })
     }
 
-    // Verify reCAPTCHA if token is provided and secret key is configured
-    if (process.env.RECAPTCHA_SECRET_KEY) {
-      if (!body.recaptchaToken) {
-        return NextResponse.json({ error: 'reCAPTCHA verification failed. Please try again.' }, { status: 400 })
-      }
-
+    // Verify reCAPTCHA if both token and secret key are available
+    if (process.env.RECAPTCHA_SECRET_KEY && body.recaptchaToken) {
       const recaptchaResult = await verifyRecaptcha(body.recaptchaToken)
       if (!recaptchaResult.success || recaptchaResult.score < 0.5) {
         return NextResponse.json({ error: 'Spam detected. Please try again later.' }, { status: 403 })
@@ -111,7 +107,13 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ success: true })
   } catch (error) {
-    console.error('Contact form error:', error)
-    return NextResponse.json({ error: 'Failed to send message. Please try again later.' }, { status: 500 })
+    const errMsg = error instanceof Error ? error.message : String(error)
+    console.error('Contact form error:', errMsg, error)
+
+    const isDev = process.env.NODE_ENV === 'development'
+    return NextResponse.json(
+      { error: isDev ? `Send failed: ${errMsg}` : 'Failed to send message. Please try again later.' },
+      { status: 500 },
+    )
   }
 }
