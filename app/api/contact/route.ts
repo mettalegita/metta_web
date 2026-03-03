@@ -19,12 +19,14 @@ interface RecaptchaResponse {
 }
 
 function getRecipientEmail(): string {
+  if (process.env.CONTACT_EMAIL) return process.env.CONTACT_EMAIL
+
   try {
     const settingsPath = path.join(process.cwd(), 'data', 'siteSettings.json')
     const settings = JSON.parse(fs.readFileSync(settingsPath, 'utf-8'))
-    return settings.site?.contactEmail || process.env.CONTACT_EMAIL || 'mirzalazuardi@gmail.com'
+    return settings.site?.contactEmail || 'mirzalazuardi@gmail.com'
   } catch {
-    return process.env.CONTACT_EMAIL || 'mirzalazuardi@gmail.com'
+    return 'mirzalazuardi@gmail.com'
   }
 }
 
