@@ -23,12 +23,12 @@ const SmoothScrollProvider = ({ children }: Readonly<SmoothScrollingProps>) => {
 
   // Scroll to top on route change
   useEffect(() => {
-    lenisRef.current?.scrollTo(0, { immediate: true })
+    lenisRef.current?.lenis?.scrollTo(0, { immediate: true })
   }, [pathname, searchParams])
 
   // Handle .lenis-scroll-to click events
   useEffect(() => {
-    const lenis = lenisRef.current
+    const lenis = lenisRef.current?.lenis
     if (!lenis) return
 
     const handleClick = (e: Event) => {
