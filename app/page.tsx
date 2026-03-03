@@ -41,11 +41,7 @@ const Home = () => {
         <HeroV3 image={hero.image} title={hero.title} subtitle={hero.subtitle} />
       </section>
       <section id="about">
-        <AboutV2
-          description={about.description}
-          emailPlaceholder={about.emailPlaceholder}
-          buttonText={about.buttonText}
-        />
+        <AboutV2 description={about.description} />
       </section>
       <section id="portfolio">
         <PortfolioV3 sectionData={portfolioSectionData} />

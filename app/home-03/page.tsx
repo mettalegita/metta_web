@@ -22,11 +22,7 @@ const homepage3 = () => {
   return (
     <LayoutOne>
       <HeroV3 image={hero.image} title={hero.title} subtitle={hero.subtitle} />
-      <AboutV2
-        description={about.description}
-        emailPlaceholder={about.emailPlaceholder}
-        buttonText={about.buttonText}
-      />
+      <AboutV2 description={about.description} />
       <PortfolioV3 />
       <ServicesV3
         sectionTitle={services.sectionTitle}
