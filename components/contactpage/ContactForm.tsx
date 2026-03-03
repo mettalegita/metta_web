@@ -41,9 +41,10 @@ const ContactForm = () => {
   }, [])
 
   const getRecaptchaToken = useCallback(async (): Promise<string | null> => {
-    if (!RECAPTCHA_SITE_KEY || !recaptchaLoaded) return null
+    if (!RECAPTCHA_SITE_KEY || !recaptchaLoaded || !window.grecaptcha) return null
 
-    return new Promise((resolve) => {
+    const timeout = new Promise<null>((resolve) => setTimeout(() => resolve(null), 5000))
+    const tokenPromise = new Promise<string | null>((resolve) => {
       window.grecaptcha.ready(async () => {
         try {
           const token = await window.grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'contact_form' })
@@ -53,6 +54,8 @@ const ContactForm = () => {
         }
       })
     })
+
+    return Promise.race([tokenPromise, timeout])
   }, [recaptchaLoaded])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
