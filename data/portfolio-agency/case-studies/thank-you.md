@@ -1,21 +1,33 @@
 ---
-title: Thank you
-description: Discover the innovative Best Sellers No-Code Website platform,
-  designed to empower businesses with a seamless blend of creativity and
-  functionality. Experience a user-friendly interface that eliminates coding
-  hassles.
+title: Thank You (2021)
+description: A therapeutic piano and vocal composition inspired by the Hawaiian Ho'oponopono mantra. The music creates a peaceful and meditative atmosphere centered on gratitude and healing.
 thumbnail: /images/uploads/metta_thank-you.webp
 coverImage: /images/services/services-details-img.png
-badge: Project case study
+badge: Therapeutic Music
 ---
 
-### Learn about the project - project overview
+### Overview
 
-Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to a user-friendly interface.
+Thank You is a therapeutic music composition by Metta Legita inspired by the Hawaiian Ho'oponopono mantra. The piece combines piano and vocal elements to create a calm and meditative musical atmosphere.
 
-### Designing the User Experience
+### Artistic Concept
 
-Designing the User Experience (UX) is a meticulous process that involves understanding user needs, preferences, and behaviors to create intuitive and seamless interactions. Through thoughtful research and analysis, we strive to craft interfaces that not only meet user expectations but exceed them. In this section, we delve into our approach to UX design, exploring methodologies, techniques, and best practices employed to create engaging and user-centric experiences.
+Rooted in the philosophy of gratitude, forgiveness, and emotional healing, the music invites listeners into a reflective space. The gentle piano textures and affirmational vocal elements are designed to encourage mindfulness and inner peace.
+
+### Recording & Collaboration
+
+The recording centers around piano and voice, emphasizing simplicity and emotional clarity as core elements of the piece.
+
+### Credits
+
+- Metta Legita: Vocal and Piano
+- Carrie Herbert: Backing Vocal
+- Arranger and Producer: Carrie Herbert
+- Mixing and Mastering: Tom Cory
+
+This song is inspired by Ho'oponopono, a Hawaiian prayer for forgiveness. The melody came to me while listening to its beautiful recurring words at the piano.
+
+https://youtu.be/huGacD2RsU4 that involves understanding user needs, preferences, and behaviors to create intuitive and seamless interactions. Through thoughtful research and analysis, we strive to craft interfaces that not only meet user expectations but exceed them. In this section, we delve into our approach to UX design, exploring methodologies, techniques, and best practices employed to create engaging and user-centric experiences.
 
 ### Structuring the Information Architecture
 

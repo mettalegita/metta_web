@@ -1,15 +1,16 @@
 ---
-title: Contraindigo (2010)
-description: Contra Indigo was a band formed in Bandung, West Java, Indonesia,
-  bringing together musicians with a shared passion for groove-based music that
-  blends elements of pop, jazz, funk, and contemporary band sounds. For Metta
-  Legita, this project represents an important early chapter in her musical
-  journey as a pianist and performer in Indonesia.
+title: Contra Indigo (2010)
+description: A groove-driven band project from Bandung blending pop, jazz, and funk influences. Contra Indigo brought together a group of young musicians, including Metta Legita, and earned a nomination at the Anugerah Musik Indonesia while performing across Indonesia, including the renowned Java Jazz Festival.
 thumbnail: /images/uploads/contraindigo.webp
 coverImage: /images/services/services-details-img.png
-badge: Project case study
+badge: Band Project
 ---
-### Artistic Conceptaa
+
+### Overview
+
+Contra Indigo was a band formed in Bandung, West Java, Indonesia, bringing together musicians with a shared passion for groove-based music that blends elements of pop, jazz, funk, and contemporary band sounds. For Metta Legita, this project represents an important early chapter in her musical journey as a pianist and performer in Indonesia.
+
+### Artistic Concept
 
 The music of Contra Indigo focused on energetic grooves, expressive ensemble playing, and jazz-influenced harmonies. Through collaborative arrangements and dynamic interaction between instruments, the band created a vibrant sound that combined rhythmic drive with melodic creativity.
 

@@ -1,16 +1,31 @@
 ---
-title: I am love
-description: Full production of contemporary classical music album featuring
-  original compositions, professional recording sessions, and international
-  distribution through streaming platforms.
+title: I Am Love (2021)
+description: An affirmation-based piano and vocal piece designed to support mindfulness and emotional well-being. The composition invites listeners into a calm and reflective musical space.
 thumbnail: /images/uploads/metta_i-am-love.webp
 coverImage: /images/services/services-details-img.png
-badge: Recording Project
+badge: Therapeutic Music
 ---
 
-### Project Overview - Album Production
+### Overview
 
-"Symphonic Reflections" is a contemporary classical music album featuring original compositions for piano and chamber orchestra. This comprehensive production project included composition, professional recording, mixing/mastering, and international distribution, showcasing the fusion of classical technique with contemporary musical language.
+I Am Love is a therapeutic music composition that combines piano and voice in an affirmation-based musical experience. The piece explores themes of self-awareness, compassion, and emotional well-being.
+
+### Artistic Concept
+
+Inspired by meditation and positive affirmation practices, the composition creates a peaceful sonic environment where music supports reflection and emotional balance.
+
+### Recording & Collaboration
+
+Featuring piano and vocal elements, the recording emphasizes clarity, calmness, and expressive simplicity to support the meditative character of the piece.
+
+### Credits
+
+- Metta Legita: Vocal and Piano
+- Carrie Herbert: Backing Vocal
+- Arranger and Producer: Carrie Herbert
+- Mixing and Mastering: Tom Cory
+
+https://youtu.be/fuWqjiNqoGY
 
 ### Musical Content Development
 
@@ -84,7 +99,6 @@ This project demonstrates the viability of contemporary classical music in moder
 ![Recording session](/images/services/business-big.png)
 
 The album's success validates the potential for contemporary classical music to thrive in modern markets while maintaining artistic excellence and cultural relevance.
-
 
 ### Learn about the project - project overview
 
