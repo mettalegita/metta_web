@@ -9,7 +9,7 @@ thumbnail: /images/uploads/contraindigo.webp
 coverImage: /images/services/services-details-img.png
 badge: Project case study
 ---
-### Artistic Concept
+### Artistic Concepta
 
 The music of Contra Indigo focused on energetic grooves, expressive ensemble playing, and jazz-influenced harmonies. Through collaborative arrangements and dynamic interaction between instruments, the band created a vibrant sound that combined rhythmic drive with melodic creativity.
 
