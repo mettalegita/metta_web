@@ -4,10 +4,9 @@ description: Innovative jazz performance series blending contemporary jazz with
   traditional Cambodian musical elements, presented at historic temples and
   cultural sites across Phnom Penh.
 thumbnail: /images/uploads/metta-fin_sori.webp
-coverImage: /images/services/services-details-img.png
+coverImage: /images/uploads/metta-fin_sori.webp
 badge: Performance Project
 ---
-
 ### Project Overview - Jazz Performance Series
 
 "Jazz at the Temple" is a groundbreaking performance series that brings contemporary jazz music to Cambodia's historic temples and cultural sites. This innovative project combines the improvisational freedom of jazz with traditional Cambodian musical elements, creating unique cultural fusion performances that resonate with both local audiences and international visitors.
@@ -62,21 +61,16 @@ The success of "Jazz at the Temple" has led to plans for:
 **International Collaborations:** Partnering with jazz musicians from other Southeast Asian countries
 **Recording Project:** Creating a live album documenting the series' innovative approach
 
-![Jazz performance at temple](/images/project-details/project-details-button.png)
-
 This project demonstrates the power of music as a bridge between tradition and modernity, using jazz as a contemporary lens to explore and celebrate Cambodia's rich cultural heritage.
 
 ### Performance Statistics
 
-- **Venues:** 8 historic temple sites across Phnom Penh
-- **Audience Reach:** 3,500+ attendees over two seasons
-- **Media Coverage:** Featured in international jazz publications and Cambodian cultural media
-- **Community Impact:** Increased interest in both jazz and traditional Cambodian music among young audiences
-
-![Cultural fusion performance](/images/services/business-big.png)
+* **Venues:** 8 historic temple sites across Phnom Penh
+* **Audience Reach:** 3,500+ attendees over two seasons
+* **Media Coverage:** Featured in international jazz publications and Cambodian cultural media
+* **Community Impact:** Increased interest in both jazz and traditional Cambodian music among young audiences
 
 "Jazz at the Temple" continues to evolve, pushing the boundaries of cultural fusion while honoring Cambodia's musical traditions and introducing contemporary jazz to new audiences.
-
 
 ### Learn about the project - project overview
 
@@ -90,8 +84,6 @@ Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly 
 
 Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
 
-![Project images](/images/project-details/project-details-button.png)
-
 Designing the User Experience (UX) is a meticulous process that involves understanding user needs, preferences, and behaviors to create intuitive and seamless interactions. Through thoughtful research and analysis, we strive to craft interfaces
 
 that not only meet user expectations but exceed them. In this section, we delve into our approach to UX design, exploring methodologies, techniques, and best practices employed to create engaging and user-centric experiences
@@ -101,7 +93,5 @@ that not only meet user expectations but exceed them. In this section, we delve 
 Information architecture (IA) is the structural design of digital information environments, such as websites and applications, to facilitate intuitive navigation and efficient access to content. It involves organizing and categorizing information in a logical and hierarchical manner, ensuring that users can easily find what they're looking for. Information architecture considers factors such as user goals, business objectives, and content relationships to create a cohesive and user-friendly
 
 structure. Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
-
-![Project images](/images/services/business-big.png)
 
 Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
