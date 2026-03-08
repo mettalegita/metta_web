@@ -1,6 +1,6 @@
 ---
 title: Contraindigo (2010)
-description: Contra Indigo was a band formed in Bandung, West Java, Indonesia,
+description: aContra Indigo was a band formed in Bandung, West Java, Indonesia,
   bringing together musicians with a shared passion for groove-based music that
   blends elements of pop, jazz, funk, and contemporary band sounds. For Metta
   Legita, this project represents an important early chapter in her musical
