@@ -1,9 +1,10 @@
 ---
-title: Contraindigo
-description: Introducing our latest creation the Best Sellers No-Code Website!
-  Seamlessly blending creativity and functionality, this innovative platform
-  empowers businesses to showcase their top products with style and efficiency.
-  Say goodbye to coding hassles and hello to a user-friendly interface.
+title: Contraindigo (2010)
+description: Contra Indigo was a band formed in Bandung, West Java, Indonesia,
+  bringing together musicians with a shared passion for groove-based music that
+  blends elements of pop, jazz, funk, and contemporary band sounds. For Metta
+  Legita, this project represents an important early chapter in her musical
+  journey as a pianist and performer in Indonesia.
 thumbnail: /images/uploads/contraindigo.webp
 coverImage: /images/services/services-details-img.png
 badge: Project case study
