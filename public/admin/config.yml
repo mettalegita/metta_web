@@ -94,7 +94,12 @@ collections:
                   - { label: ID, name: id, widget: number, value_type: int }
                   - { label: Title, name: title, widget: string }
                   - { label: Subtitle, name: subtitle, widget: string }
-                  - { label: Features, name: features, widget: list, field: { label: Feature, name: feature, widget: string } }
+                  - {
+                      label: Features,
+                      name: features,
+                      widget: list,
+                      field: { label: Feature, name: feature, widget: string },
+                    }
 
   # Clients Section
   - name: clients
@@ -339,3 +344,4 @@ collections:
       - { label: Thumbnail Image, name: thumbnail, widget: image }
       - { label: Cover Image, name: coverImage, widget: image }
       - { label: Badge, name: badge, widget: string, default: 'Case Study' }
+      - { label: Body, name: body, widget: markdown }
