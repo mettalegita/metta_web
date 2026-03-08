@@ -1,63 +1,25 @@
 ---
-title: Hampura
-description: A commissioned orchestral work blending traditional Cambodian
-  musical elements with contemporary classical composition, premiered by the
-  Budapest Scoring Orchestra.
+title: Hampura (2024)
+description: An intimate solo piano composition exploring expressive melody and emotional depth through minimalist piano textures.
 thumbnail: /images/uploads/metta_hampura.webp
 coverImage: /images/services/services-details-img.png
-badge: Composition Project
+badge: Solo Piano
 ---
 
-### Project Overview - Orchestral Composition
+### Overview
 
-"Reflections of Cambodia" is a commissioned orchestral work that explores the intersection of traditional Cambodian musical heritage and contemporary classical composition. This 15-minute piece for full orchestra was commissioned by the Cambodian Cultural Ministry and premiered by the Budapest Scoring Orchestra in 2023.
+The title 'Hampura' comes from the Sundanese language and carries a profound meaning of forgiveness, acceptance, and inner peace. I sought to channel these universal sentiments, which are at the heart of the piece, through the expressive medium of piano composition. In many ways, Hampura represents my own journey of self-discovery and growth. As I composed and refined the work, I found myself delving deeper into the complexities of the human experience – the joys and sorrows, the triumphs and struggles that shape us.
 
-### Musical Concept and Development
+### Artistic Concept
 
-The composition draws inspiration from traditional Cambodian musical elements while embracing modern orchestral techniques. Key influences include:
+Through a minimalist piano texture, the music focuses on emotional depth and subtle phrasing. The composition invites listeners into a quiet space of contemplation and introspection.
 
-- **Traditional Cambodian Scales:** Integration of pentatonic scales and modal systems from traditional Khmer music
-- **Rhythmic Complexity:** Incorporation of asymmetrical rhythms inspired by traditional Cambodian percussion patterns
-- **Cultural Fusion:** Blending acoustic orchestral instruments with subtle electronic elements to represent Cambodia's modern identity
+### Recording & Performance
 
-### Composition Process
+Performed as a solo piano work, the recording highlights Legita's expressive piano voice and her ability to communicate emotion through her music.
 
-**Research Phase:** Extensive study of traditional Cambodian musical instruments, scales, and performance practices
-**Sketch Development:** Initial thematic material combining traditional Cambodian melodic patterns with Western orchestral writing
-**Orchestration:** Careful scoring for full orchestra, balancing acoustic timbres with occasional electronic reinforcements
-**Collaboration:** Working closely with Cambodian musicians and cultural experts to ensure authentic representation
+Filmed by Björn Leonhard. Recorded at Pianissimo Phnom Penh on 4 March 2024.
 
-### Technical Challenges and Solutions
+I'm thrilled to present this video recording of my new composition Hampura. It's a deeply personal work that I'm honoured to share with you. The title 'Hampura' comes from the Sundanese language and carries a profound meaning of forgiveness, acceptance, and inner peace. I sought to channel these universal sentiments, which are at the heart of the piece, through the expressive medium of piano composition. In many ways, Hampura represents my own journey of self-discovery and growth.
 
-**Cultural Authenticity:** Ensuring traditional elements were represented respectfully while maintaining musical coherence
-**Orchestral Balance:** Creating clear textures in a full orchestra setting while preserving the delicate Cambodian musical elements
-**Performance Feasibility:** Writing music that was both artistically ambitious and practically performable by professional orchestras
-
-### Performance and Reception
-
-The premiere performance by the Budapest Scoring Orchestra received critical acclaim for its innovative approach to cultural fusion. The work has since been performed at cultural festivals across Southeast Asia and included in the orchestra's international tour repertoire.
-
-### Impact and Legacy
-
-"Reflections of Cambodia" represents a significant contribution to contemporary classical music, demonstrating how traditional musical heritage can inform and enrich modern composition. The work continues to be performed internationally, bringing Cambodian musical traditions to global audiences.
-
-![Orchestral score](/images/project-details/project-details-button.png)
-
-This project showcases the power of music as a bridge between cultures, using orchestral composition to preserve and celebrate Cambodia's rich musical heritage while pushing the boundaries of contemporary classical music.
-
-### Musical Innovation
-
-The composition employs several innovative techniques:
-
-**Microtonal Elements:** Subtle pitch inflections inspired by traditional Cambodian vocal techniques
-**Polyrhythmic Structures:** Complex rhythmic layering reflecting traditional Cambodian musical practices
-**Extended Orchestral Techniques:** Creative use of orchestral instruments to evoke traditional Cambodian timbres
-
-The result is a work that honors tradition while embracing innovation, creating a musical dialogue between past and present, East and West.
-
-
-structure. Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
-
-![Project images](/images/services/business-big.png)
-
-Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
+I would also like to thank Mathias for helping and supporting the recording, Vardan Ovsepian for his piano tutoring and inspiration, and Deon and Jesse for assisting with the audio. I'm delighted to share this musical work with you and look forward to continuing my artistic journeys.
