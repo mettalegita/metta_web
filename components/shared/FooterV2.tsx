@@ -16,17 +16,17 @@ const FooterV2 = () => {
             {/* Reach Us Section */}
             <div className="pr-8 max-lg:basis-full">
               <p className="mb-5 max-w-[360px]">
-                Rivor Agency offers global business and technology services, transforming brands with customized
-                solutions for over a decade.
+                Metta Legita is a pianist, composer, and educator based in Phnom Penh, Cambodia. Specializing in jazz,
+                contemporary, and orchestral music.
               </p>
               <h5 className="mb-3 font-satoshi text-2xl font-medium leading-[1.1]">Address</h5>
               <p>
-                2261 Market Street #5039 San <br />
-                Francisco, CA 94114
+                Phnom Penh, <br />
+                Cambodia
               </p>
               <div className="mt-7 flex gap-6 md:mt-10">
                 <span>
-                  <Link href="https://www.facebook.com/staticmania">
+                  <Link href="https://www.facebook.com/mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={23}
@@ -49,7 +49,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://www.youtube.com/channel/UCAaNCn1kzI1fXD4-fPD157Q">
+                  <Link href="https://www.youtube.com/@mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -67,7 +67,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://www.instagram.com/staticmania">
+                  <Link href="https://instagram.com/mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -92,7 +92,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://dribbble.com/staticmania/">
+                  <Link href="https://dribbble.com/mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -124,7 +124,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://www.figma.com/@staticmania">
+                  <Link href="https://www.figma.com/@mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
@@ -161,75 +161,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://discord.gg/fSxDJyvJmr">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="stroke-[#565656] duration-200 hover:stroke-primary"
-                      width={23}
-                      height={23}
-                      viewBox="0 0 20 20"
-                      fill="none">
-                      <path
-                        d="M7.5 12.1875C8.01777 12.1875 8.4375 11.7678 8.4375 11.25C8.4375 10.7322 8.01777 10.3125 7.5 10.3125C6.98223 10.3125 6.5625 10.7322 6.5625 11.25C6.5625 11.7678 6.98223 12.1875 7.5 12.1875Z"
-                        fill="#565656"
-                      />
-                      <path
-                        d="M12.5 12.1875C13.0178 12.1875 13.4375 11.7678 13.4375 11.25C13.4375 10.7322 13.0178 10.3125 12.5 10.3125C11.9822 10.3125 11.5625 10.7322 11.5625 11.25C11.5625 11.7678 11.9822 12.1875 12.5 12.1875Z"
-                        fill="#565656"
-                      />
-                      <path
-                        d="M5.8125 6.24985C7.16746 5.82575 8.58012 5.6149 9.99987 5.62485C11.4196 5.6149 12.8322 5.82575 14.1872 6.24983"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M14.1871 13.75C12.8322 14.1741 11.4195 14.3849 9.99981 14.375C8.58008 14.3849 7.16744 14.1741 5.8125 13.75"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M12.1148 14.2255L13.0542 16.1044C13.1168 16.2306 13.2204 16.3319 13.348 16.3916C13.4756 16.4513 13.6196 16.466 13.7567 16.4333C15.6737 15.9646 17.3264 15.1474 18.5301 14.1012C18.622 14.0221 18.6892 13.9182 18.7234 13.802C18.7577 13.6857 18.7576 13.562 18.7232 13.4457L16.069 4.59837C16.0422 4.50915 15.9959 4.42704 15.9334 4.35799C15.8708 4.28894 15.7937 4.2347 15.7076 4.19922C14.9577 3.89221 14.1822 3.65213 13.39 3.48181C13.2391 3.44873 13.0813 3.47261 12.9469 3.54884C12.8125 3.62508 12.711 3.74829 12.662 3.89481L12.0391 5.76353"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M7.88822 14.2255L6.94874 16.1044C6.88614 16.2306 6.78258 16.3319 6.65499 16.3916C6.5274 16.4513 6.38332 16.466 6.2463 16.4333C4.32922 15.9646 2.67656 15.1474 1.47286 14.1012C1.38094 14.0222 1.31381 13.9182 1.27955 13.802C1.24529 13.6857 1.24536 13.562 1.27974 13.4457L3.93395 4.59836C3.96074 4.50915 4.00709 4.42703 4.06961 4.35798C4.13214 4.28894 4.20927 4.2347 4.29539 4.19921C5.04524 3.8922 5.82077 3.65213 6.61293 3.48181C6.76385 3.44873 6.92168 3.47261 7.05607 3.54884C7.19046 3.62508 7.29194 3.74829 7.34099 3.89481L7.9639 5.76353"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M7.5 12.1875C8.01777 12.1875 8.4375 11.7678 8.4375 11.25C8.4375 10.7322 8.01777 10.3125 7.5 10.3125C6.98223 10.3125 6.5625 10.7322 6.5625 11.25C6.5625 11.7678 6.98223 12.1875 7.5 12.1875Z"
-                        fill="#565656"
-                      />
-                      <path
-                        d="M12.5 12.1875C13.0178 12.1875 13.4375 11.7678 13.4375 11.25C13.4375 10.7322 13.0178 10.3125 12.5 10.3125C11.9822 10.3125 11.5625 10.7322 11.5625 11.25C11.5625 11.7678 11.9822 12.1875 12.5 12.1875Z"
-                        fill="#565656"
-                      />
-                      <path
-                        d="M5.8125 6.24985C7.16746 5.82575 8.58012 5.6149 9.99987 5.62485C11.4196 5.6149 12.8322 5.82575 14.1872 6.24983"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M14.1871 13.75C12.8322 14.1741 11.4195 14.3849 9.99981 14.375C8.58008 14.3849 7.16744 14.1741 5.8125 13.75"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M12.1148 14.2255L13.0542 16.1044C13.1168 16.2306 13.2204 16.3319 13.348 16.3916C13.4756 16.4513 13.6196 16.466 13.7567 16.4333C15.6737 15.9646 17.3264 15.1474 18.5301 14.1012C18.622 14.0221 18.6892 13.9182 18.7234 13.802C18.7577 13.6857 18.7576 13.562 18.7232 13.4457L16.069 4.59837C16.0422 4.50915 15.9959 4.42704 15.9334 4.35799C15.8708 4.28894 15.7937 4.2347 15.7076 4.19922C14.9577 3.89221 14.1822 3.65213 13.39 3.48181C13.2391 3.44873 13.0813 3.47261 12.9469 3.54884C12.8125 3.62508 12.711 3.74829 12.662 3.89481L12.0391 5.76353"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        d="M7.88822 14.2255L6.94874 16.1044C6.88614 16.2306 6.78258 16.3319 6.65499 16.3916C6.5274 16.4513 6.38332 16.466 6.2463 16.4333C4.32922 15.9646 2.67656 15.1474 1.47286 14.1012C1.38094 14.0222 1.31381 13.9182 1.27955 13.802C1.24529 13.6857 1.24536 13.562 1.27974 13.4457L3.93395 4.59836C3.96074 4.50915 4.00709 4.42703 4.06961 4.35798C4.13214 4.28894 4.20927 4.2347 4.29539 4.19921C5.04524 3.8922 5.82077 3.65213 6.61293 3.48181C6.76385 3.44873 6.92168 3.47261 7.05607 3.54884C7.19046 3.62508 7.29194 3.74829 7.34099 3.89481L7.9639 5.76353"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </Link>
-                </span>
-                <span>
-                  <Link href="https://www.linkedin.com/company/staticmania/">
+                  <Link href="https://linkedin.com/in/mettalegita">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
