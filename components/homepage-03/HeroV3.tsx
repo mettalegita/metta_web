@@ -25,6 +25,7 @@ const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle 
       ctx = gsap.context(() => {
         gsap.to(heroZoomImgRef.current, {
           scale: 3.3,
+          transformOrigin: 'center center',
           ease: 'expoScale',
           scrollTrigger: {
             trigger: heroZoomImgRef.current,
@@ -47,7 +48,7 @@ const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle 
           ref={heroZoomImgRef}
           width={570}
           height={330}
-          className="absolute left-0 top-0 h-full w-full object-cover"
+          className="absolute left-0 top-0 h-full w-full origin-center object-cover"
           alt="Metta Legita - Pianist"
           priority
           fetchPriority="high"
