@@ -55,12 +55,7 @@
         "id": 4,
         "title": "Music Education",
         "subtitle": "School programs and workshops",
-        "features": [
-          "School music curriculum",
-          "Group workshops",
-          "Masterclasses",
-          "Educational consulting"
-        ]
+        "features": ["School music curriculum", "Group workshops", "Masterclasses", "Educational consulting"]
       }
     ]
   },
@@ -131,6 +126,7 @@
     "instagram": "https://instagram.com/mettalegita",
     "youtube": "https://youtube.com/@mettalegita",
     "spotify": "https://open.spotify.com/artist/mettalegita",
+    "appleMusic": "https://music.apple.com/us/artist/metta-legita/1250526729",
     "patreon": "https://patreon.com/mettalegita"
   },
   "contact": {
