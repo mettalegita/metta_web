@@ -1,8 +1,8 @@
 ---
 title: Home With You (2019)
 description: A collaborative songwriting project with Carrie Herbert exploring themes of belonging, connection, and emotional warmth through a contemporary pop-inspired sound.
-thumbnail: /images/uploads/contraindigo.webp
-coverImage: /images/services/services-details-img.png
+thumbnail: /images/uploads/metta-carrie_home-with-you.webp
+coverImage: /images/uploads/metta-carrie_home-with-you.webp
 badge: Collaborative Project
 ---
 

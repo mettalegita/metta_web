@@ -1,8 +1,8 @@
 ---
 title: Cikaracak (2021)
 description: A flute and piano composition created with Jennifer Bird, exploring lyrical chamber music textures and Indonesian musical imagery.
-thumbnail: /images/uploads/contraindigo.webp
-coverImage: /images/services/services-details-img.png
+thumbnail: /images/uploads/metta-jennifer_cikaracak.webp
+coverImage: /images/uploads/metta-jennifer_cikaracak.webp
 badge: Chamber Music
 ---
 

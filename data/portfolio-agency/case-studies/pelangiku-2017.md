@@ -1,8 +1,8 @@
 ---
 title: Pelangiku (2017)
 description: A colorful Indonesian children's song composed by Metta Legita with lyrics by Thalita. The music celebrates imagination and joy through playful melodies and uplifting rhythms.
-thumbnail: /images/uploads/metta-fin_sori.webp
-coverImage: /images/services/services-details-img.png
+thumbnail: /images/uploads/adna_pelangiku.webp
+coverImage: /images/uploads/adna_pelangiku.webp
 badge: Children's Music
 ---
 
