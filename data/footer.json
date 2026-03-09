@@ -4,15 +4,14 @@
       "title": "Music",
       "links": [
         { "href": "/portfolio-agency/case-study", "label": "Recordings" },
-        { "href": "/services", "label": "Services" },
-        { "href": "/about", "label": "About" }
+        { "href": "/#about", "label": "About" },
+        { "href": "/#faq", "label": "FAQ" }
       ]
     },
     {
       "title": "Connect",
       "links": [
         { "href": "/contact", "label": "Contact" },
-        { "href": "/faq", "label": "FAQ" },
         { "href": "/terms", "label": "Terms" },
         { "href": "/policy", "label": "Privacy" }
       ]
