@@ -1,8 +1,8 @@
 ---
 title: Bertemu di Hari Raya (2022)
 description: A festive collaboration with vocalist Sharliza Jelita, celebrating reunion and cultural traditions through joyful melody and song.
-thumbnail: /images/uploads/contraindigo.webp
-coverImage: /images/services/services-details-img.png
+thumbnail: /images/uploads/sharliza_bertemu-di-hari-raya.webp
+coverImage: /images/uploads/sharliza_bertemu-di-hari-raya.webp
 badge: Collaborative Project
 ---
 

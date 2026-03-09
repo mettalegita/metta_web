@@ -1,8 +1,8 @@
 ---
 title: Kala Senja Menghilang (2020)
 description: A collaboration with Indonesian band The Panic blending expressive piano textures with contemporary band sound, inspired by the atmosphere of twilight.
-thumbnail: /images/uploads/contraindigo.webp
-coverImage: /images/services/services-details-img.png
+thumbnail: /images/uploads/metta-the-panic_kala-senja-menghilang.webp
+coverImage: /images/uploads/metta-the-panic_kala-senja-menghilang.webp
 badge: Collaborative Project
 ---
 
