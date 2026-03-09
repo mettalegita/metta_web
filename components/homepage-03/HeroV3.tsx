@@ -10,8 +10,12 @@ interface HeroV3Props {
 
 const HeroV3 = ({ image = '/images/homeV3-hero.png', title = 'Agency', subtitle = 'Rivor' }: HeroV3Props) => {
   const heroZoomImgRef = useRef<HTMLImageElement>(null)
+  const initialized = useRef(false)
 
   useEffect(() => {
+    if (initialized.current) return
+    initialized.current = true
+
     let ctx: any
     const initGSAP = async () => {
       const { default: gsap } = await import('gsap')
