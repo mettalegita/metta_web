@@ -43,4 +43,4 @@ The recording was produced with the Budapest Scoring Orchestra and conducted by 
 
 ### Links
 
-[Apple Music](https://music.apple.com) | [Spotify](https://spotify.com)
+[Apple Music](https://music.apple.com/us/artist/metta-legita/1250526729) | [Spotify](https://spotify.com)
