@@ -5,7 +5,7 @@
     "subtitle": "Metta"
   },
   "about": {
-    "description": "Metta Legita is a pianist, composer, and music educator based in Phnom Penh, Cambodia. Known for her jazz-contemporary works and cross-disciplinary projects, she has performed internationally and released orchestral work with the Budapest Scoring Orchestra.",
+    "description": "Metta Legita is a pianist, composer, and music educator from Bandung, Indonesia. Known for her jazz-contemporary works and cross-disciplinary projects, she has performed internationally.",
     "emailPlaceholder": "Your email here",
     "buttonText": "Send"
   },
@@ -55,7 +55,12 @@
         "id": 4,
         "title": "Music Education",
         "subtitle": "School programs and workshops",
-        "features": ["School music curriculum", "Group workshops", "Masterclasses", "Educational consulting"]
+        "features": [
+          "School music curriculum",
+          "Group workshops",
+          "Masterclasses",
+          "Educational consulting"
+        ]
       }
     ]
   },
