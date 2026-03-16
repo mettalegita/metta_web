@@ -17,49 +17,34 @@
     "items": [
       {
         "id": 1,
-        "title": "Piano Lessons",
-        "subtitle": "Private instruction for all ages and levels",
+        "title": "The Classroom",
+        "subtitle": "Mentoring students and consulting for institutions",
         "features": [
-          "One-on-one personalized lessons",
-          "Jazz & Contemporary techniques",
-          "Classical piano foundations",
-          "Music theory & ear training",
-          "Performance preparation"
+          "Personalized Instruction: Technique, theory, ear training, and exam preparation for all levels",
+          "Genre Mastery: Classical literature, jazz improvisation, and contemporary arrangements",
+          "School Programs: Curriculum development, Workshops, Group theory, ensemble playing, and songwriting classes."
         ]
       },
       {
         "id": 2,
-        "title": "Music Composition",
-        "subtitle": "Original works for various ensembles",
+        "title": "The Stage",
+        "subtitle": "Bringing music to audiences through diverse ensembles",
         "features": [
-          "Jazz & Contemporary compositions",
-          "Orchestral arrangements",
-          "Film scoring",
-          "Cross-media projects",
-          "Chamber music"
+          "Jazz & Contemporary: Sets for solo piano, trios, quartets, and big bands",
+          "Collaborations: Orchestral performances, chamber music, and cross-disciplinary art",
+          "Events: Festivals, concert halls, corporate events, and cultural celebrations",
+          "Custom Repertoire: Tailored performances for weddings and private recitals"
         ]
       },
       {
         "id": 3,
-        "title": "Live Performance",
-        "subtitle": "Solo and ensemble performances",
+        "title": "The Studio",
+        "subtitle": "Creating original works and professional arrangements",
         "features": [
-          "Solo piano concerts",
-          "Jazz trio & quartet",
-          "Orchestral collaborations",
-          "Corporate & private events",
-          "Festival appearances"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Music Education",
-        "subtitle": "School programs and workshops",
-        "features": [
-          "School music curriculum",
-          "Group workshops",
-          "Masterclasses",
-          "Educational consulting"
+          "Original Works: Jazz, contemporary piano, and chamber music",
+          "Orchestration: Scoring for full orchestra and professional notation services",
+          "Media & Film: Custom compositions for film, media, and special occasions",
+          "The Process: From initial vision to performance-ready scores and parts"
         ]
       }
     ]
