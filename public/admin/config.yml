@@ -101,9 +101,27 @@ collections:
                       field: { label: Feature, name: feature, widget: string },
                     }
 
-  # Clients Section
+  # Image Marquee Section
+  - name: imageMarquee
+    label: Image Marquee Gallery
+    files:
+      - name: imageMarquee
+        label: Image Marquee Gallery
+        file: data/imageMarquee.json
+        fields:
+          - name: images
+            label: Gallery Images
+            widget: list
+            allow_add: true
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Image, name: image, widget: image }
+              - { label: Alt Text, name: alt, widget: string }
+              - { label: Link URL (optional), name: link, widget: string, required: false }
+
+  # Clients Section (Legacy)
   - name: clients
-    label: Performed & Collaborated Section
+    label: Performed & Collaborated Section (Legacy)
     files:
       - name: clients
         label: Performed & Collaborated Section

@@ -1,18 +1,17 @@
 import AboutV2 from '@/components/homepage-03/AboutV2'
 import BlogPost from '@/components/homepage-03/BlogPost'
-import Clients from '@/components/homepage-03/Clients'
 import HeroV3 from '@/components/homepage-03/HeroV3'
 import PortfolioV3 from '@/components/homepage-03/PortfolioV3'
 import ServicesV3 from '@/components/homepage-03/ServicesV3'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
+import ImageMarquee from '@/components/shared/ImageMarquee'
 import LayoutOne from '@/components/shared/LayoutOne'
-import clientsData from '@/data/clients.json'
 import faqHomeData from '@/data/faqHome.json'
 import homepageData from '@/data/homepage.json'
+import imageMarqueeData from '@/data/imageMarquee.json'
 import portfolioSectionData from '@/data/portfolioSection.json'
-import testimonialsData from '@/data/testimonials.json'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
@@ -55,14 +54,8 @@ const Home = () => {
           items={serviceItems.length > 0 ? serviceItems : services.items}
         />
       </section>
-      <section id="testimonials">
-        <Clients
-          italicTitle={clientsData.italicTitle}
-          headingTitle={clientsData.headingTitle}
-          description={clientsData.description}
-          logos={clientsData.logos}
-          testimonials={testimonialsData.testimonials}
-        />
+      <section id="gallery">
+        <ImageMarquee images={imageMarqueeData.images} />
       </section>
       <section id="blog">
         <BlogPost blogs={blogs} />
