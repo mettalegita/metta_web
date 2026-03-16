@@ -3,6 +3,7 @@ import ProjectContent from '@/components/projectpage/ProjectContent'
 import ProjectDetailsHero from '@/components/projectpage/ProjectDetailsHero'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
+import FollowMe from '@/components/shared/FollowMe'
 import LayoutOne from '@/components/shared/LayoutOne'
 import getMarkDownContent from '@/utils/GetMarkDownContent'
 import getMarkDownData from '@/utils/GetMarkDownData'
@@ -28,6 +29,7 @@ const CaseStudyDetails = async ({ params }: { params: Promise<{ slug: string }> 
         scale
       />
       <ProjectContent project={project} />
+      <FollowMe />
       <CTA>
         Let's create
         <CtaImageSlider
