@@ -28,7 +28,7 @@ const BlogPage = () => {
       />
       <BlogPostV5 Blogs={loadedBlogs} />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/08.png' },
@@ -36,8 +36,8 @@ const BlogPage = () => {
             { id: '3', img: '/images/agent/10.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

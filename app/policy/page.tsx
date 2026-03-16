@@ -22,7 +22,7 @@ const FAQPage = () => {
       <PageHero title="Privacy & " italicTitle="Policy" badgeTitle="Policy" scale />
       <TermsPolicyBody termsData={termsData} heading={true} />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -30,8 +30,8 @@ const FAQPage = () => {
             { id: '2', img: '/images/agent/04.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

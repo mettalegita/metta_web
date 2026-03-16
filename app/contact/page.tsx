@@ -12,24 +12,24 @@ const ContactPage = () => {
   return (
     <LayoutOne>
       <PageHero
-        title="Let's Work Together"
+        title="Contact and Booking line"
         badgeTitle="Contact"
-        description="Ready to begin your musical journey? Contact me to discuss piano lessons, composition projects, performances, or music education opportunities."
+        description="Inquiries for performances, scores, and music lessons are always welcome"
         scale
         spacing="pt-[130px] md:pt-[180px] pb-20 sm:pb-32 md:pb-36 lg:pb-36 xl:pb-[100px] relative overflow-hidden"
       />
       <ContactForm />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/01.jpg' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/03.jpg' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

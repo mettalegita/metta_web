@@ -24,7 +24,7 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
       <ProjectDetailsHero badgeTitle={blog?.category} title={blog?.title} description={blog?.description} scale />
       <ProjectContent project={project} />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/09.png' },
@@ -32,8 +32,8 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
             { id: '3', img: '/images/agent/11.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutTwo>
   )

@@ -24,7 +24,7 @@ const CareerDetailsPage = async ({ params }: { params: Promise<{ slug: string }>
       <CareerDetailsHero career={postCareer} />
       <CareerDetailsArticle careerContent={careerContent} />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/13.png' },
@@ -32,8 +32,8 @@ const CareerDetailsPage = async ({ params }: { params: Promise<{ slug: string }>
             { id: '3', img: '/images/agent/15.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

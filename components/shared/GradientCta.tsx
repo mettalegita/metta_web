@@ -26,16 +26,16 @@ const GradientCta = () => {
       <div className="container">
         <div className="reveal-me">
           <h2 className="text-center font-normal xl:text-[96px] xl:leading-[1.4] xl:tracking-[-2.88px]">
-            Let's chat!
+            Let's create
             <CtaImageSlider
               slides={[
-                { id: '1', img: '/images/agent/01.jpg' },
-                { id: '2', img: '/images/agent/02.jpg' },
-                { id: '3', img: '/images/agent/03.jpg' },
+                { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+                { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+                { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
               ]}
             />
-            with us.
-            <i className="block font-instrument italic max-md:inline-block max-sm:pl-1.5">A virtual coffee?</i>
+            together.
+            <i className="block font-instrument italic max-md:inline-block max-sm:pl-1.5">Music that moves you</i>
           </h2>
         </div>
         {renderForm()}

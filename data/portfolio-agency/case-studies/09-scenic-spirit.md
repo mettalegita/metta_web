@@ -39,7 +39,7 @@ This album can be found on various digital music platforms including iTunes, Spo
 
 ### About the Project
 
-Mirza ini infonya: Metta Legita - Scenic Spirit - Music Album excerpt - Released August 2018. Tracks include Here's Freedom, Scenic Spirit, I'll be back, Never Again, Dreams, The Thought of You, 7 octaves Blues, and Between Us.
+Metta Legita - Scenic Spirit - Music Album excerpt - Released August 2018. Tracks include Here's Freedom, Scenic Spirit, I'll be back, Never Again, Dreams, The Thought of You, 7 octaves Blues, and Between Us.
 
 I hope you enjoy the music!
 

@@ -28,16 +28,16 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
       <WhyChooseUsV6 />
       <FaqV2 titleChange />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/01.jpg' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/08.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

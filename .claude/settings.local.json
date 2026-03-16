@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__take_snapshot",
+      "Bash(lsof:*)",
+      "mcp__chrome-devtools__take_screenshot",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run format:*)",
+      "Bash(pkill:*)",
+      "Bash(xargs:*)",
+      "Bash(npm run dev:cms:*)",
+      "Bash(npm run lint)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(find:*)"
+    ]
+  }
+}

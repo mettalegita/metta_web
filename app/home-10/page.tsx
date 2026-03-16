@@ -24,7 +24,7 @@ const homepage10 = () => {
       <Awards />
       <BlogPostsV4 />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
@@ -32,8 +32,8 @@ const homepage10 = () => {
             { id: '3', img: '/images/agent/03.jpg' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )

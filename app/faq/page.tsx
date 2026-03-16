@@ -12,7 +12,7 @@ const FAQPage = () => {
     <LayoutOne>
       <FAQ bigTitleWithBadge={true} />
       <CTA>
-        Let's chat!
+        Let's create
         <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/11.png' },
@@ -20,8 +20,8 @@ const FAQPage = () => {
             { id: '3', img: '/images/agent/12.png' },
           ]}
         />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        together.
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
       </CTA>
     </LayoutOne>
   )
