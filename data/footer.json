@@ -4,8 +4,8 @@
       "title": "Music",
       "links": [
         { "href": "/portfolio-agency/case-study", "label": "Recordings" },
-        { "href": "/#about", "label": "About" },
-        { "href": "/#faq", "label": "FAQ" }
+        { "href": "/about", "label": "About" },
+        { "href": "/faq", "label": "FAQ" }
       ]
     },
     {
