@@ -31,9 +31,9 @@ const homepage20 = () => {
         Let’s Scale
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/15.png' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/03.jpg' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         Brand

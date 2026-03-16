@@ -28,9 +28,9 @@ const homepage18 = () => {
         Let’s Create
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/14.png' },
-            { id: '2', img: '/images/agent/12.png' },
-            { id: '3', img: '/images/agent/13.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         Content

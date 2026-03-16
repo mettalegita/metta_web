@@ -25,9 +25,9 @@ const FAQPage = () => {
         Let's create
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/14.png' },
-            { id: '2', img: '/images/agent/16.png' },
-            { id: '3', img: '/images/agent/19.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         together.

@@ -34,9 +34,9 @@ const Homepage25 = () => {
         Let’s Make
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/21.png' },
-            { id: '2', img: '/images/agent/18.png' },
-            { id: '3', img: '/images/agent/17.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         Headlines

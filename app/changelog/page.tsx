@@ -19,9 +19,9 @@ Unlock a world of discovery and secrets within!"
         Let's create
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/04.png' },
-            { id: '2', img: '/images/agent/05.png' },
-            { id: '3', img: '/images/agent/06.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         together.

@@ -34,9 +34,9 @@ const homepage16 = () => {
         Ready to
         <CtaImageSlider
           slides={[
-            { id: '1', img: '/images/agent/12.png' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/09.png' },
+            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
+            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
+            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
           ]}
         />
         Elevate
