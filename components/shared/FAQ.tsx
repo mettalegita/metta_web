@@ -83,18 +83,20 @@ const FAQ = ({ bigTitleWithBadge = false }: FaqProps) => {
           ))}
         </RevealWrapper>
 
-        <RevealWrapper as="ul" className="mx-auto mt-[56px] flex list-none justify-center">
-          <li className="mx-auto block w-[90%] text-center md:inline-block md:w-auto">
-            <Link href="/faq" className="rv-button rv-button-white block md:inline-block">
-              <div className="rv-button-top">
-                <span>See All FAQ</span>
-              </div>
-              <div className="rv-button-bottom">
-                <span>See All FAQ</span>
-              </div>
-            </Link>
-          </li>
-        </RevealWrapper>
+        {!bigTitleWithBadge && (
+          <RevealWrapper as="ul" className="mx-auto mt-[56px] flex list-none justify-center">
+            <li className="mx-auto block w-[90%] text-center md:inline-block md:w-auto">
+              <Link href="/faq" className="rv-button rv-button-white block md:inline-block">
+                <div className="rv-button-top">
+                  <span>See All FAQ</span>
+                </div>
+                <div className="rv-button-bottom">
+                  <span>See All FAQ</span>
+                </div>
+              </Link>
+            </li>
+          </RevealWrapper>
+        )}
       </div>
     </section>
   )

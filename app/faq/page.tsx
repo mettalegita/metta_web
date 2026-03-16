@@ -4,7 +4,9 @@ import FAQ from '@/components/shared/FAQ'
 import LayoutOne from '@/components/shared/LayoutOne'
 
 export const metadata = {
-  title: 'Faq',
+  title: 'FAQ - Metta Legita',
+  description:
+    'Common questions about piano lessons, music composition, and performance opportunities with Metta Legita.',
 }
 
 const FAQPage = () => {
