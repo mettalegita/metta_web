@@ -64,7 +64,7 @@ const FollowMe = ({ title = 'Follow and listen to my songs' }: FollowMeProps) =>
 
             {/* YouTube */}
             <Link
-              href="https://youtube.com/@mettalegita"
+              href="https://www.youtube.com/@mettalegita3543"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-secondary/70 transition-colors duration-300 hover:text-primary dark:text-white/70 dark:hover:text-primary">

@@ -27,7 +27,7 @@ export function SocialIcons() {
         </Link>
       </span>
       <span>
-        <Link href="https://www.youtube.com/channel/UCAaNCn1kzI1fXD4-fPD157Q">
+        <Link href="https://www.youtube.com/@mettalegita3543">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="stroke-[#565656] duration-200 hover:stroke-white"

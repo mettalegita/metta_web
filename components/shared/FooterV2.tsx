@@ -49,7 +49,7 @@ const FooterV2 = () => {
                   </Link>
                 </span>
                 <span>
-                  <Link href="https://www.youtube.com/@mettalegita">
+                  <Link href="https://www.youtube.com/@mettalegita3543">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="stroke-[#565656] duration-200 hover:stroke-primary"
