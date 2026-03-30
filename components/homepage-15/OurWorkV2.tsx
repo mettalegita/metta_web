@@ -57,7 +57,7 @@ const OurWorkV2 = () => {
       <RevealWrapper as="ul" className="flex justify-center px-5">
         <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
           <Link
-            href="/portfolio-agency/case-study"
+            href="/portfolio-agency/albums"
             className="rv-button rv-button-secondary block text-center md:inline-block">
             <div className="rv-button-top">
               <span>View More Projects</span>

@@ -29,7 +29,7 @@ const AboutV12 = () => {
             </p>
             <ul className="mt-20 justify-self-start max-md:w-full md:mt-36">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/portfolio-agency/case-study" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/portfolio-agency/albums" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>View Case Studies</span>
                   </div>

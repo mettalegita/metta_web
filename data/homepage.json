@@ -50,11 +50,11 @@
     ]
   },
   "portfolio": {
-    "italicTitle": "Featured",
-    "headingTitle": "Recordings",
-    "description": "A collection of original compositions and collaborations spanning jazz, contemporary, and orchestral works.",
+    "italicTitle": "Albums",
+    "headingTitle": "& Compositions",
+    "description": "A collection of original works spanning solo piano to orchestral jazz, each piece reflecting a personal journey through melody, rhythm, and emotion.",
     "buttonText": "View All Music",
-    "buttonLink": "/portfolio-agency/case-study"
+    "buttonLink": "/portfolio-agency/albums"
   },
   "clients": {
     "italicTitle": "Performed",

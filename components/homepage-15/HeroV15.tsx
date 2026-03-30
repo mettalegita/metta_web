@@ -30,7 +30,7 @@ const HeroV15 = () => {
 
             <RevealWrapperV2 as="ul" className="reveal-me mt-7 list-none md:mt-14 lg:mt-7 xl:mt-14">
               <li className="block w-full text-center lg:inline-block lg:w-auto">
-                <Link href="/portfolio-agency/case-study" className="rv-button rv-button-primary block lg:inline-block">
+                <Link href="/portfolio-agency/albums" className="rv-button rv-button-primary block lg:inline-block">
                   <div className="rv-button-top">
                     <span>Explore Our Work</span>
                   </div>

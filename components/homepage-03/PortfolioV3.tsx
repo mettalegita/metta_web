@@ -25,12 +25,12 @@ interface PortfolioV3Props {
 const caseStudies: projectType[] = getMarkDownData('data/portfolio-agency/case-studies').slice(0, 4)
 
 const defaultSectionData: PortfolioSectionData = {
-  italicTitle: 'Recent',
-  headingTitle: 'Case Studies',
+  italicTitle: 'Featured',
+  headingTitle: 'Recordings',
   description:
-    'When presenting recent case studies, it is important to highlight key aspects that showcase your agency work and impact.',
-  buttonText: 'See all projects',
-  buttonLink: '/portfolio-agency/case-study',
+    'A collection of original compositions and collaborations spanning jazz, contemporary, and orchestral works.',
+  buttonText: 'View All Music',
+  buttonLink: '/portfolio-agency/albums',
 }
 
 const PortfolioV3 = ({ sectionData = defaultSectionData }: PortfolioV3Props) => {
@@ -45,7 +45,7 @@ const PortfolioV3 = ({ sectionData = defaultSectionData }: PortfolioV3Props) => 
         <div className="grid grid-cols-1 gap-x-6 gap-y-9 md:grid-cols-2">
           {caseStudies?.map((project) => (
             <RevealWrapper key={project.slug} className="single-project-item underline-hover-effect">
-              <Link href={`/portfolio-agency/case-study/${project.slug}`} className="w-full">
+              <Link href={`/portfolio-agency/albums/${project.slug}`} className="w-full">
                 <figure className="overflow-hidden">
                   <Image
                     src={project?.thumbnail}

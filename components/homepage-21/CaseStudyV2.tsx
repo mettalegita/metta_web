@@ -100,7 +100,7 @@ const CaseStudyV2 = () => {
 
         <RevealWrapper as="ul" className="reveal-me mt-7 justify-self-center max-md:w-full md:mt-14">
           <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-            <Link href="/portfolio-agency/case-study" className="rv-button rv-button-white block md:inline-block">
+            <Link href="/portfolio-agency/albums" className="rv-button rv-button-white block md:inline-block">
               <div className="rv-button-top">
                 <span>Read More Case Studies</span>
               </div>

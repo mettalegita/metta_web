@@ -40,7 +40,7 @@ const WhyChooseUsV5 = () => {
             </div>
             <RevealWrapper as="ul" className="mt-7 max-md:w-full md:mt-14">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/portfolio-agency/case-study" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/portfolio-agency/albums" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>See How We Work</span>
                   </div>

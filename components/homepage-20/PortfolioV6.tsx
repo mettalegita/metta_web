@@ -114,7 +114,7 @@ const PortfolioV6 = () => {
         </div>
         <RevealWrapper className="reveal-me mt-7 justify-self-center text-center max-md:w-full md:mt-14">
           <Link
-            href="/portfolio-agency/case-study"
+            href="/portfolio-agency/albums"
             className="rv-button rv-button-white mx-auto block w-full md:inline-block md:w-auto"
             aria-label="View all our case studies and success stories">
             <div className="rv-button-top">

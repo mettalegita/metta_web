@@ -72,7 +72,7 @@ const PortfolioV4 = () => {
         <RevealWrapper as="ul" className="reveal-me flex justify-center">
           <li className="mx-auto block w-[90%] md:inline-block md:w-auto">
             <Link
-              href="/portfolio-agency/case-study"
+              href="/portfolio-agency/albums"
               className="rv-button rv-button-white block text-center md:inline-block">
               <div className="rv-button-top">
                 <span>View All Project</span>

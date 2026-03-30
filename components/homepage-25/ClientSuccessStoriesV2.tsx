@@ -35,7 +35,7 @@ const ClientSuccessStoriesV2: FC<ClientSuccessStoriesV2Props> = ({ blog }) => {
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="reveal-me mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/portfolio-agency/case-study" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/portfolio-agency/albums" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>Read More Success Stories</span>
                   </div>
