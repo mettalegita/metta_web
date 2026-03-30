@@ -3,11 +3,13 @@ import BlogPost from '@/components/homepage-03/BlogPost'
 import HeroV3 from '@/components/homepage-03/HeroV3'
 import PortfolioV3 from '@/components/homepage-03/PortfolioV3'
 import ServicesV3 from '@/components/homepage-03/ServicesV3'
+import Events from '@/components/shared/Events'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
 import ImageMarquee from '@/components/shared/ImageMarquee'
 import LayoutOne from '@/components/shared/LayoutOne'
+import eventsData from '@/data/events.json'
 import faqHomeData from '@/data/faqHome.json'
 import homepageData from '@/data/homepage.json'
 import imageMarqueeData from '@/data/imageMarquee.json'
@@ -62,6 +64,9 @@ const Home = () => {
       </section>
       <section id="faq">
         <FaqV2 data={faqHomeData} />
+      </section>
+      <section id="events">
+        <Events data={eventsData} />
       </section>
       <section id="cta">
         <CTA>

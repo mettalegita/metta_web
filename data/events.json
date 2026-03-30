@@ -1,0 +1,42 @@
+{
+  "italicTitle": "schedule",
+  "headingTitle": "Performances & Events",
+  "description": "Upcoming concerts and past performances across festivals, recitals, and cultural events.",
+  "items": [
+    {
+      "id": 1,
+      "date": "15 Mar 2027",
+      "title": "aaaaaaa",
+      "location": "boooooo",
+      "image": "/images/uploads/adna_pelangiku.webp"
+    },
+    {
+      "id": 2,
+      "date": "28 Nov 2024",
+      "title": "Hop On, Hop Off — Album Launch",
+      "location": "Jakarta, Indonesia",
+      "image": "/images/uploads/hop-on-hop-off.jpg"
+    },
+    {
+      "id": 3,
+      "date": "04 Mar 2024",
+      "title": "Hampura — Live Recording",
+      "location": "Phnom Penh, Cambodia",
+      "image": "/images/uploads/metta_hampura.webp"
+    },
+    {
+      "id": 4,
+      "date": "12 Aug 2023",
+      "title": "Java Jazz Festival",
+      "location": "Jakarta, Indonesia",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "date": "22 Jun 2022",
+      "title": "Bertemu di Hari Raya — Release Concert",
+      "location": "Bandung, Indonesia",
+      "image": ""
+    }
+  ]
+}
