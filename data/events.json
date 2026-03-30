@@ -5,38 +5,80 @@
   "items": [
     {
       "id": 1,
-      "date": "15 Mar 2027",
-      "title": "aaaaaaa",
-      "location": "boooooo",
-      "image": "/images/uploads/adna_pelangiku.webp"
+      "date": "30 Apr 2026",
+      "title": "Living Room Series: Opening Night — Piano & Stories",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 2,
-      "date": "28 Nov 2024",
-      "title": "Hop On, Hop Off — Album Launch",
-      "location": "Jakarta, Indonesia",
-      "image": "/images/uploads/hop-on-hop-off.jpg"
+      "date": "May 2026",
+      "title": "Living Room Series: Children's Songs & Play",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 3,
-      "date": "04 Mar 2024",
-      "title": "Hampura — Live Recording",
-      "location": "Phnom Penh, Cambodia",
-      "image": "/images/uploads/metta_hampura.webp"
+      "date": "Jun 2026",
+      "title": "Living Room Series: Women in Jazz — Intimate Edition",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 4,
-      "date": "12 Aug 2023",
-      "title": "Java Jazz Festival",
-      "location": "Jakarta, Indonesia",
-      "image": ""
+      "date": "Jul 2026",
+      "title": "Living Room Series: Echoes & Traditions",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 5,
-      "date": "22 Jun 2022",
-      "title": "Bertemu di Hari Raya — Release Concert",
-      "location": "Bandung, Indonesia",
-      "image": ""
+      "date": "Aug 2026",
+      "title": "Living Room Series: Original Voices",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
+    },
+    {
+      "id": 6,
+      "date": "Sep 2026",
+      "title": "Living Room Series: Piano Dialogues",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
+    },
+    {
+      "id": 7,
+      "date": "Oct 2026",
+      "title": "Living Room Series: Between Worlds",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
+    },
+    {
+      "id": 8,
+      "date": "Nov 2026",
+      "title": "Living Room Series: Season Closing — The Gathering",
+      "location": "Private Residence, Phnom Penh",
+      "image": "/images/uploads/events/living-room-series.jpeg"
+    },
+    {
+      "id": 9,
+      "date": "21 Mar 2026",
+      "title": "Bebop Jazz Highlights Vol 2",
+      "location": "Aquarius Hotel, Phnom Penh",
+      "image": "/images/uploads/events/bebop-jazz-vol2.jpeg"
+    },
+    {
+      "id": 10,
+      "date": "07 Mar 2026",
+      "title": "Women in Jazz",
+      "location": "Au Marché Rooftop, Phnom Penh",
+      "image": "/images/uploads/events/women-in-jazz.jpeg"
+    },
+    {
+      "id": 11,
+      "date": "06-07 Feb 2026",
+      "title": "Jazz Tribute Nights — Honoring the Jazz Legacy",
+      "location": "Phnom Penh, Cambodia",
+      "image": "/images/uploads/events/jazz-tribute-nights.jpeg"
     }
   ]
 }
