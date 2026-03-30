@@ -20,17 +20,16 @@ const ProjectServicesV3 = () => {
           <div>
             <TextAppearAnimation>
               <h2 className="text-appear text-[46px] font-normal leading-[1.1] md:text-7xl md:tracking-[-2.88px] xl:text-[96px]">
-                <span className="font-instrument italic">Proud</span>
-                <br />
-                Case Studies
+                <span className="font-instrument italic">Albums</span>
+                <br />& Compositions
               </h2>
             </TextAppearAnimation>
           </div>
           <div className="lg:self-end">
             <TextAppearAnimation>
               <p className="text-appear max-w-[470px]">
-                When presenting recent case studies, it's important to highlight key aspects that showcase your agency's
-                work and impact. Here's a general structure you might follow.
+                A collection of original works spanning solo piano to orchestral jazz, each piece reflecting a personal
+                journey through melody, rhythm, and emotion.
               </p>
             </TextAppearAnimation>
           </div>
@@ -39,14 +38,14 @@ const ProjectServicesV3 = () => {
         <div className="grid grid-cols-1 gap-x-6 gap-y-14 md:grid-cols-2">
           {projects?.map((project) => (
             <RevealWrapper key={project.slug} className="single-project-item underline-hover-effect">
-              <Link href={`/portfolio-agency/case-study/${project.slug}`} className="block">
+              <Link href={`/portfolio-agency/albums/${project.slug}`} className="block">
                 <figure className="overflow-hidden">
                   <Image
                     src={project.thumbnail}
                     height={553}
                     width={553}
                     className="h-full w-full transition-all duration-500 hover:scale-125"
-                    alt="Services Img"
+                    alt={project.title}
                   />
                 </figure>
                 <div className="blog-title mb-1 mt-[30px] text-center">
