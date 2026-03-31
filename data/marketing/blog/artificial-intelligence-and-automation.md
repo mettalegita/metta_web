@@ -1,6 +1,5 @@
 ---
-title: "Mastering Music Composition: Classical Techniques Meet Contemporary
-  Innovation"
+title: aaaa
 description: Explore how traditional composition methods blend with modern
   approaches to create compelling musical works that resonate with contemporary
   audiences.
