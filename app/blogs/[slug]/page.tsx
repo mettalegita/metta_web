@@ -1,6 +1,5 @@
 import BlogContent from '@/components/blogpage/BlogContent'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FollowMe from '@/components/shared/FollowMe'
 import LayoutOne from '@/components/shared/LayoutOne'
 import PageHero from '@/components/shared/PageHero'
@@ -31,18 +30,7 @@ const BlogDetails = async ({ params }: { params: Promise<{ slug: string }> }) =>
       />
       <BlogContent blog={blog} />
       <FollowMe />
-      <CTA>
-        Let's create
-        <CtaImageSlider
-          slides={[
-            { id: '1', img: '/images/uploads/songs_white_500x200.png' },
-            { id: '2', img: '/images/uploads/harmony_white_500x200.png' },
-            { id: '3', img: '/images/uploads/melodies_white_500x200.png' },
-          ]}
-        />
-        together.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Music that moves you</i>
-      </CTA>
+      <CTA>{''}</CTA>
     </LayoutOne>
   )
 }

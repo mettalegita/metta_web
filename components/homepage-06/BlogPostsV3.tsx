@@ -32,7 +32,7 @@ const BlogPostsV3 = () => {
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/seo-blog" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/blogs" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>See More Case Studies</span>
                   </div>

@@ -30,7 +30,7 @@ const BlogListV2 = () => {
         <BlogList blogData={blogsData} />
         <RevealWrapper as="ul" className="mx-auto mt-[56px] flex list-none justify-center">
           <li className="mx-auto block w-[90%] text-center md:inline-block md:w-auto">
-            <Link href="/seo-blog" className="rv-button rv-button-white block md:inline-block">
+            <Link href="/blogs" className="rv-button rv-button-white block md:inline-block">
               <div className="rv-button-top">
                 <span>Read all articles</span>
               </div>

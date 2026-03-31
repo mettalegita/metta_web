@@ -202,7 +202,7 @@ collections:
                   - { label: Image, name: image, widget: image }
 
   # Blog Posts
-  - name: seo-blog
+  - name: blogs
     label: Blog Posts
     folder: data/marketing/blog
     create: true

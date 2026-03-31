@@ -34,7 +34,7 @@ const BlogList: FC<BlogListProps> = ({ blogData }) => {
             <p className="font-poppins mb-5 mt-3 text-lg font-normal leading-[1.4] tracking-[0.4px] md:mb-10 md:mt-5">
               {item?.description}
             </p>
-            <Link href={`/seo-blog/${item?.slug}`} className="rv-button rv-button-primary2">
+            <Link href={`/blogs/${item?.slug}`} className="rv-button rv-button-primary2">
               <div className="rv-button-top !text-center">
                 <span className="mr-1">3 minute read</span>
                 <img className="inline dark:hidden" src="/images/icons/top-arrow.svg" alt="Arrow Icon" />

@@ -35,7 +35,7 @@ const BlogPost = ({ blogs }: BlogPostProps) => {
             </TextAppearAnimation>
             <RevealWrapper className="mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/seo-blog" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/blogs" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>Explore Our Blogs</span>
                   </div>
@@ -51,7 +51,7 @@ const BlogPost = ({ blogs }: BlogPostProps) => {
         <div className="grid grid-cols-1 justify-items-center gap-6 gap-y-14 max-lg:items-center md:grid-cols-2 md:gap-y-16 lg:grid-cols-3">
           {blogs.map((blog) => (
             <RevealWrapper className="group w-full md:max-w-[355px]" key={blog.slug}>
-              <Link href={`/seo-blog/${blog?.slug}`} className="w-full" aria-label={blog.title}>
+              <Link href={`/blogs/${blog?.slug}`} className="w-full" aria-label={blog.title}>
                 <figure className="overflow-hidden">
                   <Image
                     src={blog.thumbnail}

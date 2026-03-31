@@ -1,4 +1,4 @@
-import { Blog2Type } from '@/app/seo-blog/page'
+import { Blog2Type } from '@/app/blogs/page'
 import BlogContent from '@/components/blogpage/BlogContent'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'

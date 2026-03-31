@@ -1,5 +1,5 @@
 'use client'
-import { Blog2Type } from '@/app/seo-blog/page'
+import { Blog2Type } from '@/app/blogs/page'
 import topArrowDark from '@/public/images/icons/top-arrow-dark.svg'
 import topArrow from '@/public/images/icons/top-arrow.svg'
 import Image from 'next/image'
@@ -44,7 +44,7 @@ const BlogItems: FC<BlogsProps> = ({ loadedBlogs }) => {
         <div className="grid grid-cols-1 items-center justify-items-center gap-x-6 gap-y-[60px] md:grid-cols-2 md:items-start xl:grid-cols-3">
           {currentPageData.map((blog) => (
             <RevealWrapper key={blog.slug} className="group max-w-full md:max-w-[370px]">
-              <Link href={`/seo-blog/${blog.slug}`} className="block w-full">
+              <Link href={`/blogs/${blog.slug}`} className="block w-full">
                 <figure className="h-[388px] min-w-full overflow-hidden md:aspect-[370/399] md:min-w-[365px]">
                   <Image
                     src={blog.thumbnail}
@@ -55,7 +55,7 @@ const BlogItems: FC<BlogsProps> = ({ loadedBlogs }) => {
                   />
                 </figure>
               </Link>
-              <Link href={`/seo-blog/${blog.slug}`}>
+              <Link href={`/blogs/${blog.slug}`}>
                 <div className="blog-title mb-5 mt-[30px]">
                   <h3 className="text[25px] md:text-3xl lg:text-4xl lg:leading-[1.2] lg:tracking-[-0.72px]">
                     {blog.title}
@@ -65,7 +65,7 @@ const BlogItems: FC<BlogsProps> = ({ loadedBlogs }) => {
 
               <p className="mb-7 md:mb-10">{blog.description}</p>
               <Link
-                href={`/seo-blog/${blog.slug}`}
+                href={`/blogs/${blog.slug}`}
                 className="rv-button rv-button-primary2 block w-full md:inline-block md:w-auto">
                 <div className="rv-button-top flex items-center text-center">
                   <span className="pr-2">3 minute read</span>
