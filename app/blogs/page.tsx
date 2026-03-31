@@ -4,12 +4,9 @@ import CTA from '@/components/shared/CTA'
 import LayoutOne from '@/components/shared/LayoutOne'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
-export const dynamic = 'force-dynamic'
-
 export const metadata = {
-  title: 'SEO Blog - Digital Marketing Insights',
-  description:
-    'Expert insights on SEO, digital marketing strategies, and industry trends to grow your online presence.',
+  title: 'Blog - Metta Legita',
+  description: 'Stories, insights, and updates from pianist and composer Metta Legita.',
 }
 
 export interface Blog2Type {
