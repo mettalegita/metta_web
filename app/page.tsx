@@ -5,7 +5,6 @@ import PortfolioV3 from '@/components/homepage-03/PortfolioV3'
 import ServicesV3 from '@/components/homepage-03/ServicesV3'
 import Events from '@/components/shared/Events'
 import CTA from '@/components/shared/CTA'
-import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
 import ImageMarquee from '@/components/shared/ImageMarquee'
 import LayoutOne from '@/components/shared/LayoutOne'
@@ -21,7 +20,7 @@ export const metadata = {
 }
 
 const Home = () => {
-  const { hero, about, services, cta } = homepageData
+  const { hero, about, services } = homepageData
   const blogs = getMarkDownData('data/marketing/blog')
 
   // Load services from CMS collection
@@ -69,12 +68,7 @@ const Home = () => {
         <Events data={eventsData} />
       </section>
       <section id="cta">
-        <CTA>
-          {cta.textBefore}
-          <CtaImageSlider slides={cta.images.map((img) => ({ id: img.id, img: img.image }))} />
-          {cta.textAfter}
-          <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">{cta.italicText}</i>
-        </CTA>
+        <CTA>{''}</CTA>
       </section>
     </LayoutOne>
   )

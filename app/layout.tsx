@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: '/images/favicon.ico',
+    apple: '/images/apple-touch-icon.png',
+  },
+  manifest: '/images/site.webmanifest',
 }
 
 export default function RootLayout({
@@ -40,7 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${satoshi.variable} ${instrumentSerif.variable} antialiased`}>
+      <body className={`${satoshi.variable} ${instrumentSerif.variable} antialiased`} suppressHydrationWarning>
         <Suspense fallback={<div>Loading...</div>}>
           <SmoothScrollProvider>
             <ThemeModeProvider>

@@ -80,18 +80,6 @@ const ServicesV3 = ({
             <TextAppearAnimation>
               <p className="text-appear max-w-lg md:justify-self-end md:text-right">{sectionDescription}</p>
             </TextAppearAnimation>
-            <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
-              <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href={buttonLink} className="rv-button rv-button-white block md:inline-block">
-                  <div className="rv-button-top">
-                    <span>{buttonText}</span>
-                  </div>
-                  <div className="rv-button-bottom">
-                    <span>{buttonText}</span>
-                  </div>
-                </Link>
-              </li>
-            </RevealWrapper>
           </div>
         </div>
 
