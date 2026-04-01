@@ -16,7 +16,7 @@ import portfolioSectionData from '@/data/portfolioSection.json'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
-  title: 'Metta - Digital Agency',
+  title: 'Metta Legita | Jazz Pianist',
 }
 
 const Home = () => {
