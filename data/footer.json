@@ -5,6 +5,7 @@
       "links": [
         { "href": "/portfolio-agency/albums", "label": "Recordings" },
         { "href": "/about", "label": "About" },
+        { "href": "/gallery", "label": "Gallery" },
         { "href": "/faq", "label": "FAQ" }
       ]
     },
