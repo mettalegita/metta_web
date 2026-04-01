@@ -143,6 +143,28 @@ collections:
               - { label: Alt Text, name: alt, widget: string }
               - { label: Link URL (optional), name: link, widget: string, required: false }
 
+  # Gallery Slider Page
+  - name: gallery
+    label: Gallery Slider
+    files:
+      - name: gallery
+        label: Gallery Slider
+        file: data/gallery.json
+        fields:
+          - { label: Section Title, name: sectionTitle, widget: string }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: text }
+          - name: images
+            label: Gallery Images
+            widget: list
+            allow_add: true
+            summary: '{{fields.caption}} - {{fields.alt}}'
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Image, name: image, widget: image }
+              - { label: Alt Text, name: alt, widget: string }
+              - { label: Caption, name: caption, widget: string, required: false }
+
   # Blog Section
   - name: blog
     label: Blog Section
@@ -155,7 +177,9 @@ collections:
             label: Blog Content
             widget: object
             fields:
-              - { label: Section Title, name: sectionTitle, widget: string }
+              - { label: Italic Title (e.g. Insights), name: italicTitle, widget: string }
+              - { label: Heading Title (e.g. & Stories), name: headingTitle, widget: string }
+              - { label: Description, name: description, widget: text }
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
 
