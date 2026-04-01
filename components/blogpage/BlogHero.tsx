@@ -24,8 +24,8 @@ const BlogHero = () => {
           <div className="self-center md:max-w-[470px] lg:self-end">
             <TextAppearAnimation>
               <p className="text-appear">
-                We champion athletes, storytellers, and brands that shape culture and inspire the world with their
-                unique perspectives.
+                Exploring the intersection of jazz, education, and performance—sharing insights from decades of
+                experience teaching and performing around the world.
               </p>
             </TextAppearAnimation>
           </div>

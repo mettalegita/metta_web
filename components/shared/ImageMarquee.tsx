@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import Marquee from 'react-fast-marquee'
 import RevealWrapper from '../animation/RevealWrapper'
 
@@ -26,7 +27,14 @@ const ImageMarquee = ({ images, speed = 40 }: ImageMarqueeProps) => {
               const heightClass = isTall ? 'h-[320px] md:h-[480px]' : 'h-[260px] md:h-[380px]'
               return (
                 <figure key={item.id} className={`group relative w-56 md:w-[362px] ${heightClass}`}>
-                  <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    fill
+                    sizes="(max-width: 768px) 224px, 362px"
+                    className="object-cover"
+                    loading="lazy"
+                  />
                   {item.link && (
                     <a
                       href={item.link}
