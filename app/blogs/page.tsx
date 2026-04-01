@@ -2,6 +2,7 @@ import BlogHero from '@/components/blogpage/BlogHero'
 import BlogItems from '@/components/blogpage/BlogItems'
 import CTA from '@/components/shared/CTA'
 import LayoutOne from '@/components/shared/LayoutOne'
+import homepageData from '@/data/homepage.json'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
@@ -19,7 +20,11 @@ const BlogPage02 = async () => {
   const loadedBlogs: Blog2Type[] = getMarkDownData('data/marketing/blog')
   return (
     <LayoutOne>
-      <BlogHero />
+      <BlogHero
+        italicTitle={homepageData.blog.italicTitle}
+        headingTitle={homepageData.blog.headingTitle}
+        description={homepageData.blog.description}
+      />
       <BlogItems loadedBlogs={loadedBlogs} />
       <CTA>{''}</CTA>
     </LayoutOne>

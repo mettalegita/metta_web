@@ -1,53 +1,16 @@
 {
-  "hero": {
-    "image": "/images/uploads/img_4786.webp",
-    "title": "Legita",
-    "subtitle": "Metta"
+  "contact": {
+    "email": "metta_legita@yahoo.com",
+    "website": "www.mettalegita.com",
+    "location": "Phnom Penh, Cambodia",
+    "phone": "010325895"
   },
-  "about": {
-    "description": "Metta Legita is an Indonesian pianist, composer, and educator based in Bandung, Indonesia. She blends jazz and classical influences with Indonesian elements, performs internationally in ensembles from duos to big bands, and actively mentors students while creating new music and collaborations.",
-    "emailPlaceholder": "Your email here",
-    "buttonText": "Send"
-  },
-  "services": {
-    "sectionTitle": "What I Do",
-    "sectionDescription": "Bringing music to life through performance, composition, and education. From intimate piano lessons to orchestral compositions.",
-    "buttonText": "Learn More",
-    "buttonLink": "/services",
-    "items": [
-      {
-        "id": 1,
-        "title": "The Classroom",
-        "subtitle": "Mentoring students and consulting for institutions",
-        "features": [
-          "Personalized Instruction: Technique, theory, ear training, and exam preparation for all levels",
-          "Genre Mastery: Classical literature, jazz improvisation, and contemporary arrangements",
-          "School Programs: Curriculum development, Workshops, Group theory, ensemble playing, and songwriting classes."
-        ]
-      },
-      {
-        "id": 2,
-        "title": "The Stage",
-        "subtitle": "Bringing music to audiences through diverse ensembles",
-        "features": [
-          "Jazz & Contemporary: Sets for solo piano, trios, quartets, and big bands",
-          "Collaborations: Orchestral performances, chamber music, and cross-disciplinary art",
-          "Events: Festivals, concert halls, corporate events, and cultural celebrations",
-          "Custom Repertoire: Tailored performances for weddings and private recitals"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "The Studio",
-        "subtitle": "Creating original works and professional arrangements",
-        "features": [
-          "Original Works: Jazz, contemporary piano, and chamber music",
-          "Orchestration: Scoring for full orchestra and professional notation services",
-          "Media & Film: Custom compositions for film, media, and special occasions",
-          "The Process: From initial vision to performance-ready scores and parts"
-        ]
-      }
-    ]
+  "blog": {
+    "italicTitle": "Insights",
+    "headingTitle": "& Stories",
+    "description": "Reflections, performances, recordings, and musical ideas — alongside original compositions and scores.",
+    "buttonText": "Explore Our Blogs",
+    "buttonLink": "/blogs"
   },
   "portfolio": {
     "italicTitle": "Albums",
@@ -93,6 +56,11 @@
       }
     ]
   },
+  "about": {
+    "description": "Metta Legita is an Indonesian pianist, composer, and educator based in Bandung, Indonesia. She blends jazz and classical influences with Indonesian elements, performs internationally in ensembles from duos to big bands, and actively mentors students while creating new music and collaborations.",
+    "emailPlaceholder": "Your email here",
+    "buttonText": "Send"
+  },
   "cta": {
     "textBefore": "Let's create",
     "textAfter": "together.",
@@ -119,10 +87,49 @@
     "appleMusic": "https://music.apple.com/us/artist/metta-legita/1250526729",
     "patreon": "https://patreon.com/mettalegita"
   },
-  "contact": {
-    "email": "metta_legita@yahoo.com",
-    "website": "www.mettalegita.com",
-    "location": "Phnom Penh, Cambodia",
-    "phone": "010325895"
+  "hero": {
+    "image": "/images/uploads/img_4786.webp",
+    "title": "Legita",
+    "subtitle": "Metta"
+  },
+  "services": {
+    "sectionTitle": "What I Do",
+    "sectionDescription": "Bringing music to life through performance, composition, and education. From intimate piano lessons to orchestral compositions.",
+    "buttonText": "Learn More",
+    "buttonLink": "/services",
+    "items": [
+      {
+        "id": 1,
+        "title": "The Classroom",
+        "subtitle": "Mentoring students and consulting for institutions",
+        "features": [
+          "Personalized Instruction: Technique, theory, ear training, and exam preparation for all levels",
+          "Genre Mastery: Classical literature, jazz improvisation, and contemporary arrangements",
+          "School Programs: Curriculum development, Workshops, Group theory, ensemble playing, and songwriting classes."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Stage",
+        "subtitle": "Bringing music to audiences through diverse ensembles",
+        "features": [
+          "Jazz & Contemporary: Sets for solo piano, trios, quartets, and big bands",
+          "Collaborations: Orchestral performances, chamber music, and cross-disciplinary art",
+          "Events: Festivals, concert halls, corporate events, and cultural celebrations",
+          "Custom Repertoire: Tailored performances for weddings and private recitals"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "The Studio",
+        "subtitle": "Creating original works and professional arrangements",
+        "features": [
+          "Original Works: Jazz, contemporary piano, and chamber music",
+          "Orchestration: Scoring for full orchestra and professional notation services",
+          "Media & Film: Custom compositions for film, media, and special occasions",
+          "The Process: From initial vision to performance-ready scores and parts"
+        ]
+      }
+    ]
   }
 }

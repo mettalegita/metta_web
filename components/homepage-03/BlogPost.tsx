@@ -13,34 +13,44 @@ interface blogType {
 
 interface BlogPostProps {
   blogs: blogType[]
+  italicTitle?: string
+  headingTitle?: string
+  description?: string
+  buttonText?: string
+  buttonLink?: string
 }
 
-const BlogPost = ({ blogs }: BlogPostProps) => {
+const BlogPost = ({
+  blogs,
+  italicTitle = 'Insights',
+  headingTitle = '& Stories',
+  description = 'Deep dives into emerging technologies, design trends, and digital transformation strategies.',
+  buttonText = 'Explore Our Blogs',
+  buttonLink = '/blogs',
+}: BlogPostProps) => {
   return (
     <section className="z-20 pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-4 md:mb-20 md:flex-row lg:items-center lg:justify-between">
           <TextAppearAnimation>
             <h2 className="text-appear flex-1">
-              <span className="font-instrument italic lg:text-[70px]">Insights</span>
+              <span className="font-instrument italic lg:text-[70px]">{italicTitle}</span>
               <br className="hidden lg:block" />
-              &amp; Stories
+              {headingTitle}
             </h2>
           </TextAppearAnimation>
           <div className="flex-1 max-md:w-full lg:self-end">
             <TextAppearAnimation>
-              <p className="text-appear max-w-lg md:justify-self-end md:text-right">
-                Deep dives into emerging technologies, design trends, and digital transformation strategies.
-              </p>
+              <p className="text-appear max-w-lg md:justify-self-end md:text-right">{description}</p>
             </TextAppearAnimation>
             <RevealWrapper className="mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/blogs" className="rv-button rv-button-white block md:inline-block">
+                <Link href={buttonLink} className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
-                    <span>Explore Our Blogs</span>
+                    <span>{buttonText}</span>
                   </div>
                   <div className="rv-button-bottom">
-                    <span>Explore Our Blogs</span>
+                    <span>{buttonText}</span>
                   </div>
                 </Link>
               </li>

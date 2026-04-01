@@ -20,7 +20,7 @@ export const metadata = {
 }
 
 const Home = () => {
-  const { hero, about, services } = homepageData
+  const { hero, about, services, blog } = homepageData
   const blogs = getMarkDownData('data/marketing/blog')
 
   // Load services from CMS collection
@@ -59,7 +59,14 @@ const Home = () => {
         <ImageMarquee images={imageMarqueeData.images} />
       </section>
       <section id="blog">
-        <BlogPost blogs={blogs} />
+        <BlogPost
+          blogs={blogs}
+          italicTitle={blog.italicTitle}
+          headingTitle={blog.headingTitle}
+          description={blog.description}
+          buttonText={blog.buttonText}
+          buttonLink={blog.buttonLink}
+        />
       </section>
       <section id="faq">
         <FaqV2 data={faqHomeData} />
