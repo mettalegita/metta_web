@@ -17,6 +17,14 @@ I’m deeply grateful to Funky Sueyoshi for the invitation. A renowned Japanese 
 
 Together with Funky Sueyoshi on drums and Daisuke Yasukochi on bass, we performed as an international trio at Moment’s Notice Jazz Club on 2nd and 3rd December. These performances were especially meaningful, as they marked Daisuke’s final gigs before returning to Osaka. While it was a bittersweet moment, I truly hope it won’t be the last time we share the stage together.
 
-The intimate setting of the venue allowed for a close and genuine connection with the audience. As a trio, we explored a blend of jazz shaped by our different cultural and musical backgrounds, creating something spontaneous and expressive.
+![](/images/uploads/cm41_00147795.jpg)
+
+The intimate setting of the venue allowed for a close and genuine connection with the audience. As a trio, we explored a blend of jazz shaped by our different cultural and musical backgrounds, creating something spontaneous and expressive. We played several songs from Funky Sueyoshi's compositions called 'First Love', 'Canal Street Samba' and jazz standards 'Moanin-Art Blakey', and some other jazz selections.
+
+![](/images/uploads/cm25_00111340.jpg)
+
+
 
 Being part of this festival was not only a milestone—my first time performing in Chiang Mai—but also a beautiful reminder of how music connects people across borders. I am truly grateful for the experience and look forward to many more musical journeys ahead.
+
+![](/images/uploads/cm38_00137129.jpg)
