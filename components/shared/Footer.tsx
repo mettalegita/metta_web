@@ -128,6 +128,27 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className="container relative z-10 mt-10 border-t border-white/10 pt-6">
+        <p className="text-center text-xs text-white/40">
+          Designed &amp; developed by{' '}
+          <a
+            href="https://mirzalazuardi.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white/70">
+            mirzalazuardi
+          </a>{' '}
+          · Hosted on{' '}
+          <a
+            href="https://vercel.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white/70">
+            Vercel
+          </a>
+        </p>
+      </div>
+
       <div className="absolute bottom-0 w-full">
         <h5 className="footer-text xs:text-5xl absolute bottom-0 left-1/2 w-full -translate-x-1/2 translate-y-[30%] text-nowrap text-center font-satoshi text-4xl font-medium tracking-widest sm:text-6xl md:text-[88px] lg:text-[120px] xl:text-[150px] 2xl:text-[170px]">
           METTA LEGITA
