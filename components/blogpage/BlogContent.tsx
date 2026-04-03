@@ -13,10 +13,9 @@ interface RestOfTheBlogType {
   [key: string]: any
 }
 
-const blogs: RestOfTheBlogType[] = getMarkDownData('data/blogs')
-const RestBlogData = blogs.filter((blog) => blog.featured === false).slice(0, 3)
-
 const BlogContent = ({ blog }: any) => {
+  const blogs: RestOfTheBlogType[] = getMarkDownData('data/marketing/blog')
+  const RestBlogData = blogs.filter((b) => b.slug !== blog.data.slug && b.featured === false).slice(0, 3)
   const headings = blog.content.match(/### .+/g) ?? []
   const tableOfContents = headings.map((heading: string) => heading.replace('### ', ''))
   return (
