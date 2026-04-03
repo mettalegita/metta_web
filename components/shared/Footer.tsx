@@ -136,7 +136,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-white/70">
-            mirzalazuardi
+            Mirzalazuardi Hermawan
           </a>{' '}
           · Hosted on{' '}
           <a
