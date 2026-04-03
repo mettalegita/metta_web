@@ -130,13 +130,21 @@ const Footer = () => {
 
       <div className="container relative z-10 mt-10 border-t border-white/10 pt-6">
         <p className="text-center text-xs text-white/40">
-          Designed &amp; developed by{' '}
+          Designed by{' '}
+          <a
+            href="https://pixel71.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white/70">
+            Pixels71
+          </a>{' '}
+          · Developed by{' '}
           <a
             href="https://mirzalazuardi.com"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-white/70">
-            Mirzalazuardi Hermawan
+            Mirzalazuardi
           </a>{' '}
           · Hosted on{' '}
           <a
