@@ -3,12 +3,12 @@
     {
       "id": 1,
       "image": "/images/uploads/metta_orchestra1.webp",
-      "alt": "Metta Legita with Budapest Scoring Orchestra",
+      "alt": "Hop On Hop Off played and recorded by Budapest Scoring Orchestra",
       "link": ""
     },
     {
       "id": 2,
-      "image": "/images/uploads/adna_pelangiku.webp",
+      "image": "/images/uploads/738f92abe890492f3934e7fa5f5d38b1.jpeg",
       "alt": "Collaboration",
       "link": ""
     },
@@ -45,6 +45,26 @@
       "image": "/images/uploads/img_7510-2.jpg",
       "id": 8,
       "alt": "Collaboration"
+    },
+    {
+      "image": "/images/uploads/cm27_00115084.jpg",
+      "id": 9,
+      "alt": "Funky Sueyoshi Trio"
+    },
+    {
+      "image": "/images/uploads/img_4942.webp",
+      "alt": "Recording session at The Gong Studio",
+      "id": 10
+    },
+    {
+      "image": "/images/uploads/img_4925.jpeg",
+      "id": 11,
+      "alt": "Metta Legita"
+    },
+    {
+      "image": "/images/uploads/red-abstract-income-money-youtube-thumbnail.png",
+      "id": 12,
+      "alt": "Metta played Children Song No. 20"
     }
   ]
 }
