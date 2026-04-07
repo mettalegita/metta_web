@@ -95,7 +95,7 @@
   },
   "services": {
     "sectionTitle": "What I Do",
-    "sectionDescription": "Bringing music to life through performance, composition, and education. From intimate piano lessons to orchestral compositions.",
+    "sectionDescription": "Bringing music to life through performance, composition, and education — from personalized piano lessons to orchestral compositions and arrangements.",
     "buttonText": "Learn More",
     "buttonLink": "/services",
     "items": [
@@ -105,7 +105,7 @@
         "subtitle": "Bringing music to audiences through diverse ensembles",
         "features": [
           "Jazz & Contemporary: Sets for solo piano, trios, quartets, and big bands",
-          "Genre Mastery: Classical literature, jazz improvisation, and contemporary arrangementsCollaborations: Orchestral performances, chamber music, and cross-disciplinary art",
+          "Genre Mastery: Jazz improvisation, and contemporary arrangements",
           "Events: Festivals, concert halls, corporate events, and cultural celebrations",
           "Custom Repertoire: Tailored performances for weddings and private recitals"
         ]
@@ -116,7 +116,6 @@
         "subtitle": "Mentoring students and consulting for institutions",
         "features": [
           "Personalized Instruction: Technique, theory, ear training, and exam preparation for all levels",
-          "Collaborations: Orchestral performances, chamber music, and cross-disciplinary art",
           "School Programs: Curriculum development, Workshops, Group theory, ensemble playing, and songwriting classes."
         ]
       },
@@ -125,7 +124,7 @@
         "title": "The Studio",
         "subtitle": "Creating original works and professional arrangements",
         "features": [
-          "Original Works: Jazz, contemporary piano, and chamber music",
+          "Original Works: Jazz, contemporary piano, world music and chamber music",
           "Orchestration: Scoring for full orchestra and professional notation services",
           "Media & Film: Custom compositions for film, media, and special occasions",
           "The Process: From initial vision to performance-ready scores and parts"
