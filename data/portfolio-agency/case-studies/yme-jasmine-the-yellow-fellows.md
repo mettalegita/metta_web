@@ -2,7 +2,7 @@
 title: "YME - Jasmine & The Yellow Fellows "
 description: YME (Yang Maha Esa) is a single performed by Jasmine together with
   Jasmine and the Yellow Fellows
-thumbnail: /images/uploads/jasmine-and-the-yellow-fellows-memperkenalkan-lagu-baru-bertajuk_210515095409-570.jpg
+thumbnail: /images/uploads/jasmine-and-the-yellow-fellows-memperkenalkan-lagu-baru-bertajuk_210515095409-570-2.jpg
 coverImage: /images/uploads/jasmine-and-the-yellow-fellows-memperkenalkan-lagu-baru-bertajuk_210515095409-570-2.jpg
 badge: Album
 ---
