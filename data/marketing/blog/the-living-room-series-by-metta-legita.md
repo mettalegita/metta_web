@@ -37,10 +37,6 @@ Each month will offer a different program, a different atmosphere, and sometimes
 
 
 
-If you feel connected to this idea, you are warmly invited to join.
-
-
-
 Attendance is limited, and reservations are required.
 Details for each concert will be shared through this website.
 
