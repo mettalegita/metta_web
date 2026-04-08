@@ -3,8 +3,8 @@ title: The Living Room Series
 description: The Living Room Series is a monthly home concert experience
   designed to bring music closer—to the audience, to the artist, and to its most
   honest form.
-thumbnail: /images/uploads/the-living-room-series-poster-design.png
-featureImage: /images/uploads/the-living-room-series-poster-design.png
+thumbnail: /images/uploads/featuring-guest-artists.png
+featureImage: /images/uploads/featuring-guest-artists.png
 featured: true
 ---
 # The Living Room Series
