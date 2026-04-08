@@ -19,17 +19,16 @@ I will share a selection of my original works and repertoire, in a setting desig
 
 ### Details
 
+
+
 **Date:** Saturday, 25 April 2026
 **Time:** Evening
 **Location:** Phnom Penh (private residence, details upon confirmation)
 
 
 
-**Suggested contribution:** $5–10 (or more if you wish)
-Light refreshments will be available
-
-
-
 If you feel connected to this, you are warmly invited.
 
 — Metta
+
+![](/images/uploads/the-living-room-series-1.png)
