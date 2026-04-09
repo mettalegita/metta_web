@@ -9,14 +9,11 @@ featured: true
 ---
 # The Living Room Series
 
-
-
 There is something different about listening to music in a living room.
-
 
 Not from a distance, not from a stage—but close, shared, and present.
 
-
+## Details
 
 The Living Room Series is a monthly home concert experience I created as a space for music to exist more intimately—both for myself and for the musicians I collaborate with.
 
@@ -24,23 +21,15 @@ Each gathering takes place in a private home, with a small number of listeners. 
 
 At the same time, this series is also about sustainability. It is a way of creating and sharing music independently—outside of traditional venues—so that artists can continue their work with more freedom, continuity, and support.
 
-
-
-> “If you listen, you will hear everything.”
+> ### “If you listen, you will hear everything.”
 > — John Cage
->
->
 
 ![](/images/uploads/img_0736.jpg "Between Sounds, painting by Metta Legita")
 
 Each month will offer a different program, a different atmosphere, and sometimes new collaborations. But the essence remains the same: a space for listening, presence, and shared experience.
 
-
-
 Attendance is limited, and reservations are required.
 Details for each concert will be shared through this website.
-
-
 
 If you feel connected to this idea, I would love to share this space with you.
 
