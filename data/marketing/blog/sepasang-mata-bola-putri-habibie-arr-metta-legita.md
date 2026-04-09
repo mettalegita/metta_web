@@ -19,6 +19,8 @@ Waktu mengerjakan aransemen ini, saya tidak ingin mengubah terlalu jauh dari asl
 
 Saya juga ikut bermain piano di rekaman ini, sekaligus mengarahkan teman-teman musisi di studio. Rasanya lebih seperti ngobrol lewat musik daripada sekadar proses rekaman.
 
+### Tim Produksi
+
 * Vokal: Putri Habibie
 * Piano & Aransemen: Metta Legita
 * Saksofon: Dimas Habibie
@@ -35,6 +37,8 @@ Saya merasa sangat bersyukur ketika mendengarkan lagu ini kembali. Saya menulis 
 Terima kasih Tuhan atas karunia talenta yang diberikan kepada kami, sehingga kami bisa menciptakan dan menjadi bagian dari karya yang, bagi saya pribadi, akan selalu terasa istimewa dan tak terlupakan.
 
 Buat saya, musik seperti ini yang paling berkesan — ketika sebuah lagu bukan hanya didengar, tapi juga membawa cerita dan perasaan di dalamnya.
+
+### Tautan untuk didengarkan penuh
 
 Lagu ini bisa didengarkan disini: 
 
