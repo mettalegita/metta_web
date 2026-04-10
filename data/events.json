@@ -21,42 +21,42 @@
       "id": 3,
       "date": "Jun 2026",
       "title": "Living Room Series: Women in Jazz — Intimate Edition",
-      "location": "Private Residence, Phnom Penh",
+      "location": "Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 4,
       "date": "Jul 2026",
       "title": "Living Room Series: Echoes & Traditions",
-      "location": "Private Residence, Phnom Penh",
+      "location": "Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 5,
       "date": "Aug 2026",
       "title": "Living Room Series: Original Voices",
-      "location": "Private Residence, Phnom Penh",
+      "location": "Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 6,
       "date": "Sep 2026",
       "title": "Living Room Series: Piano Dialogues",
-      "location": "Private Residence, Phnom Penh",
+      "location": "Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 7,
       "date": "Oct 2026",
       "title": "Living Room Series: Between Worlds",
-      "location": "Private Residence, Phnom Penh",
+      "location": " Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
       "id": 8,
       "date": "Nov 2026",
       "title": "Living Room Series: Season Closing — The Gathering",
-      "location": "Private Residence, Phnom Penh",
+      "location": "Phnom Penh",
       "image": "/images/uploads/events/living-room-series.jpeg"
     },
     {
@@ -74,11 +74,17 @@
       "image": "/images/uploads/events/women-in-jazz.jpeg"
     },
     {
-      "id": 11,
+      "id": -34,
       "date": "06-07 Feb 2026",
       "title": "Jazz Tribute Nights — Honoring the Jazz Legacy",
       "location": "Phnom Penh, Cambodia",
       "image": "/images/uploads/events/jazz-tribute-nights.jpeg"
+    },
+    {
+      "id": 11,
+      "date": "14 February 2026",
+      "title": "Valentine's Day Concert",
+      "location": "Above Eleven, Novotel Phnom Penh"
     }
   ]
 }
