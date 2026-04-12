@@ -129,13 +129,13 @@ const Footer = () => {
       </div>
 
       <div className="container relative z-10 mt-10 border-t border-white/10 pt-6">
-        <p className="text-center text-xs text-white/40">
+        <p className="text-center text-xs text-white/50">
           Designed by{' '}
           <a
             href="https://pixel71.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-white/70">
+            className="text-white/60 transition-colors hover:text-white/80">
             Pixels71
           </a>{' '}
           · Developed by{' '}
@@ -143,7 +143,7 @@ const Footer = () => {
             href="https://mirzalazuardi.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-white/70">
+            className="text-white/60 transition-colors hover:text-white/80">
             Mirzalazuardi
           </a>{' '}
           · Hosted on{' '}
@@ -151,7 +151,7 @@ const Footer = () => {
             href="https://vercel.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-white/70">
+            className="text-white/60 transition-colors hover:text-white/80">
             Vercel
           </a>
         </p>
