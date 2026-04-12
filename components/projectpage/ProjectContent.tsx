@@ -1,6 +1,5 @@
-import ReactMarkdown from 'react-markdown'
-import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
+import MarkdownRenderer from '../shared/MarkdownRenderer'
 import TableOfContent from '../shared/TableOfContent'
 
 const ProjectContent = async ({ project }: any) => {
@@ -20,7 +19,7 @@ const ProjectContent = async ({ project }: any) => {
             <RevealWrapper as="figure" className="max-w-[870px] md:h-[480px]">
               <img src={project.data.thumbnail} alt="Services Big Img" className="h-full w-full object-cover" />
             </RevealWrapper>
-            <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{project.content}</ReactMarkdown>
+            <MarkdownRenderer content={project.content} />
           </article>
         </div>
       </div>

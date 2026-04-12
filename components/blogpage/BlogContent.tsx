@@ -1,9 +1,8 @@
 import getMarkDownData from '@/utils/GetMarkDownData'
 import Image from 'next/image'
-import ReactMarkdown from 'react-markdown'
-import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
 import BlogList from '../shared/BlogList'
+import MarkdownRenderer from '../shared/MarkdownRenderer'
 import ShareButtons from '../shared/ShareButtons'
 import TableOfContent from '../shared/TableOfContent'
 
@@ -41,7 +40,7 @@ const BlogContent = ({ blog }: any) => {
             </div>
           </aside>
           <article className="career-details-body overflow-hidden">
-            <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{blog.content}</ReactMarkdown>
+            <MarkdownRenderer content={blog.content} />
           </article>
         </div>
       </div>

@@ -1,9 +1,8 @@
 'use client'
 import { slugify } from '@/utils/slugify'
 import React, { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
-import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
+import MarkdownRenderer from '../shared/MarkdownRenderer'
 
 const CareerDetailsArticle = ({ careerContent }: { careerContent: string }) => {
   const [activeTab, setActiveTab] = useState(1)
@@ -64,7 +63,7 @@ const CareerDetailsArticle = ({ careerContent }: { careerContent: string }) => {
                 </aside>
                 <RevealWrapper>
                   <article className="career-details-body overflow-hidden">
-                    <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{careerContent}</ReactMarkdown>
+                    <MarkdownRenderer content={careerContent} />
                   </article>
                 </RevealWrapper>
               </div>

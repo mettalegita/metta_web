@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import ReactMarkdown from 'react-markdown'
-import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
+import MarkdownRenderer from '../shared/MarkdownRenderer'
 import TableOfContent from '../shared/TableOfContent'
 
 const ServiceContent = ({ service }: any) => {
@@ -28,7 +27,7 @@ const ServiceContent = ({ service }: any) => {
               />
             </RevealWrapper>
             <RevealWrapper>
-              <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{service.content}</ReactMarkdown>
+              <MarkdownRenderer content={service.content} />
             </RevealWrapper>
           </article>
         </div>

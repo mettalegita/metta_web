@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import ReactMarkdown from 'react-markdown'
-import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
+import MarkdownRenderer from '../shared/MarkdownRenderer'
 
 const ProjectDetails02BodyContent = ({ project }: any) => {
   return (
@@ -99,7 +98,7 @@ const ProjectDetails02BodyContent = ({ project }: any) => {
 
         <div className="project-details2-body">
           <RevealWrapper>
-            <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{project.content}</ReactMarkdown>
+            <MarkdownRenderer content={project.content} />
           </RevealWrapper>
         </div>
       </div>
