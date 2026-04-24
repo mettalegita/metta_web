@@ -22,9 +22,10 @@ Each gathering takes place in a private home, with a small number of listeners. 
 At the same time, this series is also about sustainability. It is a way of creating and sharing music independently—outside of traditional venues—so that artists can continue their work with more freedom, continuity, and support.
 
 > ### “If you listen, you will hear everything.”
+>
 > — John Cage
 
-![](/images/uploads/img_0736.jpg "Between Sounds, painting by Metta Legita")
+![Acrylic painting on canvas by Metta Legita (2025) ](/images/uploads/img_0736.jpg "Between Sounds, painting by Metta Legita")
 
 Each month will offer a different program, a different atmosphere, and sometimes new collaborations. But the essence remains the same: a space for listening, presence, and shared experience.
 
