@@ -13,9 +13,9 @@
     {
       "id": 2,
       "date": "30 May 2026",
-      "title": "Living Room Series: Children's Songs & Play",
+      "title": "Living Room Series: Moving Forward",
       "location": "Private Residence, Phnom Penh",
-      "image": "/images/uploads/events/living-room-series.jpeg"
+      "image": "/images/uploads/chatgpt-image-jun-4-2026-09_59_42-am.png"
     },
     {
       "id": 3,
@@ -85,6 +85,13 @@
       "date": "14 February 2026",
       "title": "Valentine's Day Concert",
       "location": "Above Eleven, Novotel Phnom Penh"
+    },
+    {
+      "id": 2,
+      "date": "23rd May 2026",
+      "title": "IWATO - Jazz Quintet",
+      "location": "Au Marche - Phnom Penh",
+      "image": "/images/uploads/img_2177.jpg"
     }
   ]
 }
