@@ -7,7 +7,7 @@ description: |
   📅 Saturday, 27 June 2026
 thumbnail: /images/uploads/5bcf904b-0dba-4fd4-a034-b8f840460e88-2.png
 featureImage: /images/uploads/7cf4e973-d226-4264-860a-6d5d662b74a5.jpg
-featured: false
+featured: true
 ---
 🌹 IN FULL BLOOM 🌹
 
