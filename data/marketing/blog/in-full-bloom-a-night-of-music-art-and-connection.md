@@ -34,7 +34,7 @@ This concert also marked my first collaboration with Indonesian sound engineer 
 
 *In Full Bloom* was a concert I had anticipated for many months. Every aspect—from selecting the repertoire and rehearsing the music to designing the concert space—was prepared with great enthusiasm, joy, and care. Seeing the audience enjoy the music in such an intimate setting made every moment of preparation worthwhile.
 
-![](/images/uploads/img_2505.heic)
+![](/images/uploads/img_ba23d6788bfa-1.jpeg)
 
 My heartfelt thanks go to everyone who attended, as well as to all the music lovers, supporters, patrons, friends, and family whose encouragement made this evening possible. Your presence, kindness, and belief in this concert series continue to inspire me to create meaningful musical experiences.
 
