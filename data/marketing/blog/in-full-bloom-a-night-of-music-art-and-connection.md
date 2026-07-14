@@ -1,5 +1,5 @@
 ---
-title: "In Full Bloom: A Night of Music, Art, and Connection by Metta Legita"
+title: "In Full Bloom: A Night of Music, Art, and Connection"
 description: >
   A look back at The Living Room Series – Volume 3: In Full Bloom, an intimate
   solo piano concert by Metta Legita inspired by the beauty of blooming.
@@ -10,7 +10,7 @@ thumbnail: /images/uploads/img_2505.heic
 featureImage: /images/uploads/5bcf904b-0dba-4fd4-a034-b8f840460e88.png
 featured: true
 ---
-![](/images/uploads/img_2715-2.jpg)
+![]()
 
 **Saturday, 27 June 2026** marked a memorable evening as I welcomed audiences into my home for **The Living Room Series – Volume 3: *In Full Bloom*** in Phnom Penh.
 
@@ -23,6 +23,8 @@ For this special occasion, my living room was transformed into a rose-inspired g
 ![](/images/uploads/att.hysg7l9dopmqsvc-9n6ym2ztes8wfh3ykd0hwp4hk3g.jpg)
 
 The program reflected many different facets of my musical journey. Alongside jazz standards, improvisations, and my own original compositions, I was delighted to perform several works from the classical repertoire, including Claude Debussy's *Clair de Lune*, Erik Satie's *Gymnopédie*, and *Fragmen* by Indonesian composer Jaya Suprana, which concluded the evening with a reflective and heartfelt atmosphere. Bringing these different musical worlds together felt both inspiring and deeply personal.
+
+![]()
 
 One of the highlights of the evening was the appearance of my special guests, **Colin Grafton** and **Keiko Kitamura**. Together, we performed *Parangtritis Paradise*, a composition we created during the Festival Musik Rumah project, Colin with his harmonica and Keiko with the Cambodian jaw harp called angkuoch. Sharing this music together once again made the evening even more meaningful.
 
