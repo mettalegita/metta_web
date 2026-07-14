@@ -6,7 +6,7 @@ description: >
   Featuring jazz, classical music, original compositions, special guest
   performances, and a rose-filled atmosphere, the evening celebrated creativity,
   connection, and the joy of sharing music in a warm and personal setting.
-thumbnail: /images/uploads/att.cin_vnlkjdhhsore7rlvrhfjozc1ikk4c0veftwyzu0.jpg
+thumbnail: /images/uploads/img_2505.heic
 featureImage: /images/uploads/5bcf904b-0dba-4fd4-a034-b8f840460e88.png
 featured: true
 ---
