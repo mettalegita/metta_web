@@ -1,5 +1,5 @@
 ---
-title: "In Full Bloom: A Night of Music, Art, and Connection"
+title: "In Full Bloom: A Night of Music, Art, and Connection by Metta Legita"
 description: >
   A look back at The Living Room Series – Volume 3: In Full Bloom, an intimate
   solo piano concert by Metta Legita inspired by the beauty of blooming.
