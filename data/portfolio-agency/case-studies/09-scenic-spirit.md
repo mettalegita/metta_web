@@ -15,10 +15,6 @@ Scenic Spirit is an original composition by Metta Legita that blends modern jazz
 
 The composition explores expressive melodic development and rhythmic interplay within a modern jazz framework. By combining elements from different musical traditions, the piece reflects Legita's interest in creating music that bridges stylistic boundaries.
 
-### Recording & Collaboration
-
-Performed in a jazz ensemble setting, the recording highlights the collaborative dialogue between musicians while showcasing the piece's rich harmonic and rhythmic character.
-
 ### Album Information
 
 Scenic Spirit is the title of my debut album that just released on 5th August 2018 in Phnom Penh - Cambodia. The genre of this album is Jazz, this album consists of 8 songs of my original compositions. The format of the instrumentation is Piano, Drums, Bass, Trumpet and Guitar. Metta has collaboration with Indonesian musicians and also international musicians.
