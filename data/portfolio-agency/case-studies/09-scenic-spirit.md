@@ -1,8 +1,7 @@
 ---
 title: Scenic Spirit (2018)
-description: A contemporary jazz composition blending modern jazz language with
-  world music influences. Written for jazz ensemble, the piece explores
-  expressive melodies and dynamic rhythmic interplay.
+description: "A contemporary jazz composition blending modern jazz language with
+  world music influences. "
 thumbnail: /images/uploads/metta_scenic-spirit.webp
 coverImage: /images/uploads/metta_scenic-spirit.webp
 badge: Scenic Spirit
