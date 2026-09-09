@@ -11,6 +11,4 @@ thumbnail: /images/uploads/ad468e80-7bdd-4d42-af7b-09ed19237794.png
 featureImage: /images/uploads/img_3741.jpg
 featured: false
 ---
-
-
-![](/images/uploads/img_3742.jpg)
+![](/images/uploads/ad468e80-7bdd-4d42-af7b-09ed19237794.png)
