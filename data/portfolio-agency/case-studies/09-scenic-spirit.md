@@ -5,7 +5,7 @@ description: A contemporary jazz composition blending modern jazz language with
   expressive melodies and dynamic rhythmic interplay.
 thumbnail: /images/uploads/metta_scenic-spirit.webp
 coverImage: /images/uploads/metta_scenic-spirit.webp
-badge: Jazz Album
+badge: Scenic Spirit
 ---
 ### Overview
 
@@ -40,16 +40,8 @@ Metta Legita - Scenic Spirit - Music Album excerpt - Released August 2018. Track
 
 I hope you enjoy the music!
 
-
-
-![Music education program]()
-
+![]()
 
 
 
-
-![Student performances]()
-
-
-
-![Project images]()
+![]()
