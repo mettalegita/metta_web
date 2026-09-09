@@ -48,18 +48,12 @@ I hope you enjoy the music!
 
 ![Music education program]()
 
-This project demonstrates the power of music education as a tool for cultural preservation, personal development, and community building. By honoring Cambodia's rich musical traditions while embracing contemporary educational methods, the program creates a foundation for musical excellence that spans generations.
 
-### Program Evaluation Results
 
-Student participation increased by 40% in participating schools, with teachers reporting enhanced classroom engagement and improved student confidence. The program serves as a model for culturally responsive music education in Southeast Asia, blending tradition with innovation to create meaningful musical experiences for young learners.
+
 
 ![Student performances]()
 
-The success of this initiative has led to partnerships with the Cambodian Ministry of Education and UNESCO for broader implementation across the region's education systems.
 
-structure. Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
 
 ![Project images]()
-
-Through techniques like card sorting and site mapping, IA aims to create a clear and intuitive navigation system that guides users through the interface seamlessly. Effective information architecture lays the foundation for a positive user experience, helping users navigate complex information landscapes with ease and confidence.
