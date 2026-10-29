@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import ReactMarkdown, { Components } from 'react-markdown'
 import rehypeSlug from 'rehype-slug'
 
@@ -57,13 +58,20 @@ const markdownComponents: Components = {
     )
   },
 
-  p({ children, ...props }) {
+  p({ children }) {
     if (typeof children === 'string') {
       const videoId = isYouTubeUrl(children)
       if (videoId) return <YouTubeEmbed videoId={videoId} />
     }
 
-    return <p {...props}>{children}</p>
+    // Custom component children (function type) may render block elements like
+    // YouTubeEmbed — skip the <p> wrapper to avoid invalid <p><div> nesting
+    const arr = React.Children.toArray(children)
+    if (arr.some((child) => React.isValidElement(child) && typeof child.type === 'function')) {
+      return <>{children}</>
+    }
+
+    return <p>{children}</p>
   },
 }
 
